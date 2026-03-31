@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI';
+  background: #0a0f1c;
+  color: #e2e8f0;
+}
+
+header {
+  padding: 15px;
+  text-align: center;
+  background: #020617;
+  border-bottom: 1px solid #1e293b;
+}
+
+#filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  background: #1e293b;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#news-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card {
+  background: #020617;
+  border: 1px solid #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.meta {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.high { color: #ef4444; }
+.medium { color: #f59e0b; }
+.low { color: #22c55e; }
+
+a {
+  color: #38bdf8;
+}
