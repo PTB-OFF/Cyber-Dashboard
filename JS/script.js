@@ -1,87 +1,66 @@
-let allArticles = [];
+// Charger le JSON et afficher les articles
+async function loadArticles() {
+    const res = await fetch('JSON/data.json');
+    const articles = await res.json();
 
-fetch("JSON/data.json")
-  .then(res => res.json())
-  .then(data => {
-    allArticles = data;
-    render(allArticles);
-    updateStats(allArticles);
-    createCharts(allArticles);
-  });
+    const container = document.getElementById('articles');
+    container.innerHTML = '';
 
-function render(data) {
-  const container = document.getElementById("news-container");
-  container.innerHTML = "";
+    const typeFilter = document.getElementById('typeFilter').value;
 
-  data.forEach(a => {
-    const card = document.createElement("div");
-    card.className = "card";
+    const filteredArticles = articles.filter(article => {
+        return typeFilter === "All" || article.type === typeFilter;
+    });
 
-    card.innerHTML = `
-      <div class="meta">
-        ${a.date} | ${a.type} |
-        <span class="${a.severity.toLowerCase()}">${a.severity}</span>
-      </div>
-      <h3>${a.title}</h3>
-      <p>${a.description}</p>
-      <a href="${a.link}" target="_blank">Lire →</a>
-    `;
+    filteredArticles.forEach(article => {
+        const div = document.createElement('div');
+        div.classList.add('article');
+        div.innerHTML = `
+            <h2>${article.title}</h2>
+            <p><strong>Date:</strong> ${article.date} | <strong>Type:</strong> ${article.type}</p>
+            <p>${article.description}</p>
+            <p><a href="${article.link}" target="_blank">Lire l'article</a></p>
+        `;
+        container.appendChild(div);
+    });
 
-    container.appendChild(card);
-  });
+    updateChart(filteredArticles);
 }
 
-function filterSeverity(level) {
-  if (level === "ALL") return render(allArticles);
-  render(allArticles.filter(a => a.severity === level));
-}
+// Graphique avec Chart.js
+function updateChart(articles) {
+    const ctx = document.getElementById('typeChart').getContext('2d');
 
-function filterCVE() {
-  render(allArticles.filter(a => a.title.toLowerCase().includes("cve")));
-}
+    const counts = { CVE:0, Ransomware:0, "Data Breach":0, Other:0 };
+    articles.forEach(a => { counts[a.type] = (counts[a.type] || 0) + 1; });
 
-function updateStats(data) {
-  document.getElementById("total").innerText = `Total: ${data.length}`;
-  document.getElementById("high").innerText =
-    `HIGH: ${data.filter(a => a.severity === "HIGH").length}`;
-  document.getElementById("cveCount").innerText =
-    `CVE: ${data.filter(a => a.title.toLowerCase().includes("cve")).length}`;
-}
-
-function createCharts(data) {
-
-  const severityCounts = { HIGH: 0, MEDIUM: 0, LOW: 0 };
-
-  data.forEach(a => severityCounts[a.severity]++);
-
-  new Chart(document.getElementById("severityChart"), {
-    type: "doughnut",
-    data: {
-      labels: ["HIGH", "MEDIUM", "LOW"],
-      datasets: [{
-        data: [severityCounts.HIGH, severityCounts.MEDIUM, severityCounts.LOW]
-      }]
+    if(window.typeChart) {
+        window.typeChart.data.datasets[0].data = Object.values(counts);
+        window.typeChart.update();
+        return;
     }
-  });
 
-  const monthly = {};
-
-  data.forEach(a => {
-    if (!a.title.toLowerCase().includes("cve")) return;
-
-    const [d, m, y] = a.date.split("-");
-    const key = `${m}-${y}`;
-    monthly[key] = (monthly[key] || 0) + 1;
-  });
-
-  new Chart(document.getElementById("cveChart"), {
-    type: "bar",
-    data: {
-      labels: Object.keys(monthly),
-      datasets: [{
-        label: "CVE / mois",
-        data: Object.values(monthly)
-      }]
-    }
-  });
+    window.typeChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: Object.keys(counts),
+            datasets: [{
+                label: 'Nombre d\'articles par type',
+                data: Object.values(counts),
+                backgroundColor: ['#ff4d4d','#ffcc00','#3399ff','#00ffcc']
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: { display: false }
+            }
+        }
+    });
 }
+
+// Filtre change
+document.getElementById('typeFilter').addEventListener('change', loadArticles);
+
+// Load au démarrage
+loadArticles();
