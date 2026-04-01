@@ -1,51 +1,35 @@
 import feedparser
-import re
 import json
 from datetime import datetime
 
-RSS_URL = "https://feeds.feedburner.com/TheHackersNews"
+# URL du flux RSS
+RSS_URL = "https://thehackernews.com/feeds/posts/default"
 
-def clean_html(text):
-    return re.sub('<[^<]+?>', '', text)
+# Charger le JSON existant
+try:
+    with open("../JSON/data.json", "r", encoding="utf-8") as f:
+        data = json.load(f)
+except FileNotFoundError:
+    data = []
 
-def get_type(title):
-    t = title.lower()
-    if "cve" in t: return "CVE"
-    if "ransomware" in t: return "Ransomware"
-    if "phishing" in t: return "Phishing"
-    if "malware" in t: return "Malware"
-    if "breach" in t: return "Data Breach"
-    return "Other"
-
-def get_severity(title):
-    t = title.lower()
-    if any(x in t for x in ["critical", "exploit", "ransomware"]):
-        return "HIGH"
-    if any(x in t for x in ["phishing", "malware"]):
-        return "MEDIUM"
-    return "LOW"
-
+# Parser le RSS
 feed = feedparser.parse(RSS_URL)
-
-articles = []
-
-for entry in feed.entries[:20]:
+for entry in feed.entries:
     article = {
         "date": datetime(*entry.published_parsed[:6]).strftime("%d-%m-%Y"),
-        "timestamp": datetime(*entry.published_parsed[:6]).isoformat(),
         "title": entry.title,
         "link": entry.link,
-        "description": clean_html(entry.summary)[:200],
-        "type": get_type(entry.title),
-        "severity": get_severity(entry.title)
+        "description": entry.summary,
+        "type": "CVE" if "CVE" in entry.title else "Other",
+        "severity": "HIGH" if "critical" in entry.title.lower() else "MEDIUM" if "warning" in entry.title.lower() else "LOW"
     }
-    articles.append(article)
 
-# TRI
-articles.sort(key=lambda x: x["timestamp"], reverse=True)
+    # Vérifier si l'article est déjà dans le JSON
+    if not any(d["link"] == article["link"] for d in data):
+        data.append(article)
 
-# 🔥 chemin modifié
-with open("JSON/data.json", "w", encoding="utf-8") as f:
-    json.dump(articles, f, indent=4, ensure_ascii=False)
+# Sauvegarder le JSON mis à jour
+with open("../JSON/data.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, indent=2, ensure_ascii=False)
 
-print("JSON updated ✅")
+print(f"{len(feed.entries)} articles récupérés, JSON mis à jour avec {len(data)} articles.")
