@@ -1,36 +1,42 @@
-name: Update JSON daily
+name: Update Cybersecurity JSON
 
 on:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '0 8 * * *' # tous les jours à 08:00 UTC
   workflow_dispatch:
 
 jobs:
   update-json:
     runs-on: ubuntu-latest
 
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
     steps:
-      - name: Checkout
+      # Récupère ton repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
+      # Setup Python 3.11
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install deps
-        run: pip install feedparser
-
-      - name: Run script
-        run: python Python/fetch_news.py
-
-      - name: Commit JSON
+      # Installer les dépendances Python
+      - name: Install dependencies
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
+          pip install feedparser
+
+      # Exécute le script Python pour mettre à jour JSON/data.json
+      - name: Run fetch_news.py
+        run: |
+          python Python/fetch_news.py
+
+      # Commit et push le JSON mis à jour
+      - name: Commit and push JSON
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add JSON/data.json
-          git commit -m "Update JSON" || echo "No changes"
-          git push || echo "Push skipped"
+          git diff --cached --quiet || git commit -m "Update cybersecurity data JSON"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
