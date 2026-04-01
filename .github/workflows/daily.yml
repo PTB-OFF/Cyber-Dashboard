@@ -1,13 +1,15 @@
-name: Update JSON
+name: Update JSON daily
 
 on:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '0 8 * * *'  # Tous les jours à 08:00 UTC
   workflow_dispatch:
 
 jobs:
-  update:
+  update-json:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       - name: Checkout repo
@@ -16,18 +18,20 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: 3.11
 
       - name: Install dependencies
-        run: pip install feedparser
+        run: |
+          python -m pip install --upgrade pip
+          pip install feedparser
 
-      - name: Run script
-        run: python script.py
+      - name: Run Python script
+        run: python Python/fetch_news.py
 
       - name: Commit JSON
         run: |
-          git config --global user.name "bot"
-          git config --global user.email "bot@github.com"
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
           git add JSON/data.json
-          git commit -m "Update JSON" || echo "No changes"
-          git push
+          git commit -m "Update JSON" || echo "No changes to commit"
+          git push || echo "Push failed, maybe no changes"
