@@ -2,7 +2,7 @@ name: Daily JSON Update
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # tous les jours à 08:00 UTC
+    - cron: '0 8 * * *'  # Tous les jours à 08:00 UTC
   workflow_dispatch:
 
 jobs:
@@ -15,7 +15,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          persist-credentials: false  # important pour custom push
+          persist-credentials: false  # pour custom push avec token
 
       - name: Set up Python
         uses: actions/setup-python@v5
