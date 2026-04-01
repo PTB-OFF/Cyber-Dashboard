@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI';
+  background: #0a0f1c;
+  color: #e2e8f0;
+}
+
+header {
+  text-align: center;
+  padding: 15px;
+  background: #020617;
+}
+
+#stats {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+#filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 8px 12px;
+  background: #1e293b;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.charts {
+  padding: 10px;
+}
+
+canvas {
+  background: #020617;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+#news-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card {
+  background: #020617;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #1e293b;
+}
+
+.meta {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.high { color: #ef4444; }
+.medium { color: #f59e0b; }
+.low { color: #22c55e; }
+
+a {
+  color: #38bdf8;
+}

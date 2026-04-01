@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber SOC Dashboard</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="CSS/style.css">
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>🛡️ SOC Dashboard</h1>
+  <div id="stats">
+    <span id="total"></span>
+    <span id="high"></span>
+    <span id="cveCount"></span>
+  </div>
+</header>
+
+<div id="filters">
+  <button onclick="filterSeverity('ALL')">ALL</button>
+  <button onclick="filterSeverity('HIGH')">HIGH</button>
+  <button onclick="filterSeverity('MEDIUM')">MEDIUM</button>
+  <button onclick="filterSeverity('LOW')">LOW</button>
+  <button onclick="filterCVE()">CVE 🔍</button>
+</div>
+
+<div class="charts">
+  <canvas id="severityChart"></canvas>
+  <canvas id="cveChart"></canvas>
+</div>
+
+<div id="news-container"></div>
+
+<!-- JS -->
+<script src="JS/script.js"></script>
+
+</body>
+</html>
