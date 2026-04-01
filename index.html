@@ -1,44 +1,36 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cyber SOC Dashboard</title>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="CSS/style.css">
-
-  <!-- Chart.js -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOC Dashboard - Cyber News</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
+    <header>
+        <h1>SOC Dashboard - Cyber News</h1>
+        <div class="filters">
+            <label for="typeFilter">Filtrer par type :</label>
+            <select id="typeFilter">
+                <option value="All">Tous</option>
+                <option value="CVE">CVE</option>
+                <option value="Ransomware">Ransomware</option>
+                <option value="Data Breach">Data Breach</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+    </header>
 
-<header>
-  <h1>🛡️ SOC Dashboard</h1>
-  <div id="stats">
-    <span id="total"></span>
-    <span id="high"></span>
-    <span id="cveCount"></span>
-  </div>
-</header>
+    <main>
+        <section id="stats">
+            <canvas id="typeChart"></canvas>
+        </section>
+        <section id="articles" class="articles-container">
+            <!-- Les articles seront injectés ici par JS -->
+        </section>
+    </main>
 
-<div id="filters">
-  <button onclick="filterSeverity('ALL')">ALL</button>
-  <button onclick="filterSeverity('HIGH')">HIGH</button>
-  <button onclick="filterSeverity('MEDIUM')">MEDIUM</button>
-  <button onclick="filterSeverity('LOW')">LOW</button>
-  <button onclick="filterCVE()">CVE 🔍</button>
-</div>
-
-<div class="charts">
-  <canvas id="severityChart"></canvas>
-  <canvas id="cveChart"></canvas>
-</div>
-
-<div id="news-container"></div>
-
-<!-- JS -->
-<script src="JS/script.js"></script>
-
+    <script src="JS/script.js"></script>
 </body>
 </html>
