@@ -45,7 +45,13 @@ async function loadArticles() {
             });
         }
 
-        updateDashboard(filteredArticles);
+        // Le dashboard ne doit jamais bloquer l'affichage des articles.
+        try {
+            updateDashboard(filteredArticles);
+        } catch (dashboardError) {
+            // eslint-disable-next-line no-console
+            console.error('Erreur dashboard:', dashboardError);
+        }
     } catch (error) {
         container.innerHTML = `<p>Erreur lors du chargement des actualites : ${error.message}</p>`;
     }
@@ -87,17 +93,6 @@ function updateTypeChart(articles) {
     articles.forEach((article) => {
         counts[article.type] = (counts[article.type] || 0) + 1;
     });
-
-    if (
-        window.typeChartInstance &&
-        window.typeChartInstance.data &&
-        Array.isArray(window.typeChartInstance.data.datasets) &&
-        window.typeChartInstance.data.datasets.length > 0
-    ) {
-        window.typeChartInstance.data.datasets[0].data = Object.values(counts);
-        window.typeChartInstance.update();
-        return;
-    }
 
     if (window.typeChartInstance && typeof window.typeChartInstance.destroy === 'function') {
         window.typeChartInstance.destroy();
@@ -143,17 +138,6 @@ function updateSeverityChart(articles) {
             counts.LOW += 1;
         }
     });
-
-    if (
-        window.severityChartInstance &&
-        window.severityChartInstance.data &&
-        Array.isArray(window.severityChartInstance.data.datasets) &&
-        window.severityChartInstance.data.datasets.length > 0
-    ) {
-        window.severityChartInstance.data.datasets[0].data = Object.values(counts);
-        window.severityChartInstance.update();
-        return;
-    }
 
     if (window.severityChartInstance && typeof window.severityChartInstance.destroy === 'function') {
         window.severityChartInstance.destroy();
