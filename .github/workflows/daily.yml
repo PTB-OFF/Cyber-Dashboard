@@ -2,20 +2,19 @@ name: Daily JSON Update
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # Tous les jours à 08:00 UTC
+    - cron: '0 6 * * *'  # Verif ete/hiver pour 08:00 Paris
+    - cron: '0 7 * * *'  # Verif ete/hiver pour 08:00 Paris
   workflow_dispatch:
 
 jobs:
   update-json:
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          persist-credentials: false  # pour custom push avec token
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -28,12 +27,15 @@ jobs:
           pip install requests feedparser
 
       - name: Run fetch_news script
-        run: python Python/fetch_news.py
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$(TZ=Europe/Paris date +%H)" != "08" ]; then
+            echo "Not 08:00 in Europe/Paris, skipping."
+            exit 0
+          fi
+          python Python/fetch_news.py
 
       - name: Commit and push updated JSON
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add JSON/data.json
-          git diff-index --quiet HEAD || git commit -m "Update news JSON"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update daily cyber news data"
+          file_pattern: JSON/data.json
