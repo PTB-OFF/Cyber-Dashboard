@@ -88,13 +88,13 @@ function updateTypeChart(articles) {
         counts[article.type] = (counts[article.type] || 0) + 1;
     });
 
-    if (window.typeChart) {
-        window.typeChart.data.datasets[0].data = Object.values(counts);
-        window.typeChart.update();
+    if (window.typeChartInstance) {
+        window.typeChartInstance.data.datasets[0].data = Object.values(counts);
+        window.typeChartInstance.update();
         return;
     }
 
-    window.typeChart = new Chart(ctx, {
+    window.typeChartInstance = new Chart(ctx, {
         type: 'bar',
         data: {
             labels: Object.keys(counts),
@@ -135,13 +135,13 @@ function updateSeverityChart(articles) {
         }
     });
 
-    if (window.severityChart) {
-        window.severityChart.data.datasets[0].data = Object.values(counts);
-        window.severityChart.update();
+    if (window.severityChartInstance) {
+        window.severityChartInstance.data.datasets[0].data = Object.values(counts);
+        window.severityChartInstance.update();
         return;
     }
 
-    window.severityChart = new Chart(ctx, {
+    window.severityChartInstance = new Chart(ctx, {
         type: 'doughnut',
         data: {
             labels: Object.keys(counts),
