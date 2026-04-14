@@ -1,67 +1,69 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SOC Dashboard - Cyber News</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>SOC Dashboard - Cyber News</h1>
-        <p class="subtitle">6 dernieres actualites The Hacker News</p>
-        <div class="filters">
-            <label for="typeFilter">Filtrer par type :</label>
-            <select id="typeFilter">
-                <option value="All">Tous</option>
-                <option value="CVE">CVE</option>
-                <option value="Ransomware">Ransomware</option>
-                <option value="Data Breach">Data Breach</option>
-                <option value="Other">Other</option>
-            </select>
-        </div>
+      <h1>SOC Dashboard - Cyber News</h1>
+      <p class="subtitle">6 dernieres actualites The Hacker News</p>
+      <div class="filters">
+        <label for="typeFilter">Filtrer par type :</label>
+        <select id="typeFilter">
+          <option value="All">Tous</option>
+          <option value="CVE">CVE</option>
+          <option value="Ransomware">Ransomware</option>
+          <option value="Data Breach">Data Breach</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
     </header>
 
     <main>
-        <section id="summary" class="summary-cards">
-            <article class="summary-card">
-                <p class="summary-label">Articles affiches</p>
-                <p id="countTotal" class="summary-value">0</p>
-            </article>
-            <article class="summary-card">
-                <p class="summary-label">Criticite haute</p>
-                <p id="countHigh" class="summary-value severity-high">0</p>
-            </article>
-            <article class="summary-card">
-                <p class="summary-label">Criticite moyenne</p>
-                <p id="countMedium" class="summary-value severity-medium">0</p>
-            </article>
-            <article class="summary-card">
-                <p class="summary-label">Criticite basse</p>
-                <p id="countLow" class="summary-value severity-low">0</p>
-            </article>
-        </section>
+      <section id="summary" class="summary-cards">
+        <article class="summary-card">
+          <p class="summary-label">Articles affiches</p>
+          <p id="countTotal" class="summary-value">0</p>
+        </article>
+        <article class="summary-card">
+          <p class="summary-label">Criticite haute</p>
+          <p id="countHigh" class="summary-value severity-high">0</p>
+        </article>
+        <article class="summary-card">
+          <p class="summary-label">Criticite moyenne</p>
+          <p id="countMedium" class="summary-value severity-medium">0</p>
+        </article>
+        <article class="summary-card">
+          <p class="summary-label">Criticite basse</p>
+          <p id="countLow" class="summary-value severity-low">0</p>
+        </article>
+      </section>
 
-        <section id="dashboard" class="dashboard-grid">
-            <article class="chart-card">
-                <h2>Repartition par type</h2>
-                <canvas id="typeChart"></canvas>
-            </article>
-            <article class="chart-card">
-                <h2>Repartition par severite</h2>
-                <canvas id="severityChart"></canvas>
-            </article>
-        </section>
+      <section id="dashboard" class="dashboard-grid">
+        <article class="chart-card">
+          <h2>Repartition par type</h2>
+          <canvas id="typeChart"></canvas>
+        </article>
+        <article class="chart-card">
+          <h2>Repartition par severite</h2>
+          <canvas id="severityChart"></canvas>
+        </article>
+      </section>
 
-        <section id="articles" class="articles-container">
-            <!-- Les articles seront injectés ici par JS -->
-        </section>
-        <div class="load-more-wrap">
-            <button id="loadMoreBtn" class="load-more-btn" type="button">Afficher les jours precedents</button>
-        </div>
+      <section id="articles" class="articles-container">
+        <!-- Affichage des articles ici par JS -->
+      </section>
+      <div class="load-more-wrap">
+        <button id="loadMoreBtn" class="load-more-btn" type="button">
+          Afficher les jours precedents
+        </button>
+      </div>
     </main>
 
     <script src="JS/script.js"></script>
-</body>
+  </body>
 </html>
