@@ -1,4 +1,8 @@
-// Charge le JSON puis affiche uniquement les 6 plus recentes actualites.
+const PAGE_SIZE = 6;
+let allArticles = [];
+let filteredArticles = [];
+let displayedCount = PAGE_SIZE;
+
 async function loadArticles() {
     const container = document.getElementById('articles');
     container.innerHTML = '<p>Chargement des actualites...</p>';
@@ -10,51 +14,78 @@ async function loadArticles() {
         }
 
         const articles = await response.json();
-        const typeFilter = document.getElementById('typeFilter').value;
-
-        const sortedArticles = [...articles].sort((a, b) =>
+        allArticles = [...articles].sort((a, b) =>
             new Date(b.published_at || b.date).getTime() - new Date(a.published_at || a.date).getTime()
         );
 
-        const filteredArticles = sortedArticles
-            .filter((article) => typeFilter === 'All' || article.type === typeFilter)
-            .slice(0, 6);
-
-        container.innerHTML = '';
-
-        if (filteredArticles.length === 0) {
-            container.innerHTML = '<p>Aucune actualite disponible pour ce filtre.</p>';
-        } else {
-            filteredArticles.forEach((article) => {
-                const div = document.createElement('article');
-                div.classList.add('article');
-                const severity = (article.severity || 'LOW').toUpperCase();
-                const severityBadgeClass = getSeverityBadgeClass(severity);
-
-                div.innerHTML = `
-                    <h2>${article.title}</h2>
-                    <div class="article-meta">
-                        <span class="badge badge-type">${article.type}</span>
-                        <span class="badge ${severityBadgeClass}">${severity}</span>
-                    </div>
-                    <p><strong>Date:</strong> ${article.date}</p>
-                    <p>${article.description}</p>
-                    <p><a href="${article.link}" target="_blank" rel="noopener noreferrer">Lire l'article</a></p>
-                `;
-                container.appendChild(div);
-            });
-        }
-
-        // Le dashboard ne doit jamais bloquer l'affichage des articles.
-        try {
-            updateDashboard(filteredArticles);
-        } catch (dashboardError) {
-            // eslint-disable-next-line no-console
-            console.error('Erreur dashboard:', dashboardError);
-        }
+        displayedCount = PAGE_SIZE;
+        applyFilterAndRender();
     } catch (error) {
         container.innerHTML = `<p>Erreur lors du chargement des actualites : ${error.message}</p>`;
     }
+}
+
+function applyFilterAndRender() {
+    const typeFilter = document.getElementById('typeFilter').value;
+    filteredArticles = allArticles.filter((article) => typeFilter === 'All' || article.type === typeFilter);
+    renderArticles();
+    updateLoadMoreButton();
+
+    // Dashboard base sur tout l'historique filtre (pas seulement les 6 visibles).
+    try {
+        updateDashboard(filteredArticles);
+    } catch (dashboardError) {
+        // eslint-disable-next-line no-console
+        console.error('Erreur dashboard:', dashboardError);
+    }
+}
+
+function renderArticles() {
+    const container = document.getElementById('articles');
+    container.innerHTML = '';
+
+    const visibleArticles = filteredArticles.slice(0, displayedCount);
+    if (visibleArticles.length === 0) {
+        container.innerHTML = '<p>Aucune actualite disponible pour ce filtre.</p>';
+        return;
+    }
+
+    visibleArticles.forEach((article) => {
+        const div = document.createElement('article');
+        div.classList.add('article');
+        const severity = (article.severity || 'LOW').toUpperCase();
+        const severityBadgeClass = getSeverityBadgeClass(severity);
+
+        div.innerHTML = `
+            <h2>${article.title}</h2>
+            <div class="article-meta">
+                <span class="badge badge-type">${article.type}</span>
+                <span class="badge ${severityBadgeClass}">${severity}</span>
+            </div>
+            <p><strong>Date:</strong> ${article.date}</p>
+            <p>${article.description}</p>
+            <p><a href="${article.link}" target="_blank" rel="noopener noreferrer">Lire l'article</a></p>
+        `;
+        container.appendChild(div);
+    });
+}
+
+function updateLoadMoreButton() {
+    const loadMoreBtn = document.getElementById('loadMoreBtn');
+    if (!loadMoreBtn) return;
+
+    const hasMore = displayedCount < filteredArticles.length;
+    loadMoreBtn.style.display = filteredArticles.length === 0 ? 'none' : 'inline-block';
+    loadMoreBtn.disabled = !hasMore;
+    loadMoreBtn.textContent = hasMore
+        ? 'Afficher les jours precedents'
+        : 'Toutes les actualites sont affichees';
+}
+
+function onLoadMore() {
+    displayedCount += PAGE_SIZE;
+    renderArticles();
+    updateLoadMoreButton();
 }
 
 function getSeverityBadgeClass(severity) {
@@ -167,7 +198,11 @@ function updateSeverityChart(articles) {
 }
 
 // Filtre change
-document.getElementById('typeFilter').addEventListener('change', loadArticles);
+document.getElementById('typeFilter').addEventListener('change', () => {
+    displayedCount = PAGE_SIZE;
+    applyFilterAndRender();
+});
+document.getElementById('loadMoreBtn').addEventListener('click', onLoadMore);
 
 // Load au démarrage
 loadArticles();

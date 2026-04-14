@@ -37,7 +37,7 @@ python Python/fetch_news.py
 
 Ouvre `index.html` dans ton navigateur.
 
-> Conseil: si le JSON ne se charge pas en ouverture directe, lance un petit serveur local.
+> Si le JSON ne se charge pas en ouverture directe, lance un serveur local.
 
 Exemple:
 
@@ -55,15 +55,6 @@ Le workflow `daily.yml`:
 - lance `Python/fetch_news.py`
 - met a jour `JSON/data.json`
 - commit automatiquement les changements
-
-Tu peux aussi le lancer manuellement depuis l'onglet **Actions** (event `workflow_dispatch`).
-
-## Deploiement (GitHub Pages)
-
-1. Push le projet sur GitHub
-2. Active **Settings > Pages**
-3. Choisis la branche (`main`) et le dossier racine
-4. Accede ensuite au dashboard depuis ton PC ou ton telephone via l'URL GitHub Pages
 
 ## Notes
 
