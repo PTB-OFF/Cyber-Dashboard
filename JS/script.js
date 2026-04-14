@@ -88,10 +88,19 @@ function updateTypeChart(articles) {
         counts[article.type] = (counts[article.type] || 0) + 1;
     });
 
-    if (window.typeChartInstance) {
+    if (
+        window.typeChartInstance &&
+        window.typeChartInstance.data &&
+        Array.isArray(window.typeChartInstance.data.datasets) &&
+        window.typeChartInstance.data.datasets.length > 0
+    ) {
         window.typeChartInstance.data.datasets[0].data = Object.values(counts);
         window.typeChartInstance.update();
         return;
+    }
+
+    if (window.typeChartInstance && typeof window.typeChartInstance.destroy === 'function') {
+        window.typeChartInstance.destroy();
     }
 
     window.typeChartInstance = new Chart(ctx, {
@@ -135,10 +144,19 @@ function updateSeverityChart(articles) {
         }
     });
 
-    if (window.severityChartInstance) {
+    if (
+        window.severityChartInstance &&
+        window.severityChartInstance.data &&
+        Array.isArray(window.severityChartInstance.data.datasets) &&
+        window.severityChartInstance.data.datasets.length > 0
+    ) {
         window.severityChartInstance.data.datasets[0].data = Object.values(counts);
         window.severityChartInstance.update();
         return;
+    }
+
+    if (window.severityChartInstance && typeof window.severityChartInstance.destroy === 'function') {
+        window.severityChartInstance.destroy();
     }
 
     window.severityChartInstance = new Chart(ctx, {
