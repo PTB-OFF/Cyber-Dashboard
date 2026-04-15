@@ -35,11 +35,9 @@ function applyFilterAndRender() {
   renderArticles();
   updateLoadMoreButton();
 
-  // Dashboard base sur tout l'historique.
   try {
     updateDashboard(filteredArticles);
   } catch (dashboardError) {
-    // eslint-disable-next-line no-console
     console.error("Erreur dashboard:", dashboardError);
   }
 }
@@ -216,12 +214,10 @@ function updateSeverityChart(articles) {
   });
 }
 
-// Filtre change
 document.getElementById("typeFilter").addEventListener("change", () => {
   displayedCount = PAGE_SIZE;
   applyFilterAndRender();
 });
 document.getElementById("loadMoreBtn").addEventListener("click", onLoadMore);
 
-// Load au démarrage
 loadArticles();
