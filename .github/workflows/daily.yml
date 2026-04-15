@@ -2,8 +2,8 @@ name: Daily JSON Update
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # Verif ete/hiver pour 08:00 Paris
-    - cron: '0 7 * * *'  # Verif ete/hiver pour 08:00 Paris
+    - cron: '20 20 * * *'
+      timezone: "Europe/Paris"
   workflow_dispatch:
 
 jobs:
@@ -28,23 +28,6 @@ jobs:
 
       - name: Run fetch_news script
         run: |
-          if [ "${{ github.event_name }}" = "schedule" ]; then
-            PARIS_OFFSET="$(TZ=Europe/Paris date +%z)"
-            TRIGGER_CRON="${{ github.event.schedule }}"
-
-            # Heure d'ete (UTC+2): 08:00 Paris = 06:00 UTC
-            if [ "$TRIGGER_CRON" = "0 6 * * *" ] && [ "$PARIS_OFFSET" != "+0200" ]; then
-              echo "Run 06:00 UTC ignore (Paris n'est pas en UTC+2)."
-              exit 0
-            fi
-
-            # Heure d'hiver (UTC+1): 08:00 Paris = 07:00 UTC
-            if [ "$TRIGGER_CRON" = "0 7 * * *" ] && [ "$PARIS_OFFSET" != "+0100" ]; then
-              echo "Run 07:00 UTC ignore (Paris n'est pas en UTC+1)."
-              exit 0
-            fi
-          fi
-
           python Python/fetch_news.py
 
       - name: Commit and push updated JSON
