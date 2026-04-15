@@ -2,9 +2,7 @@ name: Daily JSON Update
 
 on:
   schedule:
-    - cron: '20 20 * * *'
-      timezone: "Europe/Paris"
-    - cron: '50 18 * * *'
+    - cron: '0 5 * * *'
   workflow_dispatch:
 
 jobs:
