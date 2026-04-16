@@ -1,5 +1,15 @@
 [
   {
+    "published_at": "2026-04-16T06:20:00+00:00",
+    "date": "16-04-2026 06:20 UTC",
+    "title": "UAC-0247 Targets Ukrainian Clinics and Government in Data-Theft Malware Campaign",
+    "link": "https://thehackernews.com/2026/04/uac-0247-targets-ukrainian-clinics-and.html",
+    "description": "The Computer Emergencies Response Team of Ukraine (CERT-UA) has disclosed details of a new campaign that has targeted governments and municipal healthcare institutions, mainly clinics and emergency hospitals, to deliver malware capable of stealing sensitive data from Chromium-based web browsers and WhatsApp. The activity, which was observed between March and April",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-04-15T17:09:00+00:00",
     "date": "15-04-2026 17:09 UTC",
     "title": "n8n Webhooks Abused Since October 2025 to Deliver Malware via Phishing Emails",
