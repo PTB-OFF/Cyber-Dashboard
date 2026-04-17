@@ -1,5 +1,85 @@
 [
   {
+    "published_at": "2026-04-17T05:46:00+00:00",
+    "date": "17-04-2026 05:46 UTC",
+    "title": "Operation PowerOFF Seizes 53 DDoS Domains, Exposes 3 Million Criminal Accounts",
+    "link": "https://thehackernews.com/2026/04/operation-poweroff-seizes-53-ddos.html",
+    "description": "An international law enforcement operation has taken down 53 domains and arrested four people in connection with commercial distributed denial-of-service (DDoS) operations that were used by more than 75,000 cybercriminals. The ongoing effort, dubbed Operation PowerOFF, disrupted access to the DDoS-for-hire services, took down the technical infrastructure supporting them, and obtained access to",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-04-17T03:22:00+00:00",
+    "date": "17-04-2026 03:22 UTC",
+    "title": "Apache ActiveMQ CVE-2026-34197 Added to CISA KEV Amid Active Exploitation",
+    "link": "https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html",
+    "description": "A recently disclosed high-severity security flaw in Apache ActiveMQ Classic has come under active exploitation in the wild, per the U.S. Cybersecurity and Infrastructure Security Agency (CISA). To that end, the agency has added the vulnerability, tracked as CVE-2026-34197 (CVSS score: 8.8), to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-04-16T17:52:00+00:00",
+    "date": "16-04-2026 17:52 UTC",
+    "title": "Newly Discovered PowMix Botnet Hits Czech Workers Using Randomized C2 Traffic",
+    "link": "https://thehackernews.com/2026/04/newly-discovered-powmix-botnet-hits.html",
+    "description": "Cybersecurity researchers have warned of an active malicious campaign that's targeting the workforce in the Czech Republic with a previously undocumented botnet dubbed PowMix since at least December 2025. \"PowMix employs randomized command-and-control (C2) beaconing intervals, rather than persistent connection to the C2 server, to evade the network signature detections,\" Cisco Talos",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-04-16T13:05:00+00:00",
+    "date": "16-04-2026 13:05 UTC",
+    "title": "ThreatsDay Bulletin: Defender 0-Day, SonicWall Brute-Force, 17-Year-Old Excel RCE and 15 More Stories",
+    "link": "https://thehackernews.com/2026/04/threatsday-bulletin-17-year-old-excel.html",
+    "description": "You know that feeling when you open your feed on a Thursday morning and it's just... a lot? Yeah. This week delivered. We've got hackers getting creative in ways that are almost impressive if you ignore the whole \"crime\" part, ancient vulnerabilities somehow still ruining people's days, and enough supply chain drama to fill a season of television nobody asked for. Not",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-04-16T11:55:00+00:00",
+    "date": "16-04-2026 11:55 UTC",
+    "title": "[Webinar] Find and Eliminate Orphaned Non-Human Identities in Your Environment",
+    "link": "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
+    "description": "In 2024, compromised service accounts and forgotten API keys were behind 68% of cloud breaches. Not phishing. Not weak passwords. Unmanaged non-human identities that nobody was watching. For every employee in your org, there are 40 to 50 automated credentials: service accounts, API tokens, AI agent connections, andOAuth grants. When projects end or employees leave, most",
+    "source": "The Hacker News",
+    "type": "Data Breach",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-04-16T11:27:00+00:00",
+    "date": "16-04-2026 11:27 UTC",
+    "title": "Cisco Patches Four Critical Identity Services, Webex Flaws Enabling Code Execution",
+    "link": "https://thehackernews.com/2026/04/cisco-patches-four-critical-identity.html",
+    "description": "Cisco has announced patches to address four critical security flaws impacting Identity Services and Webex Services that could result in arbitrary code execution and allow an attacker to impersonate any user within the service. The details of the vulnerabilities are below - CVE-2026-20184 (CVSS score: 9.8) - An improper certificate validation in the integration of single sign-on (SSO)",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-04-16T10:30:00+00:00",
+    "date": "16-04-2026 10:30 UTC",
+    "title": "Hidden Passenger? How Taboola Routes Logged-In Banking Sessions to Temu",
+    "link": "https://thehackernews.com/2026/04/hidden-passenger-how-taboola-routes.html",
+    "description": "A bank approved a Taboola pixel. That pixel quietly redirected logged-in users to a Temu tracking endpoint. This occurred without the bank’s knowledge, without user consent, and without a single security control registering a violation. Read the full technical breakdown in the Security Intelligence Brief. Download now → The \"First-Hop Bias\" Blind Spot Most&",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-04-16T10:20:00+00:00",
+    "date": "16-04-2026 10:20 UTC",
+    "title": "Obsidian Plugin Abuse Delivers PHANTOMPULSE RAT in Targeted Finance, Crypto Attacks",
+    "link": "https://thehackernews.com/2026/04/obsidian-plugin-abuse-delivers.html",
+    "description": "A \"novel\" social engineering campaign has been observed abusing Obsidian, a cross-platform note-taking application, as an initial access vector to distribute a previously undocumented Windows remote access trojan called PHANTOMPULSE in attacks targeting individuals in the financial and cryptocurrency sectors. Dubbed REF6598 by Elastic Security Labs, the activity has been found to leverage",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-04-16T06:20:00+00:00",
     "date": "16-04-2026 06:20 UTC",
     "title": "UAC-0247 Targets Ukrainian Clinics and Government in Data-Theft Malware Campaign",
