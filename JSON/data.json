@@ -1,5 +1,35 @@
 [
   {
+    "published_at": "2026-04-18T08:07:00+00:00",
+    "date": "18-04-2026 08:07 UTC",
+    "title": "[Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data",
+    "link": "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
+    "description": "In 2024, compromised service accounts and forgotten API keys were behind 68% of cloud breaches. Not phishing. Not weak passwords. Unmanaged non-human identities that nobody was watching. For every employee in your org, there are 40 to 50 automated credentials: service accounts, API tokens, AI agent connections, and OAuth grants. When projects end or employees leave, most",
+    "source": "The Hacker News",
+    "type": "Data Breach",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-04-18T07:59:00+00:00",
+    "date": "18-04-2026 07:59 UTC",
+    "title": "$13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims",
+    "link": "https://thehackernews.com/2026/04/1374m-hack-shuts-down-sanctioned-grinex.html",
+    "description": "Grinex, a Kyrgyzstan-incorporated cryptocurrency exchange sanctioned by the U.K. and the U.S. last year, said it's suspending operations after it blamed Western intelligence agencies for a $13.74 million hack. The exchange said it fell victim to what it described as a large-scale cyber attack that bore hallmarks of foreign intelligence agency involvement. This attack led to the theft of over 1",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-04-18T06:01:00+00:00",
+    "date": "18-04-2026 06:01 UTC",
+    "title": "Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet",
+    "link": "https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html",
+    "description": "Threat actors are exploiting security flaws in TBK DVR and end‑of‑life (EoL) TP-Link Wi-Fi routers to deploy Mirai-botnet variants on compromised devices, according to findings from Fortinet FortiGuard Labs and Palo Alto Networks Unit 42. The attack targeting TBK DVR devices has been found to exploit CVE-2024-3721 (CVSS score: 6.3), a medium-severity command injection vulnerability affecting",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "MEDIUM"
+  },
+  {
     "published_at": "2026-04-17T13:21:00+00:00",
     "date": "17-04-2026 13:21 UTC",
     "title": "Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched",
@@ -67,16 +97,6 @@
     "description": "You know that feeling when you open your feed on a Thursday morning and it's just... a lot? Yeah. This week delivered. We've got hackers getting creative in ways that are almost impressive if you ignore the whole \"crime\" part, ancient vulnerabilities somehow still ruining people's days, and enough supply chain drama to fill a season of television nobody asked for. Not",
     "source": "The Hacker News",
     "type": "Other",
-    "severity": "LOW"
-  },
-  {
-    "published_at": "2026-04-16T11:55:00+00:00",
-    "date": "16-04-2026 11:55 UTC",
-    "title": "[Webinar] Find and Eliminate Orphaned Non-Human Identities in Your Environment",
-    "link": "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
-    "description": "In 2024, compromised service accounts and forgotten API keys were behind 68% of cloud breaches. Not phishing. Not weak passwords. Unmanaged non-human identities that nobody was watching. For every employee in your org, there are 40 to 50 automated credentials: service accounts, API tokens, AI agent connections, andOAuth grants. When projects end or employees leave, most",
-    "source": "The Hacker News",
-    "type": "Data Breach",
     "severity": "LOW"
   },
   {
