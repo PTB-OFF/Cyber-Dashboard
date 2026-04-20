@@ -1,5 +1,15 @@
 [
   {
+    "published_at": "2026-04-20T03:35:00+00:00",
+    "date": "20-04-2026 03:35 UTC",
+    "title": "Vercel Breach Tied to Context AI Hack Exposes Limited Customer Credentials",
+    "link": "https://thehackernews.com/2026/04/vercel-breach-tied-to-context-ai-hack.html",
+    "description": "Web infrastructure provider Vercel has disclosed a security breach that allows bad actors to gain unauthorized access to \"certain\" internal Vercel systems. The incident stemmed from the compromise of Context.ai, a third-party artificial intelligence (AI) tool, that was used by an employee at the company. \"The attacker used that access to take over the employee's Vercel Google Workspace account,",
+    "source": "The Hacker News",
+    "type": "Data Breach",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-04-18T08:07:00+00:00",
     "date": "18-04-2026 08:07 UTC",
     "title": "[Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data",
