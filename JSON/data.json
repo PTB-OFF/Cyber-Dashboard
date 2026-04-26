@@ -1,5 +1,15 @@
 [
   {
+    "published_at": "2026-04-25T09:26:00+00:00",
+    "date": "25-04-2026 09:26 UTC",
+    "title": "Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software",
+    "link": "https://thehackernews.com/2026/04/researchers-uncover-pre-stuxnet-fast16.html",
+    "description": "Cybersecurity researchers have discovered a new Lua-based malware created years before the notorious Stuxnet worm that aimed to sabotage Iran's nuclear program by destroying uranium enrichment centrifuges. According to a new report published by SentinelOne, the previously undocumented cyber sabotage framework dates back to 2005, primarily targeting high-precision calculation software to tamper",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-04-25T05:08:00+00:00",
     "date": "25-04-2026 05:08 UTC",
     "title": "CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline",
