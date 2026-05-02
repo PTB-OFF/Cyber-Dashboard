@@ -1,5 +1,75 @@
 [
   {
+    "published_at": "2026-05-02T06:41:00+00:00",
+    "date": "02-05-2026 06:41 UTC",
+    "title": "Trellix Confirms Source Code Breach With Unauthorized Repository Access",
+    "link": "https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html",
+    "description": "Cybersecurity company Trellix has announced that it suffered a breach that enabled unauthorized access to a \"portion\" of its source code. It said it \"recently identified\" the compromise of its source code repository and that it began working with \"leading forensic experts\" to resolve the matter immediately. It also said it has notified law enforcement of the matter. Trellix did not disclose the",
+    "source": "The Hacker News",
+    "type": "Data Breach",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-01T18:09:00+00:00",
+    "date": "01-05-2026 18:09 UTC",
+    "title": "30,000 Facebook Accounts Hacked via Google AppSheet Phishing Campaign",
+    "link": "https://thehackernews.com/2026/05/30000-facebook-accounts-hacked-via.html",
+    "description": "A newly discovered Vietnamese-linked operation has been observed using a Google AppSheet as a \"phishing relay\" to distribute phishing emails with an aim to compromise Facebook accounts. The activity has been codenamed AccountDumpling by Guardio, with the scheme selling the stolen accounts back through an illicit storefront run by the threat actors. In all, roughly 30,000 Facebook accounts are",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-01T14:26:00+00:00",
+    "date": "01-05-2026 14:26 UTC",
+    "title": "Cybercrime Groups Using Vishing and SSO Abuse in Rapid SaaS Extortion Attacks",
+    "link": "https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html",
+    "description": "Cybersecurity researchers are warning of two cybercrime groups that are carrying out \"rapid, high-impact attacks\" operating almost within the confines of SaaS environments, while leaving minimal traces of their actions. The clusters, Cordial Spider (aka BlackFile, CL-CRI-1116, O-UNC-045, and UNC6671) and Snarky Spider (aka O-UNC-025 and UNC6661), have been attributed to high-speed data theft and",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-05-01T14:02:00+00:00",
+    "date": "01-05-2026 14:02 UTC",
+    "title": "China-Linked Hackers Target Asian Governments, NATO State, Journalists, and Activists",
+    "link": "https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html",
+    "description": "Cybersecurity researchers have disclosed details of a new China-aligned espionage campaign targeting government and defense sectors across South, East, and Southeast Asia, along with one European government belonging to NATO. Trend Micro has attributed the activity to a threat activity cluster it tracks under the temporary designation SHADOW-EARTH-053. The adversarial collective is assessed to",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-01T10:30:00+00:00",
+    "date": "01-05-2026 10:30 UTC",
+    "title": "Top Five Sales Challenges Costing MSPs Cybersecurity Revenue",
+    "link": "https://thehackernews.com/2026/05/top-five-sales-challenges-costing-msps.html",
+    "description": "The managed security services market is projected to grow from $38.31 billion in 2025 to $69.16 billion by 2030[1], with cybersecurity being the fastest-growing sector[2]. Despite this opportunity, many MSPs leave revenue on the table because their go-to-market strategy fails to connect technical expertise with business needs. This execution gap is where most deals stall. MSPs often focus on",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-01T09:56:00+00:00",
+    "date": "01-05-2026 09:56 UTC",
+    "title": "Two Cybersecurity Professionals Get 4-Year Sentences in BlackCat Ransomware Attacks",
+    "link": "https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html",
+    "description": "The U.S. Department of Justice (DoJ) on Thursday announced the sentencing of two cybersecurity professionals to four years each in prison for their role in facilitating BlackCat ransomware attacks in 2023. Ryan Goldberg, 40, of Georgia, and Kevin Martin, 36, of Texas, were accused of deploying the ransomware against multiple victims located throughout the U.S. between April and December 2023.",
+    "source": "The Hacker News",
+    "type": "Ransomware",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-01T09:43:00+00:00",
+    "date": "01-05-2026 09:43 UTC",
+    "title": "Poisoned Ruby Gems and Go Modules Exploit CI Pipelines for Credential Theft",
+    "link": "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html",
+    "description": "A new software supply chain attack campaign has been observed using sleeper packages as a conduit to subsequently push malicious payloads that enabled credential theft, GitHub Actions tampering, and SSH persistence. The activity has been attributed to the GitHub account \"BufferZoneCorp,\" which has published a set of repositories that are associated with malicious Ruby gems and Go modules. As of",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-04-30T16:31:00+00:00",
     "date": "30-04-2026 16:31 UTC",
     "title": "PyTorch Lightning and Intercom-client Hit in Supply Chain Attacks to Steal Credentials",
