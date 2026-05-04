@@ -1,5 +1,15 @@
 [
   {
+    "published_at": "2026-05-04T05:59:00+00:00",
+    "date": "04-05-2026 05:59 UTC",
+    "title": "Global Crackdown Arrests 276, Shuts 9 Crypto Scam Centers, Seizes $701M",
+    "link": "https://thehackernews.com/2026/05/global-crackdown-arrests-276-shuts-9.html",
+    "description": "A coordinated international operation involving U.S. and Chinese authorities has arrested at least 276 suspects and shut down nine scam centers used for cryptocurrency investment fraud schemes targeting Americans, resulting in millions of dollars in losses. The crackdown was led by the Dubai Police, under the United Arab Emirates (UAE) Ministry of Interior, in partnership with the U.S. Federal",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-05-03T06:26:00+00:00",
     "date": "03-05-2026 06:26 UTC",
     "title": "CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV",
