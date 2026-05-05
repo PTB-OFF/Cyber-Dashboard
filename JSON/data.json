@@ -1,5 +1,65 @@
 [
   {
+    "published_at": "2026-05-04T18:06:00+00:00",
+    "date": "04-05-2026 18:06 UTC",
+    "title": "Phishing Campaign Hits 80+ Orgs Using SimpleHelp and ScreenConnect RMM Tools",
+    "link": "https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html",
+    "description": "An active phishing campaign has been observed targeting multiple vectors since at least April 2025 with legitimate Remote Monitoring and Management (RMM) software as a way to establish persistent remote access to compromised hosts. The activity, codenamed VENOMOUS#HELPER, has impacted over 80 organizations, most of which are in the U.S., according to Securonix. It shares overlaps with clusters",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-04T16:34:00+00:00",
+    "date": "04-05-2026 16:34 UTC",
+    "title": "Progress Patches Critical MOVEit Automation Bug Enabling Authentication Bypass",
+    "link": "https://thehackernews.com/2026/05/progress-patches-critical-moveit.html",
+    "description": "Progress Software has released updates to address two security flaws in MOVEit Automation, including a critical bug that could result in an authentication bypass. MOVEit Automation (formerly Central) is a secure, server-based managed file transfer (MFT) solution used to schedule and automate file movement workflows in enterprise environments without requiring any custom scripts. The",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-05-04T14:23:00+00:00",
+    "date": "04-05-2026 14:23 UTC",
+    "title": "⚡ Weekly Recap: AI-Powered Phishing, Android Spying Tool, Linux Exploit, GitHub RCE & More",
+    "link": "https://thehackernews.com/2026/05/weekly-recap-ai-powered-phishing.html",
+    "description": "This week, the shadows moved faster than the patches. While most teams were still triaging last month’s alerts, attackers had already turned control panels into kill switches, kernels into open doors, and open-source pipelines into silent delivery systems. The game has shifted from breach to occupation. They’re living inside SaaS sessions, pushing code with trusted commits, and scaling",
+    "source": "The Hacker News",
+    "type": "Data Breach",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-05-04T11:58:00+00:00",
+    "date": "04-05-2026 11:58 UTC",
+    "title": "2026: The Year of AI-Assisted Attacks",
+    "link": "https://thehackernews.com/2026/05/2026-year-of-ai-assisted-attacks.html",
+    "description": "On December 4, 2025, a 17-year-old was arrested in Osaka under Japan’s Unauthorized Access Prohibition Act. The young man had run malicious code to extract the personal data of over 7 million users of Kaikatsu Club, Japan's largest internet cafe chain. When asked, the young man shared his motivation for the hack: he wanted to buy Pokémon cards. In a sense, this is a fairly conventional story.",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-04T11:57:00+00:00",
+    "date": "04-05-2026 11:57 UTC",
+    "title": "Silver Fox Deploys ABCDoor Malware via Tax-Themed Phishing in India and Russia",
+    "link": "https://thehackernews.com/2026/05/silver-fox-deploys-abcdoor-malware-via.html",
+    "description": "The China-based cybercrime group known as Silver Fox has been linked to a new campaign targeting organizations in Russia and India with a new malware called ABCDoor. The activity involved using phishing emails that mimic correspondence from the Income Tax Department of India in December 2025, followed by a similar campaign aimed at Russian entities in January 2026. \"Both waves followed a nearly",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-04T09:27:00+00:00",
+    "date": "04-05-2026 09:27 UTC",
+    "title": "Critical cPanel Vulnerability Weaponized to Target Government and MSP Networks",
+    "link": "https://thehackernews.com/2026/05/critical-cpanel-vulnerability.html",
+    "description": "A previously unknown threat actor has been observed targeting government and military entities in Southeast Asia, alongside a smaller cluster of managed service providers (MSPs) and hosting providers in the Philippines, Laos, Canada, South Africa, and the U.S., by exploiting the recently disclosed vulnerability in cPanel. The activity, detected by Ctrl-Alt-Intel on May 2, 2026, involves the",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
     "published_at": "2026-05-04T05:59:00+00:00",
     "date": "04-05-2026 05:59 UTC",
     "title": "Global Crackdown Arrests 276, Shuts 9 Crypto Scam Centers, Seizes $701M",
