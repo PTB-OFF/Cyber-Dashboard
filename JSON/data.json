@@ -1,5 +1,75 @@
 [
   {
+    "published_at": "2026-05-07T04:15:00+00:00",
+    "date": "07-05-2026 04:15 UTC",
+    "title": "vm2 Node.js Library Vulnerabilities Enable Sandbox Escape and Arbitrary Code Execution",
+    "link": "https://thehackernews.com/2026/05/vm2-nodejs-library-vulnerabilities.html",
+    "description": "A dozen critical security vulnerabilities have been disclosed in the vm2 Node.js library that could be exploited by bad actors to break out of the sandbox and execute arbitrary code on susceptible systems. vm2 is an open-source library used to run untrusted JavaScript code inside a secure sandbox by intercepting and proxying JavaScript objects to prevent sandboxed code from accessing the host",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-05-06T20:21:00+00:00",
+    "date": "06-05-2026 20:21 UTC",
+    "title": "Mirai-Based xlabs_v1 Botnet Exploits ADB to Hijack IoT Devices for DDoS Attacks",
+    "link": "https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html",
+    "description": "Cybersecurity researchers have exposed a new Mirai-derived botnet that self-identifies as xlabs_v1 and targets internet-exposed devices running Android Debug Bridge (ADB) to enlist them in a network capable of carrying out distributed denial-of-service (DDoS) attacks. Hunt.io, which detailed the malware, said it made the discovery after identifying an exposed directory on a Netherlands-hosted",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-06T13:00:00+00:00",
+    "date": "06-05-2026 13:00 UTC",
+    "title": "MuddyWater Uses Microsoft Teams to Steal Credentials in False Flag Ransomware Attack",
+    "link": "https://thehackernews.com/2026/05/muddywater-uses-microsoft-teams-to.html",
+    "description": "The Iranian state-sponsored hacking group known as MuddyWater (aka Mango Sandstorm, Seedworm, and Static Kitten) has been attributed to a ransomware attack in what has been described as a \"false flag\" operation. The attack, observed by Rapid7 in early 2026, has been found to leverage social engineering techniques via Microsoft Teams to initiate the infection sequence. Although the incident",
+    "source": "The Hacker News",
+    "type": "Ransomware",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-06T12:03:00+00:00",
+    "date": "06-05-2026 12:03 UTC",
+    "title": "The Hacker News Launches 'Cybersecurity Stars Awards 2026' — Submissions Now Open",
+    "link": "https://thehackernews.com/2026/05/the-hacker-news-launches-cybersecurity.html",
+    "description": "For nearly 20 years, we at The Hacker News have mostly told scary stories about cyberspace — big hacks, broken systems, and new threats. But behind every headline, there’s a quieter, better story. It’s the story of leaders making tough calls under pressure, teams building smarter defenses, and security products that keep hunting threats 24/7 — even when it’s hard. Most of the time, this work is",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-06T10:57:00+00:00",
+    "date": "06-05-2026 10:57 UTC",
+    "title": "Your AI Agents Are Already Inside the Perimeter. Do You Know What They're Doing?",
+    "link": "https://thehackernews.com/2026/05/your-ai-agents-are-already-inside.html",
+    "description": "Analysts recently confirmed what identity security teams have quietly feared: AI agents are being deployed faster than enterprises can govern them. In their inaugural Market Guide for Guardian Agents, Gartner states that “enterprise adoption of AI agents is accelerating, outpacing maturity of governance policy controls.” Enterprise leaders can request access to the Gartner Market Guide for",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-06T09:13:00+00:00",
+    "date": "06-05-2026 09:13 UTC",
+    "title": "Google's Android Apps Get Public Verification to Stop Supply Chain Attacks",
+    "link": "https://thehackernews.com/2026/05/android-apps-get-public-verification.html",
+    "description": "Google has announced expanded Binary Transparency for Android as a way to safeguard the ecosystem from supply chain attacks. \"This new public ledger ensures the Google apps on your device are exactly what we intended to build and distribute,\" Google's product and security teams said. The initiative builds upon the foundation of Pixel Binary Transparency, which Google introduced in October 2021",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-06T08:34:00+00:00",
+    "date": "06-05-2026 08:34 UTC",
+    "title": "Windows Phone Link Exploited by CloudZ RAT to Steal Credentials and OTPs",
+    "link": "https://thehackernews.com/2026/05/windows-phone-link-exploited-by-cloudz.html",
+    "description": "Cybersecurity researchers have disclosed details of an intrusion that involved the use of a CloudZ remote access tool (RAT) and a previous undocumented plugin dubbed Pheno with the aim of facilitating credential theft. \"According to the functionalities of the CloudZ RAT and Pheno plugin, this was with the intention of stealing victims' credentials and potentially one-time passwords (OTPs),\"",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-05-06T06:14:00+00:00",
     "date": "06-05-2026 06:14 UTC",
     "title": "Palo Alto PAN-OS Flaw Under Active Exploitation Enables Remote Code Execution",
