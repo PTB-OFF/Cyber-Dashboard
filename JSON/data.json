@@ -1,5 +1,15 @@
 [
   {
+    "published_at": "2026-05-09T07:16:00+00:00",
+    "date": "09-05-2026 07:16 UTC",
+    "title": "cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now",
+    "link": "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html",
+    "description": "cPanel has released updates to address three vulnerabilities in cPanel and Web Host Manager (WHM) that could be exploited to achieve privilege escalation, code execution, and denial-of-service. The list of vulnerabilities is as follows - CVE-2026-29201 (CVSS score: 4.3) - An insufficient input validation of the feature file name in the \"feature::LOADFEATUREFILE\" adminbin call that could result",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-05-08T18:12:00+00:00",
     "date": "08-05-2026 18:12 UTC",
     "title": "TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms",
