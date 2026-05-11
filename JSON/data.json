@@ -1,5 +1,25 @@
 [
   {
+    "published_at": "2026-05-11T07:05:00+00:00",
+    "date": "11-05-2026 07:05 UTC",
+    "title": "Fake OpenAI Privacy Filter Repo Hits #1 on Hugging Face, Draws 244K Downloads",
+    "link": "https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html",
+    "description": "A malicious Hugging Face repository managed to take a spot in the platform's trending list by impersonating OpenAI's Privacy Filter open-weight model to deliver a Rust-based information stealer to Windows users. The project, named Open-OSS/privacy-filter, masqueraded as its legitimate counterpart, released by OpenAI late last month (openai/privacy-filter), including copying the entire",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-10T12:41:00+00:00",
+    "date": "10-05-2026 12:41 UTC",
+    "title": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak",
+    "link": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
+    "description": "Cybersecurity researchers have disclosed a critical security vulnerability in Ollama that, if successfully exploited, could allow a remote, unauthenticated attacker to leak its entire process memory. The out-of-bounds read flaw, which likely impacts over 300,000 servers globally, is tracked as CVE-2026-7482 (CVSS score: 9.1). It has been codenamed Bleeding Llama by Cyera. Ollama is a",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
     "published_at": "2026-05-09T07:16:00+00:00",
     "date": "09-05-2026 07:16 UTC",
     "title": "cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now",
@@ -14,7 +34,7 @@
     "date": "08-05-2026 18:12 UTC",
     "title": "TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms",
     "link": "https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html",
-    "description": "Threat hunters have flagged a previously undocumented Brazilian banking trojan dubbed TCLBANKER that's capable of targeting 59 banking, fintech, and cryptocurrency platforms. The activity is being tracked by Elastic Security Labs under the moniker REF3076. The malware family is assessed to be a major update of the Maverick, which is known to leverage a worm called SORVEPOTEL to spread via",
+    "description": "Threat hunters have flagged a previously undocumented Brazilian banking trojan dubbed TCLBANKER that's capable of targeting 59 banking, fintech, and cryptocurrency platforms. The activity is being tracked by Elastic Security Labs under the moniker REF3076. The malware family is assessed to be a major update of the Maverick family, which is known to leverage a worm called SORVEPOTEL to",
     "source": "The Hacker News",
     "type": "Other",
     "severity": "LOW"
