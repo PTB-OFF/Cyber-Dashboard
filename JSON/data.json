@@ -1,10 +1,90 @@
 [
   {
+    "published_at": "2026-05-14T06:00:09+00:00",
+    "date": "14-05-2026 06:00 UTC",
+    "title": "18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE",
+    "link": "https://thehackernews.com/2026/05/18-year-old-nginx-rewrite-module-flaw.html",
+    "description": "Cybersecurity researchers have disclosed multiple security vulnerabilities impacting NGINX Plus and NGINX Open, including a critical flaw that remained undetected for 18 years. The vulnerability, discovered by depthfirst, is a heap buffer overflow issue impacting ngx_http_rewrite_module (CVE-2026-42945, CVSS v4 score: 9.2) that could allow an attacker to achieve remote code execution or cause a",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-05-13T13:46:02+00:00",
+    "date": "13-05-2026 13:46 UTC",
+    "title": "Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday",
+    "link": "https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html",
+    "description": "Microsoft has unveiled a new multi-model artificial intelligence (AI)-driven system called MDASH to facilitate vulnerability discovery and remediation at scale, adding that it's being tested by some customers as part of a limited private preview. MDASH, short for multi-model agentic scanning harness, is designed as a model-agnostic system that uses bespoke AI agents for different vulnerability",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-05-13T13:00:00+00:00",
+    "date": "13-05-2026 13:00 UTC",
+    "title": "Azerbaijani Energy Firm Hit by Repeated Microsoft Exchange Exploitation",
+    "link": "https://thehackernews.com/2026/05/azerbaijani-energy-firm-hit-by-repeated.html",
+    "description": "A threat actor with affiliations to China has been linked to a \"multi-wave intrusion\" targeting an unnamed Azerbaijani oil and gas company between late December 2025 and late February 2026, marking an expansion of its targeting. The activity has been attributed by Bitdefender with moderate-to-high confidence to a hacking group known as FamousSparrow (aka UAT-9244), which shares some level of",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-13T11:52:43+00:00",
+    "date": "13-05-2026 11:52 UTC",
+    "title": "[Webinar] How Modern Attack Paths Cross Code, Pipelines, and Cloud",
+    "link": "https://thehackernews.com/2026/05/webinar-why-your-appsec-tools-miss.html",
+    "description": "TL;DR: Stop chasing thousands of \"toast\" alerts. Join experts from Wiz to learn how hackers connect tiny flaws to build a \"Lethal Chain\" to your data—and how to break it. Register for the Strategic Briefing Here. Most security tools work like a smoke alarm that goes off every time you burn a piece of toast. You get so many alerts that you eventually start to ignore them. The real danger? While",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-05-13T11:30:00+00:00",
+    "date": "13-05-2026 11:30 UTC",
+    "title": "Most Remediation Programs Never Confirm the Fix Actually Worked",
+    "link": "https://thehackernews.com/2026/05/most-remediation-programs-never-confirm.html",
+    "description": "Security teams have never had better visibility into their environments and never been worse at confirming what they fix stays fixed. Mandiant's M-Trends 2026 report puts the mean time to exploit at an estimated negative seven days. The Verizon 2025 DBIR puts median time to remediate edge device vulnerabilities at 32 days. These numbers have understandably driven the industry toward a clear",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-13T10:36:10+00:00",
+    "date": "13-05-2026 10:36 UTC",
+    "title": "Microsoft Patches 138 Vulnerabilities, Including DNS and Netlogon RCE Flaws",
+    "link": "https://thehackernews.com/2026/05/microsoft-patches-138-vulnerabilities.html",
+    "description": "Microsoft on Tuesday released patches for 138 security vulnerabilities spanning its product portfolio, although none of them have been listed as publicly known or under active attack. Of the 138 flaws, 30 are rated Critical, 104 are rated Important, three are rated Moderate, and one is rated Low in severity. As many as 61 vulnerabilities are classified as privilege escalation bugs, followed by",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-05-13T08:08:54+00:00",
+    "date": "13-05-2026 08:08 UTC",
+    "title": "GemStuffer Abuses 150+ RubyGems to Exfiltrate Scraped U.K. Council Portal Data",
+    "link": "https://thehackernews.com/2026/05/gemstuffer-abuses-150-rubygems-to.html",
+    "description": "Cybersecurity researchers are calling attention to a new campaign dubbed GemStuffer that has targeted the RubyGems repository with more than 150 gems that use the registry as a data exfiltration channel rather than for malware distribution. \"The packages do not appear designed for mass developer compromise,\" Socket said. \"Many have little or no download activity, and the payloads are repetitive,",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-13T06:55:42+00:00",
+    "date": "13-05-2026 06:55 UTC",
+    "title": "Android Adds Intrusion Logging for Sophisticated Spyware Forensics",
+    "link": "https://thehackernews.com/2026/05/android-adds-intrusion-logging-for.html",
+    "description": "Google on Tuesday unveiled a new opt-in Android feature called Intrusion Logging for storing forensic logs to better analyze sophisticated spyware attacks. Intrusion Logging, available as part of Advanced Protection Mode, enables \"persistent and privacy-preserving forensics logging to allow for investigation of devices in the event of a suspected compromise,\" the company said. The feature, it",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-05-12T16:44:00+00:00",
     "date": "12-05-2026 16:44 UTC",
     "title": "New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution",
     "link": "https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html",
-    "description": "Exim has released security updates to address a severe security issue affecting certain configurations that could enable memory corruption and potential code execution. Exim is an open-source Mail Transfer Agent (MTA) designed for Unix-like systems to receive, route, and deliver email. The vulnerability, tracked as CVE-2026-45185, aka Dead.Letter, has been described as a use-after-free",
+    "description": "Exim has released security updates to address a severe security issue affecting certain configurations that could enable memory corruption and potential code execution. Exim is an open-source Mail Transfer Agent (MTA) designed for Unix-like systems to receive, route, and deliver email. The vulnerability, tracked as CVE-2026-45185 (CVSS score: 9.8), aka Dead.Letter, has been described as a",
     "source": "The Hacker News",
     "type": "CVE",
     "severity": "MEDIUM"
@@ -14,7 +94,7 @@
     "date": "12-05-2026 14:47 UTC",
     "title": "RubyGems Suspends New Signups After Hundreds of Malicious Packages Are Uploaded",
     "link": "https://thehackernews.com/2026/05/rubygems-suspends-new-signups-after.html",
-    "description": "RubyGems, the standard package manager for the Ruby programming language, has temporarily paused account sign ups following what has been described as a \"major malicious attack.\" \"We're dealing with a major malicious attack on Ruby Gems right now,\" Maciej Mensfeld, senior product manager for software supply chain security at Mend.io, said in a post on X. \"Signups are paused for the time being.",
+    "description": "RubyGems, the standard package manager for the Ruby programming language, has temporarily paused account sign ups following what has been described as a \"major malicious attack.\" \"We're dealing with a major malicious attack on RubyGems right now,\" Maciej Mensfeld, senior product manager for software supply chain security at Mend.io, said in a post on X. \"Signups are paused for the time being.",
     "source": "The Hacker News",
     "type": "Other",
     "severity": "LOW"
