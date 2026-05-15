@@ -1,5 +1,105 @@
 [
   {
+    "published_at": "2026-05-15T06:19:04+00:00",
+    "date": "15-05-2026 06:19 UTC",
+    "title": "On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email",
+    "link": "https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html",
+    "description": "Microsoft has disclosed a new security vulnerability impacting on-premise versions of Exchange Server that it said has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-42897 (CVSS score: 8.1), has been described as a spoofing bug stemming from a cross-site scripting flaw. An anonymous researcher has been credited with discovering and reporting the issue. \"",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-05-15T05:28:03+00:00",
+    "date": "15-05-2026 05:28 UTC",
+    "title": "CISA Adds Cisco SD-WAN CVE-2026-20182 to KEV After Admin Access Exploits",
+    "link": "https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html",
+    "description": "The U.S.Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a newly disclosed vulnerability impacting Cisco Catalyst SD-WAN Controller to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to remediate the issue by May 17, 2026. The vulnerability is a critical authentication bypass tracked as CVE-2026-20182. It's",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-05-14T17:45:20+00:00",
+    "date": "14-05-2026 17:45 UTC",
+    "title": "Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access",
+    "link": "https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html",
+    "description": "Cisco has released updates to address a maximum-severity authentication bypass flaw in Catalyst SD-WAN Controller that it said has been exploited in limited attacks. The vulnerability, tracked as CVE-2026-20182, carries a CVSS score of 10.0. \"A vulnerability in the peering authentication in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, and Cisco Catalyst SD-WAN Manager, formerly",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-05-14T17:22:43+00:00",
+    "date": "14-05-2026 17:22 UTC",
+    "title": "Stealer Backdoor Found in 3 Node-IPC Versions Targeting Developer Secrets",
+    "link": "https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html",
+    "description": "Cybersecurity researchers are sounding the alarm about what has been described as \"malicious activity\" in newly published versions of node-ipc. According to Socket and StepSecurity, three different versions of the npm package have been confirmed as malicious - node-ipc@9.1.6 node-ipc@9.2.3 node-ipc@12.0.1 \"Early analysis indicates that node-ipc@9.1.6, node-ipc@9.2.3, and node-ipc@12.0.1",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-14T16:07:46+00:00",
+    "date": "14-05-2026 16:07 UTC",
+    "title": "ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories",
+    "link": "https://thehackernews.com/2026/05/threatsday-bulletin-pan-os-rce-mythos.html",
+    "description": "Everything is still on fire. This week feels dumb in the worst way — bad links, weak checks, fake help desks, shady forum posts, and people turning supply chain attacks into some cursed little game for clout and cash. Half of it feels new. Half of it feels like crap we should have fixed years ago. The mess keeps getting louder: users get tricked, boxes get popped, tools meant for normal work",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-14T14:00:37+00:00",
+    "date": "14-05-2026 14:00 UTC",
+    "title": "Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike",
+    "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html",
+    "description": "The Belarus-aligned threat group known as Ghostwriter has been attributed to a fresh set of attacks targeting governmental organizations in Ukraine. Active since at least 2016, Ghostwriter has been linked to both cyber espionage and influence operations targeting neighboring countries, particularly Ukraine. It's also tracked under the monikers FrostyNeighbor, PUSHCHA, Storm-0257, TA445, UAC‑0057",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-14T11:40:14+00:00",
+    "date": "14-05-2026 11:40 UTC",
+    "title": "PraisonAI CVE-2026-44338 Auth Bypass Targeted Within Hours of Disclosure",
+    "link": "https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html",
+    "description": "Threat actors have been observed attempting to exploit a recently disclosed security vulnerability in PraisonAI, an open-source multi-agent orchestration framework, within four hours of public disclosure. The vulnerability in question is CVE-2026-44338 (CVSS score: 7.3), a case of missing authentication that exposes sensitive endpoints to anyone, potentially allowing an attacker to invoke the",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-05-14T11:30:00+00:00",
+    "date": "14-05-2026 11:30 UTC",
+    "title": "How AI Hallucinations Are Creating Real Security Risks",
+    "link": "https://thehackernews.com/2026/05/how-ai-hallucinations-are-creating-real.html",
+    "description": "AI hallucinations are introducing serious security risks into critical infrastructure decision-making by exploiting human trust through highly confident yet incorrect outputs. When an AI model lacks certainty, it doesn’t have a mechanism to recognize that. Instead, it generates the most probable response based on patterns in its training data, even if that response is inaccurate. These outputs",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-05-14T09:25:50+00:00",
+    "date": "14-05-2026 09:25 UTC",
+    "title": "Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation",
+    "link": "https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html",
+    "description": "An anonymous cybersecurity researcher who disclosed three Microsoft Defender vulnerabilities has returned with two more zero-days involving a BitLocker bypass and a privilege escalation impacting Windows Collaborative Translation Framework (CTFMON). The security defects have been codenamed YellowKey and GreenPlasma, respectively, by the researcher, who goes by the online aliases Chaotic Eclipse",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-05-14T07:06:15+00:00",
+    "date": "14-05-2026 07:06 UTC",
+    "title": "New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption",
+    "link": "https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html",
+    "description": "Details have emerged about a new variant of the recent Dirty Frag Linux local privilege escalation (LPE) vulnerability that allows local attackers to gain root access, making it the third such bug to be identified in the kernel within a span of two weeks. Codenamed Fragnesia, the security vulnerability is tracked as CVE-2026-46300 (CVSS score: 7.8) and is rooted in the Linux kernel's XFRM",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "MEDIUM"
+  },
+  {
     "published_at": "2026-05-14T06:00:09+00:00",
     "date": "14-05-2026 06:00 UTC",
     "title": "18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE",
