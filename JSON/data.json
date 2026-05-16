@@ -1,5 +1,45 @@
 [
   {
+    "published_at": "2026-05-15T17:10:25+00:00",
+    "date": "15-05-2026 17:10 UTC",
+    "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
+    "link": "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
+    "description": "The Russian state-sponsored hacking group known as Turla has transformed its custom backdoor Kazuar into a modular peer-to-peer (P2P) botnet that's engineered for stealth and persistent access to compromised hosts. Turla, per the U.S. Cybersecurity and Infrastructure Security Agency (CISA), is assessed to be affiliated with Center 16 of Russia's Federal Security Service (FSB)",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-15T13:35:04+00:00",
+    "date": "15-05-2026 13:35 UTC",
+    "title": "Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence",
+    "link": "https://thehackernews.com/2026/05/four-openclaw-flaws-enable-data-theft.html",
+    "description": "Cybersecurity researchers have disclosed a set of four security flaws in OpenClaw that could be chained to achieve data theft, privilege escalation, and persistence. The vulnerabilities, collectively dubbed Claw Chain by Cyera, can permit an attacker to establish a foothold, expose sensitive data, and plant backdoors. A brief description of the flaws is below -",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-15T11:00:00+00:00",
+    "date": "15-05-2026 11:00 UTC",
+    "title": "What 45 Days of Watching Your Own Tools Will Tell You About Your Real Attack Surface",
+    "link": "https://thehackernews.com/2026/05/what-45-days-of-watching-your-own-tools.html",
+    "description": "In Your Biggest Security Risk Isn't Malware — It's What You Already Trust, we made a simple argument: the most dangerous activity inside most organizations no longer looks like an attack. It looks like administration. PowerShell, WMIC, netsh, Certutil, MSBuild — the same trusted utilities your IT team uses every day are also the preferred toolkit of modern threat actors. Bitdefender's analysis",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-15T10:54:44+00:00",
+    "date": "15-05-2026 10:54 UTC",
+    "title": "TanStack Supply Chain Attack Hits Two OpenAI Employee Devices, Forces macOS Updates",
+    "link": "https://thehackernews.com/2026/05/tanstack-supply-chain-attack-hits-two.html",
+    "description": "OpenAI has disclosed that two of its employee devices in its corporate environment were impacted via the Mini Shai-Hulud supply chain attack on TanStack, but noted that no user data, production systems, or intellectual property were compromised or modified in an unauthorized manner. \"Upon identification of the malicious activity, we worked quickly to investigate, contain, and take steps to",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-05-15T06:19:04+00:00",
     "date": "15-05-2026 06:19 UTC",
     "title": "On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email",
@@ -64,7 +104,7 @@
     "date": "14-05-2026 11:40 UTC",
     "title": "PraisonAI CVE-2026-44338 Auth Bypass Targeted Within Hours of Disclosure",
     "link": "https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html",
-    "description": "Threat actors have been observed attempting to exploit a recently disclosed security vulnerability in PraisonAI, an open-source multi-agent orchestration framework, within four hours of public disclosure. The vulnerability in question is CVE-2026-44338 (CVSS score: 7.3), a case of missing authentication that exposes sensitive endpoints to anyone, potentially allowing an attacker to invoke the",
+    "description": "Threat actors have been observed attempting to exploit a recently disclosed security vulnerability in PraisonAI, an open-source multi-agent orchestration framework, within four hours of its public disclosure. The vulnerability in question is CVE-2026-44338 (CVSS score: 7.3), a case of missing authentication that exposes sensitive endpoints to anyone, potentially allowing an attacker to invoke",
     "source": "The Hacker News",
     "type": "CVE",
     "severity": "MEDIUM"
