@@ -1,5 +1,15 @@
 [
   {
+    "published_at": "2026-05-16T15:20:48+00:00",
+    "date": "16-05-2026 15:20 UTC",
+    "title": "Funnel Builder Flaw Under Active Exploitation Enables WooCommerce Checkout Skimming",
+    "link": "https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html",
+    "description": "A critical security vulnerability impacting the Funnel Builder plugin for WordPress has come under active exploitation in the wild to inject malicious JavaScript code into WooCommerce checkout pages with the goal of stealing payment data. Details of the activity were published by Sansec this week. The vulnerability currently does not have an official CVE identifier. It",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
     "published_at": "2026-05-15T17:10:25+00:00",
     "date": "15-05-2026 17:10 UTC",
     "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
