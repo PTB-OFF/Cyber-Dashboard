@@ -1,5 +1,25 @@
 [
   {
+    "published_at": "2026-05-17T11:57:53+00:00",
+    "date": "17-05-2026 11:57 UTC",
+    "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
+    "link": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
+    "description": "A newly disclosed security flaw impacting NGINX Plus and NGINX Open has come under active exploitation in the wild, days after its public disclosure, according to VulnCheck. The vulnerability, tracked as CVE-2026-42945 (CVSS score: 9.2), is a heap buffer overflow in ngx_http_rewrite_module affecting NGINX versions 0.6.27 through 1.30.0. According to AI-native security company depthfirst, the",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-05-17T07:13:33+00:00",
+    "date": "17-05-2026 07:13 UTC",
+    "title": "Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt",
+    "link": "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html",
+    "description": "Grafana has disclosed that an \"unauthorized party\" obtained a token that granted them the ability to access the company's GitHub environment and download its codebase. \"Our investigation has determined that no customer data or personal information was accessed during this incident, and we have found no evidence of impact to customer systems or operations,\" Grafana said in a series of",
+    "source": "The Hacker News",
+    "type": "Data Breach",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-05-16T15:20:48+00:00",
     "date": "16-05-2026 15:20 UTC",
     "title": "Funnel Builder Flaw Under Active Exploitation Enables WooCommerce Checkout Skimming",
