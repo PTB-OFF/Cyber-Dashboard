@@ -1,5 +1,85 @@
 [
   {
+    "published_at": "2026-05-20T05:12:06+00:00",
+    "date": "20-05-2026 05:12 UTC",
+    "title": "Grafana GitHub Breach Exposes Source Code via TanStack npm Attack",
+    "link": "https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html",
+    "description": "Grafana Labs, on May 19, 2026, said an investigation into its recent breach found no evidence of customer production systems or operations being compromised. It said the scope of the incident is limited to the Grafana Labs GitHub environment, which includes public and private source code along with internal GitHub repositories. \"After the initial assessment, we found that in addition to source",
+    "source": "The Hacker News",
+    "type": "Data Breach",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-20T04:01:15+00:00",
+    "date": "20-05-2026 04:01 UTC",
+    "title": "GitHub Investigating TeamPCP Claimed Breach of ~4,000 Internal Repositories",
+    "link": "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
+    "description": "GitHub on Tuesday said it's investigating unauthorized access to its internal repositories after the notorious threat actor known as TeamPCP listed the platform's source code and internal organizations for sale on a cybercrime forum. \"While we currently have no evidence of impact to customer information stored outside of GitHub's internal repositories (such as our customers' enterprises,",
+    "source": "The Hacker News",
+    "type": "Data Breach",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-19T16:38:12+00:00",
+    "date": "19-05-2026 16:38 UTC",
+    "title": "Trapdoor Android Ad Fraud Scheme Hit 659 Million Daily Bid Requests Using 455 Apps",
+    "link": "https://thehackernews.com/2026/05/trapdoor-android-ad-fraud-scheme-hit.html",
+    "description": "Cybersecurity researchers have disclosed details of a new ad fraud and malvertising operation dubbed Trapdoor targeting Android device users. The activity, per HUMAN's Satori Threat Intelligence and Research Team, encompassed 455 malicious Android apps and 183 threat actor-owned command-and-control (C2) domains, turning the infrastructure into a pipeline for multi-stage fraud. \"Users",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-19T14:56:26+00:00",
+    "date": "19-05-2026 14:56 UTC",
+    "title": "DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability",
+    "link": "https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html",
+    "description": "Proof-of-concept (PoC) exploit code has now been released for a recently patched security flaw in the Linux kernel that could allow for local privilege escalation (LPE). Dubbed DirtyDecrypt (aka DirtyCBC), the vulnerability was discovered and reported by the Zellic and V12 security team on May 9, 2026, only to be informed by the maintainers that it was a duplicate of a vulnerability that had",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-05-19T11:30:00+00:00",
+    "date": "19-05-2026 11:30 UTC",
+    "title": "The New Phishing Click: How OAuth Consent Bypasses MFA",
+    "link": "https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html",
+    "description": "In February 2026, a phishing-as-a-service (PhaaS) platform called EvilTokens went live. Within five weeks, it had compromised more than 340 Microsoft 365 organizations across five countries. The targets of the platform received a message asking them to enter a short code at microsoft.com/devicelogin and complete their normal MFA challenge, then walked away believing they had verified a",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-19T10:44:45+00:00",
+    "date": "19-05-2026 10:44 UTC",
+    "title": "Drupal to Release Urgent Core Security Updates on May 20, Sites Told to Prepare",
+    "link": "https://thehackernews.com/2026/05/drupal-to-release-urgent-core-security.html",
+    "description": "Drupal has issued an alert stating that it intends to release a \"core security release\" for all supported branches on May 20, 2026, from 5-9 p.m. UTC. \"The Drupal Security Team urges you to reserve time for core updates at that time because exploits might be developed within hours or days,\" the maintainers of the PHP-based content management system (CMS) said. \"Not all configurations are",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-05-19T09:23:15+00:00",
+    "date": "19-05-2026 09:23 UTC",
+    "title": "SEPPMail Secure E-Mail Gateway Vulnerabilities Enable RCE and Mail Traffic Access",
+    "link": "https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html",
+    "description": "Critical security vulnerabilities have been disclosed in SEPPMail Secure E-Mail Gateway, an enterprise-grade email security solution, that could be exploited to achieve remote code execution and enable an attacker to read arbitrary mails from the virtual appliance. \"These vulnerabilities could have been exploited to read all mail traffic or as an entry vector into the internal network,\"",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-05-19T07:49:23+00:00",
+    "date": "19-05-2026 07:49 UTC",
+    "title": "Compromised Nx Console 18.95.0 Targeted VS Code Developers with Credential Stealer",
+    "link": "https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html",
+    "description": "Cybersecurity researchers have flagged a compromised version of the Nx Console extension that was published to the Microsoft Visual Studio Code (VS Code) Marketplace. The extension in question is rwl.angular-console (version 18.95.0), a popular user interface and plugin for code editors like VS Code, Cursor, and JetBrains. The VS Code extension has more than 2.2 million installations. The Open",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-05-19T05:28:06+00:00",
     "date": "19-05-2026 05:28 UTC",
     "title": "Popular GitHub Action Tags Redirected to Imposter Commit to Steal CI/CD Credentials",
