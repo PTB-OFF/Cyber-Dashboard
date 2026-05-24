@@ -1,5 +1,65 @@
 [
   {
+    "published_at": "2026-05-23T16:35:10+00:00",
+    "date": "23-05-2026 16:35 UTC",
+    "title": "npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks",
+    "link": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
+    "description": "GitHub has rolled out new controls for npm to improve the security of the software supply chain, giving maintainers the ability to explicitly approve a release prior to the packages becoming publicly available for installation. Called staged publishing, the feature is now generally available on npm. It mandates that a human maintainer pass a two-factor authentication (2FA) challenge to approve",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-23T16:07:51+00:00",
+    "date": "23-05-2026 16:07 UTC",
+    "title": "Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware",
+    "link": "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html",
+    "description": "A new \"coordinated\" supply chain attack campaign has impacted eight packages on Packagist including malicious code designed to run a Linux binary retrieved from a GitHub Releases URL. \"Although the affected packages were all Composer packages, the malicious code was not added to composer.json,\" Socket said. \"Instead, it was inserted into package.json, targeting projects that ship JavaScript",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-23T11:55:35+00:00",
+    "date": "23-05-2026 11:55 UTC",
+    "title": "Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software",
+    "link": "https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html",
+    "description": "Anthropic on Friday disclosed that Project Glasswing has helped uncover more than 10,000 high- or critical-severity vulnerabilities across some of the most \"systemically\" important software across the world since the cybersecurity initiative went live last month. Project Glasswing is a defensive effort launched by the artificial intelligence (AI) company to secure critical global software",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-05-23T09:51:13+00:00",
+    "date": "23-05-2026 09:51 UTC",
+    "title": "Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer",
+    "link": "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
+    "description": "Cybersecurity researchers have flagged a fresh software supply chain attack campaign that has targeted multiple PHP packages belonging to Laravel-Lang to deliver a comprehensive credential-stealing framework. The affected packages include - laravel-lang/lang laravel-lang/http-statuses laravel-lang/attributes laravel-lang/actions \"The timing and pattern of the newly published tags",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-23T07:35:13+00:00",
+    "date": "23-05-2026 07:35 UTC",
+    "title": "LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root",
+    "link": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
+    "description": "A maximum-severity security vulnerability impacting LiteSpeed User-End cPanel Plugin has come under active exploitation in the wild. The flaw, tracked as CVE-2026-48172 (CVSS score: 10.0), relates to an instance of incorrect privilege assignment that an attacker could abuse to run arbitrary scripts with elevated permissions. \"Any cPanel user (including an attacker or a compromised account) may",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-05-23T07:23:48+00:00",
+    "date": "23-05-2026 07:23 UTC",
+    "title": "Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV",
+    "link": "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
+    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a recently patched critical security flaw impacting Drupal Core to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation. The vulnerability in question is CVE-2026-9082 (CVSS score: 6.5), an SQL injection vulnerability affecting all supported versions of Drupal Core. \"Drupal Core",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
     "published_at": "2026-05-22T17:35:02+00:00",
     "date": "22-05-2026 17:35 UTC",
     "title": "First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups",
@@ -14,7 +74,7 @@
     "date": "22-05-2026 16:20 UTC",
     "title": "Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware",
     "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
-    "description": "The Belarus-aligned threat actor known as Ghostwriter (aka UAC-0057 and UNC1151Ukraine's National Security and Defense Council) has been observed using lures related to Prometheus, a Ukrainian online learning platform, to target government organizations in the country. The activity, per the Computer Emergency Response Team of Ukraine (CERT-UA), involves sending phishing emails to government",
+    "description": "The Belarus-aligned threat actor known as Ghostwriter (aka UAC-0057 and UNC1151) has been observed using lures related to Prometheus, a Ukrainian online learning platform, to target government organizations in the country. The activity, per the Computer Emergency Response Team of Ukraine (CERT-UA), involves sending phishing emails to government entities using compromised accounts. It's been",
     "source": "The Hacker News",
     "type": "Other",
     "severity": "LOW"
