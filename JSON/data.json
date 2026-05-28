@@ -1,5 +1,65 @@
 [
   {
+    "published_at": "2026-05-27T16:10:21+00:00",
+    "date": "27-05-2026 16:10 UTC",
+    "title": "Grandoreiro Malware and BTMOB RAT Campaigns Target Windows and Android Users",
+    "link": "https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html",
+    "description": "Latin America and Europe become the target of two banking trojan campaigns that are designed to infect Windows and Android devices with Grandoreiro and BTMOB malware, respectively. That's according to new findings from WatchGuard and ESET, which have observed the two malware families being used to single out companies in Spain, Portugal, and Mexico, as well as mobile users in Brazil. The",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-27T15:44:29+00:00",
+    "date": "27-05-2026 15:44 UTC",
+    "title": "Malicious npm Package Stole Files From Claude AI User Directory via GitHub",
+    "link": "https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html",
+    "description": "Cybersecurity researchers have discovered a new malicious package on the npm registry that comes with information stealing capabilities. According to OX Security, the package, named \"mouse5212-super-formatter,\" is designed to upload files from \"/mnt/user-data,\" a dedicated directory used by Anthropic's Claude artificial intelligence (AI) tool to handle uploads and outputs in the background. The",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-27T13:28:48+00:00",
+    "date": "27-05-2026 13:28 UTC",
+    "title": "5 Steps to Managing Shadow AI Tools Without Slowing Down Employees",
+    "link": "https://thehackernews.com/2026/05/5-steps-to-managing-shadow-ai-tools.html",
+    "description": "When an employee installs an AI writing assistant, connects a coding copilot to their IDE, or starts summarizing meetings with a new browser tool, they are doing exactly what a productive employee should do: finding faster ways to work. Across most organizations today, employees are running three to five AI tools on any given day. Most were never reviewed by IT. A significant portion connects",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-27T11:48:37+00:00",
+    "date": "27-05-2026 11:48 UTC",
+    "title": "GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure",
+    "link": "https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html",
+    "description": "CrowdStrike, in partnership with Google and the Shadowserver Foundation, has announced the simultaneous disruption of all command-and-control (C2) channels associated with GlassWorm, a persistent software chain campaign targeting software developers through malicious packages and extensions. \"Since at least early 2025, GlassWorm operators have systematically targeted software developers, a",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-27T11:45:00+00:00",
+    "date": "27-05-2026 11:45 UTC",
+    "title": "3 SOC Steps that Shut Down Incident Risks Early",
+    "link": "https://thehackernews.com/2026/05/3-soc-steps-that-shut-down-incident.html",
+    "description": "Most organizations still picture cyber defense as a fortress problem: build stronger walls, add more guards, buy another detection engine. But modern incidents rarely crash through the front gate. They drift in disguised as routine activity, hide inside legitimate processes, and quietly accumulate risk long before anyone labels them an \"incident.\" That changes the role of the SOC entirely. The",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-27T10:06:32+00:00",
+    "date": "27-05-2026 10:06 UTC",
+    "title": "Gitea Vulnerability Exposes Private Container Images without Authentication",
+    "link": "https://thehackernews.com/2026/05/gitea-vulnerability-exposes-private.html",
+    "description": "Cybersecurity researchers have disclosed a security flaw in Gitea, an open-source, self-hosted platform for version control, that allows unauthenticated remote attackers to pull private container images from Gitea deployments without requiring an account, password, or other credentials. The vulnerability, tracked as CVE-2026-27771 (CVSS score: 8.2), affects all versions of Gitea prior to 1.26.2",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "MEDIUM"
+  },
+  {
     "published_at": "2026-05-27T07:45:52+00:00",
     "date": "27-05-2026 07:45 UTC",
     "title": "AI Chatbot Recommendations Redirect Users to Cryptojacking Malware Sites",
