@@ -1,5 +1,75 @@
 [
   {
+    "published_at": "2026-05-29T05:57:41+00:00",
+    "date": "29-05-2026 05:57 UTC",
+    "title": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels",
+    "link": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
+    "description": "The North Korean state-sponsored threat actor known as Kimsuky (aka Velvet Chollima) has been attributed to a fresh set of cyber attacks targeting South Korean military and corporate entities through March and April 2026. \"Kimsuky employed a range of tailored social engineering tactics, such as spoofing security software installation pages and crafting a fake Webex meeting page that leveraged",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-28T17:24:44+00:00",
+    "date": "28-05-2026 17:24 UTC",
+    "title": "Critical Gogs RCE Vulnerability Lets Any Authenticated User Execute Arbitrary Code",
+    "link": "https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html",
+    "description": "A critical security vulnerability has been disclosed in Gogs, a popular open-source self-hosted Git service, that allows an authenticated user to execute arbitrary code under certain conditions. The security flaw, per Rapid7, is rated 9.4 on the CVSS scoring system. It does not have a CVE identifier. \"The vulnerability allows any authenticated user to achieve remote code execution (RCE) on",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-05-28T15:26:04+00:00",
+    "date": "28-05-2026 15:26 UTC",
+    "title": "Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer",
+    "link": "https://thehackernews.com/2026/05/threat-actors-exploit-critical.html",
+    "description": "Threat actors are continuing to exploit a critical, now-patched security flaw impacting FortiClient Endpoint Management Server (EMS) deployments to deliver credential-stealing malware. \"The campaign abused trusted endpoint management infrastructure to deliver malware across managed endpoints,\" Arctic Wolf said. \"Threat actors disguised the credential stealer payload as a Fortinet endpoint",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-05-28T13:53:52+00:00",
+    "date": "28-05-2026 13:53 UTC",
+    "title": "Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal",
+    "link": "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
+    "description": "Microsoft has come out strongly in favor of Coordinated Vulnerability Disclosure (CVD), urging the research community to share their findings and give affected vendors an opportunity to better understand the impact and address them before they are publicly disclosed. The development comes after a researcher named Chaotic Eclipse (aka Nightmare-Eclipse) disclosed details of multiple zero-day",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-05-28T13:33:16+00:00",
+    "date": "28-05-2026 13:33 UTC",
+    "title": "ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More",
+    "link": "https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html",
+    "description": "Every time you think the industry has finally stopped doing some reckless, low-effort crap, somebody spins up a fresh box full of sketchy loaders, fake installers, recycled social-engineering bait, and enough exposed infrastructure to make you wonder if prod is just a public beta now - meanwhile some researcher casually drops a technique that turns a \"minor\" foothold into total account",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-28T11:30:00+00:00",
+    "date": "28-05-2026 11:30 UTC",
+    "title": "New AI Usage Report: Enterprise AI Risk Is Heavily Concentrated Among a Small Group of AI \"Power users\"",
+    "link": "https://thehackernews.com/2026/05/new-ai-usage-report-enterprise-ai-risk.html",
+    "description": "State of AI Usage Report 2026 (full report here) by LayerX Security reveals the extent of the enterprise AI visibility gap and why most organizations still don't understand where their AI exposure is actually coming from. The research shows that enterprise AI risk is not distributed evenly across users or platforms. Instead, it is heavily concentrated among a small group of AI power users and a",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-28T07:54:48+00:00",
+    "date": "28-05-2026 07:54 UTC",
+    "title": "JINX-0164 Targets Cryptocurrency Firms with Fake Recruiter Lures and macOS Malware",
+    "link": "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
+    "description": "A new campaign orchestrated by a previously undocumented threat actor has targeted cryptocurrency organizations with an aim to facilitate digital asset theft using recruitment-themed social engineering and bespoke macOS malware. \"These campaigns leveraged sophisticated social engineering techniques, custom macOS malware, and deep targeting of CI/CD infrastructure,\" Wiz researchers Shira Ayal,",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-05-27T16:10:21+00:00",
     "date": "27-05-2026 16:10 UTC",
     "title": "Grandoreiro Malware and BTMOB RAT Campaigns Target Windows and Android Users",
