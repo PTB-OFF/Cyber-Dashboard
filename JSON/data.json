@@ -1,5 +1,65 @@
 [
   {
+    "published_at": "2026-05-30T06:41:26+00:00",
+    "date": "30-05-2026 06:41 UTC",
+    "title": "PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation",
+    "link": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
+    "description": "Palo Alto Networks has warned that a recently disclosed medium-severity security flaw impacting PAN-OS and Prisma Access has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-0257 (CVSS score: 7.8), refers to a case of authentication bypass that could be exploited by bad actors to set up VPN connections. \"Authentication bypass vulnerabilities in the",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-05-29T18:07:12+00:00",
+    "date": "29-05-2026 18:07 UTC",
+    "title": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface",
+    "link": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html",
+    "description": "Cybersecurity researchers have disclosed details of a vulnerability in OpenAI ChatGPT that leverages the artificial intelligence (AI) assistant's implicit trust in Markdown links and images to trigger prompt injections and open the door to phishing attacks. The technique has been codenamed ChatGPhish by Permiso Security. \"The chatgpt.com response renderer trusts Markdown links and Markdown",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-05-29T14:39:56+00:00",
+    "date": "29-05-2026 14:39 UTC",
+    "title": "Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit",
+    "link": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
+    "description": "An unknown threat actor has been observed using a large language model (LLM) agent to conduct post-compromise actions after obtaining initial access following the exploitation of a publicly-accessible Marimo network using a recently disclosed vulnerability. \"The attacker compromised an internet-reachable Marimo notebook via CVE-2026-39987, extracted two cloud credentials from the compromised",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-05-29T11:31:59+00:00",
+    "date": "29-05-2026 11:31 UTC",
+    "title": "New Russia-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks",
+    "link": "https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html",
+    "description": "A previously undocumented threat actor dubbed GREYVIBE has been attributed to ongoing and persistent attacks targeting Ukraine and Ukraine-related entities since at least August 2025. GREYVIBE, per WithSecure, is assessed to be a Russian-speaking group operating broadly in the Russian time zone, with the activities aligning with Kremlin state interests, specifically when it comes to",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-29T10:30:00+00:00",
+    "date": "29-05-2026 10:30 UTC",
+    "title": "What 2,000 Exposed Vibe-Coded Apps Reveal About the Limits of Most Security Stacks",
+    "link": "https://thehackernews.com/2026/05/what-2000-exposed-vibe-coded-apps.html",
+    "description": "Shadow AI used to mean employees pasting things they shouldn't into ChatGPT. It now means something bigger: employees building full applications with AI, wiring them into production systems, and publishing them on the open internet. Without Security or IT in the loop. The artifact moved from a prompt to a product. The risk surface moved with it. In The Shadow Builders report (get it here), a",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-05-29T09:11:25+00:00",
+    "date": "29-05-2026 09:11 UTC",
+    "title": "Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets",
+    "link": "https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html",
+    "description": "Cybersecurity researchers have discovered a malicious NuGet package that masquerades as a C# software development kit for Sicoob, one of Brazil's largest cooperative financial systems, to siphon client IDs and PFX certificates. According to Socket, versions 2.0.0 through 2.0.4 of \"Sicoob.Sdk\" contain functionality to exfiltrate sensitive information, including PFX certificates that are used to",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-05-29T05:57:41+00:00",
     "date": "29-05-2026 05:57 UTC",
     "title": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels",
