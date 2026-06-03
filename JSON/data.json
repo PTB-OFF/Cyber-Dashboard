@@ -1,5 +1,75 @@
 [
   {
+    "published_at": "2026-06-03T06:16:54+00:00",
+    "date": "03-06-2026 06:16 UTC",
+    "title": "Weedhack Attacks Minecraft Users, CountLoader Hits 86K, Miners Spread via Pirated Content",
+    "link": "https://thehackernews.com/2026/06/weedhack-attacks-minecraft-users.html",
+    "description": "Cybersecurity researchers have flagged a new campaign targeting Minecraft players via YouTube to spread malware capable of gaining control of victims' systems. The Minecraft-focused malware-as-a-service (MaaS) campaign has been codenamed Weedhack by McAfee Labs, stating the activity has been active since January 2026 and impersonates Minecraft clients and mods to infect users. In all, 3820",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-02T18:46:00+00:00",
+    "date": "02-06-2026 18:46 UTC",
+    "title": "Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited",
+    "link": "https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html",
+    "description": "Google on Monday released patches for 124 security vulnerabilities impacting its Android operating system for the month of June 2026, including one high-severity flaw in the Framework component that has come under active exploitation. Tracked as CVE-2025-48595 (CVSS score: 8.4), the security flaw has been described as a case of privilege escalation without requiring any user interaction. The",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-06-02T18:21:49+00:00",
+    "date": "02-06-2026 18:21 UTC",
+    "title": "Gamaredon Exploits WinRAR to Deliver GammaWorm and GammaSteel Against Ukraine",
+    "link": "https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html",
+    "description": "The Russian hacking group known as Gamaredon has been attributed to the continued exploitation of a WinRAR vulnerability to deliver multiple malware families aimed at data theft and propagation. Per Sekoia, the activity involves the weaponization of CVE-2025-8088, a path traversal flaw in WinRAR, to launch an HTML Application payload dubbed GammaPhish, which is then used to retrieve an",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-06-02T18:14:42+00:00",
+    "date": "02-06-2026 18:14 UTC",
+    "title": "Oracle WebLogic CVE-2024-21182 Added to KEV Catalog After Active Exploitation",
+    "link": "https://thehackernews.com/2026/06/oracle-weblogic-cve-2024-21182-added-to.html",
+    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting Oracle WebLogic Server to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. The vulnerability, CVE-2024-21182 (CVSS score: 7.5), allows an unauthenticated attacker with network access to take control of susceptible servers. It was",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-06-02T11:58:00+00:00",
+    "date": "02-06-2026 11:58 UTC",
+    "title": "AI-Driven Exploitation is Destroying Vulnerability Management. Here’s How to Handle It.",
+    "link": "https://thehackernews.com/2026/06/ai-driven-exploitation-is-destroying.html",
+    "description": "AI-driven exploitation timelines are rapidly shrinking, and they are not going to stop shrinking. Vulnerabilities are being discovered, reproduced, and weaponized faster than ever in the history of enterprise security. As a result, the window between a vulnerability being disclosed and indiscriminate exploitation observed across the internet is now measured in hours, not days. The industry's",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-06-02T10:30:00+00:00",
+    "date": "02-06-2026 10:30 UTC",
+    "title": "How Leading Organizations Are Turning EDR Into Operational Resilience",
+    "link": "https://thehackernews.com/2026/06/how-leading-organizations-are-turning.html",
+    "description": "Most organizations now recognize that endpoint protection alone is no longer sufficient. That's why adoption of endpoint detection and response (EDR) has accelerated rapidly in recent years. Organizations understand that modern attacks move faster, evade traditional prevention controls, and require continuous visibility into suspicious activity across the environment. But owning EDR",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-02T09:05:40+00:00",
+    "date": "02-06-2026 09:05 UTC",
+    "title": "Pakistan-Linked SideCopy Targets Afghanistan Finance Ministry with Xeno RAT",
+    "link": "https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html",
+    "description": "Cybersecurity researchers have disclosed details of a spear-phishing campaign likely undertaken by the Pakistan-aligned SideCopy group targeting Afghanistan's Ministry of Finance with an open-source remote access trojan called Xeno RAT. \"The campaign opens with a spear phishing delivery - a ZIP archive containing a malicious LNK file bearing a carefully crafted Pashto-language filename,\"",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-06-02T03:55:25+00:00",
     "date": "02-06-2026 03:55 UTC",
     "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
