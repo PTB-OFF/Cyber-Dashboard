@@ -1,5 +1,95 @@
 [
   {
+    "published_at": "2026-06-12T06:38:41+00:00",
+    "date": "12-06-2026 06:38 UTC",
+    "title": "Europol Disrupts AudiA6 Crypto Laundering Service Used by Ransomware Gangs",
+    "link": "https://thehackernews.com/2026/06/europol-disrupts-audia6-crypto.html",
+    "description": "Authorities in Europe have disrupted AudiA6, a cryptocurrency laundering service used by ransomware gangs and cybercriminal networks. Europol, in a statement issued Thursday, said the dismantling of AudiA6 cut off a \"key financial pipeline used to wash hundreds of millions in illicit profits.\" The service is estimated to have been used to launder more than €336 million (~$389 million) since the",
+    "source": "The Hacker News",
+    "type": "Ransomware",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-11T20:29:23+00:00",
+    "date": "11-06-2026 20:29 UTC",
+    "title": "ShinyHunters Exploits Oracle PeopleSoft Zero-Day (CVE-2026-35273) to Breach Universities",
+    "link": "https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html",
+    "description": "The ShinyHunters extortion crew exploited an unpatched flaw in Oracle PeopleSoft to break into enterprise systems, steal data, and demand payment to keep it private. The campaign hit universities hardest. Google's Mandiant attributes it to the group it tracks as UNC6240, and dates the activity between May 27 and June 9. Oracle did not publish its advisory until June 10, so the bug was a",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-06-11T17:46:32+00:00",
+    "date": "11-06-2026 17:46 UTC",
+    "title": "New Attacks Trick OpenClaw AI Agent Into Running Code and Leaking Secrets",
+    "link": "https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html",
+    "description": "Two security teams have shown, in separate research published this week, that OpenClaw, the popular self-hosted AI agent, can be driven to run attacker-controlled code or hand over sensitive data through ordinary-looking inputs. Imperva buried instructions inside shared contacts, vCards, and location pins that the agent executed without the victim ever seeing them. Varonis built a test agent on",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-11T17:43:52+00:00",
+    "date": "11-06-2026 17:43 UTC",
+    "title": "New GreatXML Exploit Bypasses Windows BitLocker via Recovery Partition XML Files",
+    "link": "https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html",
+    "description": "Security researcher Chaotic Eclipse (aka Nightmare-Eclipse and MSNightmare) has released a new Windows BitLocker bypass dubbed GreatXML, a day after they published an exploit for Microsoft Defender. \"This was an accidental discovery, it took a total of 4 hours to find this,\" the researcher said in a post on Blogger. \"If you ever attempted to use Windows Defender Offline Scan, you're",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-11T16:50:47+00:00",
+    "date": "11-06-2026 16:50 UTC",
+    "title": "The Gentlemen Ransomware Claims 478 Victims, Can Spread Like a Worm",
+    "link": "https://thehackernews.com/2026/06/the-gentlemen-ransomware-claims-478.html",
+    "description": "A new analysis of The Gentlemen operation has revealed that the financially motivated threat group initially operated as an affiliate responsible for conducting double extortion attacks, while leveraging resources from various ransomware-as-a-service (RaaS) schemes like LockBit (aka Tenacious Mantis), Qilin (aka Pestilent Mantis), and Medusa (aka Venomous Mantis). According to a detailed report",
+    "source": "The Hacker News",
+    "type": "Ransomware",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-11T13:26:13+00:00",
+    "date": "11-06-2026 13:26 UTC",
+    "title": "Cybersecurity Stars Awards 2026: Winners Announced Across 95 Categories",
+    "link": "https://thehackernews.com/2026/06/cybersecurity-stars-awards-2026-winners.html",
+    "description": "Most good security work is invisible by design. Today is the exception. The 2026 Cybersecurity Stars Awards winners are announced across 95 subcategories in four main award categories. The reason is simple. Cybersecurity is full of work that deserves recognition and rarely gets it. Products that quietly close real gaps. Teams that stop incidents nobody reads about. Companies that raise the",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-11T13:20:41+00:00",
+    "date": "11-06-2026 13:20 UTC",
+    "title": "ThreatsDay Bulletin: Worm Code Leaked, AI Agent Phished, Claude Code Patch + 28 New Stories",
+    "link": "https://thehackernews.com/2026/06/threatsday-bulletin-worm-code-leaked-ai.html",
+    "description": "It's been one of those weeks. You expect the usual noise: recycled malware, sloppy attacks, another easy target getting hit. Instead, there's a supply chain attack kit in a public repo, a $5,000-a-month RAT that clones browsers, and research showing AI agents can be tricked into leaking real credentials. The bigger problem is how polished this all looks now. Mule networks run like SaaS.",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-11T11:30:00+00:00",
+    "date": "11-06-2026 11:30 UTC",
+    "title": "AI Broke Vulnerability Management. That's Why CISOs Are Moving Budget to BAS.",
+    "link": "https://thehackernews.com/2026/06/ai-broke-vulnerability-management-thats.html",
+    "description": "For thirty years, vulnerability management ran on a buffer: the months between when a vulnerability was found and when someone could figure out how to weaponize it. The solution was straightforward enough; triage by severity, schedule the fix, validate, and move on. The buffer was what made that work. Today, that buffer is gone. AI didn't make your team slower. It changed the other side of the",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-06-11T09:45:58+00:00",
+    "date": "11-06-2026 09:45 UTC",
+    "title": "OceanLotus Hits Vietnam Investors With SPECTRALVIPER in FireAnt Attack",
+    "link": "https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html",
+    "description": "The Vietnam-aligned threat actor known as OceanLotus has been attributed to two distinct campaigns that targeted domestic entities and stock investors with a backdoor known as SPECTRALVIPER. The campaigns involve a prolonged cyber espionage operation aimed at a Vietnamese infrastructure and transport construction corporation between mid-2024 and February 2026, as well as a supply chain attack",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-06-11T06:23:03+00:00",
     "date": "11-06-2026 06:23 UTC",
     "title": "GitHub to Disable npm Install Scripts by Default to Stop Supply Chain Attacks",
@@ -32,9 +122,9 @@
   {
     "published_at": "2026-06-10T15:00:59+00:00",
     "date": "10-06-2026 15:00 UTC",
-    "title": "Unpatched Langflow Flaw CVE-2026-5027 Exploited for Unauthenticated RCE",
+    "title": "Langflow Vulnerability CVE-2026-5027 Exploited for Unauthenticated RCE",
     "link": "https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html",
-    "description": "A high-severity unpatched security flaw in Langflow, an open-source low-code platform to build artificial intelligence (AI) applications, has come under active exploitation in the wild, according to findings from VulnCheck. The vulnerability in question is CVE-2026-5027 (CVSS score: 8.8), a case of path traversal that could allow an attacker to write files to arbitrary locations. \"The 'POST /",
+    "description": "A high-severity security flaw in Langflow, an open-source low-code platform to build artificial intelligence (AI) applications, has come under active exploitation in the wild, according to findings from VulnCheck. The vulnerability in question is CVE-2026-5027 (CVSS score: 8.8), a case of path traversal that could allow an attacker to write files to arbitrary locations. \"The 'POST /api/v2/",
     "source": "The Hacker News",
     "type": "CVE",
     "severity": "MEDIUM"
