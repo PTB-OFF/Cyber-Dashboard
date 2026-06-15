@@ -1,5 +1,25 @@
 [
   {
+    "published_at": "2026-06-15T06:30:22+00:00",
+    "date": "15-06-2026 06:30 UTC",
+    "title": "Sniper Dz Scams Target MENA Users via Fake Facebook Offers and Browser Alerts",
+    "link": "https://thehackernews.com/2026/06/sniper-dz-scams-target-mena-users-via.html",
+    "description": "Cybersecurity researchers have disclosed details of fraudulent activity targeting users across the Middle East and North Africa by employing various fraudulent Facebook accounts impersonating politicians, public figures, and trusted organizations. \"These accounts promoted fake offers, including free mobile internet packages, financial compensation, and government subsidy programs,\" Group-IB",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-06-15T06:17:32+00:00",
+    "date": "15-06-2026 06:17 UTC",
+    "title": "Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw",
+    "link": "https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html",
+    "description": "Palo Alto Networks has revealed that it has observed \"active exploitation\" of a recently disclosed PAN-OS vulnerability by an unknown threat actor to obtain unauthorized access to GlobalProtect portals. The vulnerability in question is CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw affecting the portal and gateway components of PAN-OS software that could be exploited by bad",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "MEDIUM"
+  },
+  {
     "published_at": "2026-06-13T13:23:03+00:00",
     "date": "13-06-2026 13:23 UTC",
     "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication",
