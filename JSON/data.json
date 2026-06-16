@@ -1,5 +1,115 @@
 [
   {
+    "published_at": "2026-06-16T08:14:55+00:00",
+    "date": "16-06-2026 08:14 UTC",
+    "title": "Fake Microsoft Alerts Used to Deploy North Korean NarwhalRAT Malware",
+    "link": "https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html",
+    "description": "The North Korean state-sponsored hacking group known as ScarCruft (aka APT37) has been observed using spear-phishing messages impersonating Microsoft Account security notifications to deliver malware called NarwhalRAT. \"The attack email contained a message impersonating an MS account security alert,\" the Genians Security Center (GSC) said. \"It was designed to create concern over possible",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-06-16T06:05:58+00:00",
+    "date": "16-06-2026 06:05 UTC",
+    "title": "Cisco Releases Security Updates for Actively Exploited SD-WAN Manager Flaw",
+    "link": "https://thehackernews.com/2026/06/cisco-releases-security-updates-for.html",
+    "description": "Cisco has released security updates for a medium-severity security flaw in Catalyst SD-WAN Manager that has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-20262, carries a CVSS score of 6.5 out of 10.0. \"A vulnerability in the web UI of Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, could allow an authenticated, remote attacker to create a file or",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-06-16T05:41:52+00:00",
+    "date": "16-06-2026 05:41 UTC",
+    "title": "CISA Flags LiteSpeed cPanel Plugin Flaw Exploited for Root Privilege Escalation",
+    "link": "https://thehackernews.com/2026/06/cisa-flags-litespeed-cpanel-plugin-flaw.html",
+    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw impacting LiteSpeed cPanel Plugin to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by June 18, 2026. The vulnerability in question is CVE-2026-54420 (CVSS score: 8.5), which has been described as a case of privilege",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-06-15T19:44:06+00:00",
+    "date": "15-06-2026 19:44 UTC",
+    "title": "Chinese Hackers Abused Google Workspace Rules to Steal Research and Defense Emails",
+    "link": "https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html",
+    "description": "A China-linked espionage group hid inside North American medical, academic, and military research networks for more than a year, quietly stealing sensitive research and defense email. The way in was a backdoor on their REDCap research servers that stole login credentials. The exfiltration was the unusual part: the attackers rewired the victims' own Google Workspace rules to copy any message",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-15T19:32:52+00:00",
+    "date": "15-06-2026 19:32 UTC",
+    "title": "North Korean Hackers Are Turning Developer Tools Into Malware Delivery Channels",
+    "link": "https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html",
+    "description": "Cybersecurity researchers have flagged two malicious cyber campaigns that exhibit similarities with a persistent North Korean threat cluster known as Contagious Interview (aka Famous Chollima, HexagonalRodent, and Void Dokkaebi). According to a report published by Proofpoint, the threat actor has been found orchestrating phishing campaigns using developer role recruitment or code review themes",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-15T16:39:01+00:00",
+    "date": "15-06-2026 16:39 UTC",
+    "title": "LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers",
+    "link": "https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html",
+    "description": "A default low-privilege account on a LiteLLM proxy can climb to full admin and run code on the server by chaining three vulnerabilities, researchers at Obsidian Security disclosed LiteLLM is a widely deployed open-source AI gateway that brokers calls to more than 100 model providers behind one OpenAI-compatible interface. A server takeover exposes every provider key it holds, the secrets that",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-06-15T15:09:05+00:00",
+    "date": "15-06-2026 15:09 UTC",
+    "title": "One-Click Microsoft 365 Copilot Flaw Could Have Let Attackers Steal Emails, Files, and MFA Codes",
+    "link": "https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html",
+    "description": "A single click on a trusted Microsoft link could have let an attacker pull emails, calendar details, and indexed files out of Microsoft 365 Copilot Enterprise Search. Researchers at Varonis Threat Labs chained three bugs into a one-click exfiltration path they call SearchLeak. Because the link pointed to a real microsoft.com domain, traditional anti-phishing and URL filtering tools were",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-15T13:49:29+00:00",
+    "date": "15-06-2026 13:49 UTC",
+    "title": "⚡ Weekly Recap: Chrome 0-Day, UniFi Exploits, macOS Stealers, VPN Flaw and More",
+    "link": "https://thehackernews.com/2026/06/weekly-recap-chrome-0-day-unifi.html",
+    "description": "Stuff broke again. Not in a movie way. An old tool was left exposed. An abandoned package was abused. A deprecated feature was still running in prod. This week is the same lesson in a new form: phishing kits are easier to rent, AI names are useful bait, old login paths still fail, and forgotten software keeps becoming someone else's entry point. Scroll through the full Monday Cybersecurity",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-15T11:30:00+00:00",
+    "date": "15-06-2026 11:30 UTC",
+    "title": "The Onboarding Password Mistake That Creates Unnecessary Risk",
+    "link": "https://thehackernews.com/2026/06/the-onboarding-password-mistake-that.html",
+    "description": "Employee onboarding is a busy time for IT teams. New starters need devices, accounts, access permissions, and passwords, all delivered within a tight timeframe. That usually means sharing a temporary \"first-day\" password so employees can access systems for the first time. The issue is that these passwords don't always stay temporary. They may be sent over email or SMS, reused across accounts,",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-15T11:07:50+00:00",
+    "date": "15-06-2026 11:07 UTC",
+    "title": "152 Chrome Wallpaper Extensions with 105K Installs Linked to Adware and Fake Traffic",
+    "link": "https://thehackernews.com/2026/06/152-chrome-wallpaper-extensions-with.html",
+    "description": "Cybersecurity researchers have discovered a network of 152 Google Chrome extensions that act as new tab live wallpaper add-ons to distribute a potentially unwanted program (PUP) family. The cluster spans 38 separate Chrome Web Store publisher accounts and three brand backends: tabplugins[.]com, yowgames[.]com, and chromewallpaper[.]com. They have been collectively installed 105,000 times. The",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-15T09:59:38+00:00",
+    "date": "15-06-2026 09:59 UTC",
+    "title": "Popular WordPress Plugin Scripts Tampered to Plant Hidden Backdoors on Sites",
+    "link": "https://thehackernews.com/2026/06/popular-wordpress-plugin-scripts.html",
+    "description": "An attacker tampered with trusted JavaScript files used by WordPress sites running PushEngage, OptinMonster, and TrustPulse, turning those files into a way to break into the sites. When a site administrator was logged in as the file loaded, the code created an admin account under the attacker's control and installed a hidden plugin that opened a way back in. Ordinary visitors did not trigger it",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-06-15T06:30:22+00:00",
     "date": "15-06-2026 06:30 UTC",
     "title": "Sniper Dz Scams Target MENA Users via Fake Facebook Offers and Browser Alerts",
