@@ -1,5 +1,95 @@
 [
   {
+    "published_at": "2026-06-23T05:38:40+00:00",
+    "date": "23-06-2026 05:38 UTC",
+    "title": "WhatsApp VBScript Campaign Uses Fake Documents to Install ManageEngine RMM Tool",
+    "link": "https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html",
+    "description": "Direct messages sent via WhatsApp are being used to distribute malicious Visual Basic Script (VBScript) files that lead to the installation of legitimate Remote Monitoring and Management (RMM) software. Per findings from Kaspersky, the active campaign is targeting users of WhatsApp Desktop and WhatsApp Web across Malaysia, Brazil, India, Mexico, Singapore, the U.K., Spain, Taiwan, Australia,",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-23T03:56:58+00:00",
+    "date": "23-06-2026 03:56 UTC",
+    "title": "OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws",
+    "link": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
+    "description": "OpenAI on Monday said it's releasing an improved version of its GPT‑5.5‑Cyber model to trusted defenders as part of the Daybreak initiative the artificial intelligence (AI) company announced last month. Calling GPT‑5.5‑Cyber its \"strongest model yet for finding and helping patch software vulnerabilities,\" OpenAI said the model can \"sustain deeper analysis across large codebases\" to",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-22T18:00:48+00:00",
+    "date": "22-06-2026 18:00 UTC",
+    "title": "ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack",
+    "link": "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html",
+    "description": "Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack after unknown threat actors managed to tamper with the official release channels and push backdoor code. \"Attackers compromised the vendor's build and distribution pipeline, injecting backdoor code into Pro plugin releases distributed through official licensed update channels,\" Wordfence said in an analysis",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-22T16:13:28+00:00",
+    "date": "22-06-2026 16:13 UTC",
+    "title": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants",
+    "link": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
+    "description": "Cybersecurity researchers have disclosed details of four vulnerabilities in Dify, an open-source agentic workflow platform with more than 146,000 GitHub stars, that could allow attackers to stealthily read artificial intelligence (AI) conversions from other customers' applications without requiring authentication. The vulnerabilities have been collectively codenamed DifyTap by Zafran Security.",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-22T14:29:46+00:00",
+    "date": "22-06-2026 14:29 UTC",
+    "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
+    "link": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
+    "description": "A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the same proxy. The bug traces to a 1997 FTP-parsing change and is still live in Squid's default configuration. Researchers at Calif.io disclosed it in June and named it Squidbleed (",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-22T13:20:12+00:00",
+    "date": "22-06-2026 13:20 UTC",
+    "title": "New OXLOADER Loader Uses Malicious Google Ads to Deliver CastleStealer",
+    "link": "https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html",
+    "description": "Cybersecurity researchers have disclosed details of a new campaign that delivers CastleStealer by means of a previously unreported malware loader dubbed OXLOADER. According to Elastic Security Labs, the campaign leverages malicious Google Ads as a starting point to distribute the malware. Evidence indicates that the threat actor is likely Russian-speaking and financially motivated, owing to the",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-22T12:45:08+00:00",
+    "date": "22-06-2026 12:45 UTC",
+    "title": "Google Sets Sept. 30 Deadline for Android Developer Verification in Four Countries",
+    "link": "https://thehackernews.com/2026/06/google-sets-sept-30-deadline-for.html",
+    "description": "Google has set September 30, 2026, as the day it begins enforcing Android developer verification in the first four countries, and the major device-maker app stores are in from the start. On that date, certified Android phones in Brazil, Indonesia, Singapore, and Thailand will block normal installs of apps whose developers have not registered an identity with Google, whether the app",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-22T11:58:00+00:00",
+    "date": "22-06-2026 11:58 UTC",
+    "title": "Stop Your Legacy Infrastructure from Hijacking Your AI Agents",
+    "link": "https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html",
+    "description": "Earlier this month, I spoke at the Gartner Security & Risk Management Summit about a blind spot most security programs are still not accounting for - how attackers are circumventing AI security programs by using legacy infrastructure to hijack AI agents. AI adoption is moving faster than security programs can account for. Roughly 71% of organizations are piloting AI agents across their",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-22T10:55:10+00:00",
+    "date": "22-06-2026 10:55 UTC",
+    "title": "⚡ Weekly Recap: Browser Bugs, EDR Killers, TV Botnet, OpenBSD Flaw, Android Trojan, and More",
+    "link": "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html",
+    "description": "It’s Monday again. This week’s threat list looks painfully familiar: abused integrations, fake tools, poisoned websites, ransomware crews trying to shut down security tools, and mobile malware asking for way too much control. The annoying part is how little of this feels new. Weak credentials, sketchy downloads, browser extensions with too much access, and WordPress sites are used to push more",
+    "source": "The Hacker News",
+    "type": "Ransomware",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-06-22T09:11:37+00:00",
     "date": "22-06-2026 09:11 UTC",
     "title": "Canada’s Spy Agency Used First-of-Its-Kind Warrant to Clean Botnet-Infected Devices",
