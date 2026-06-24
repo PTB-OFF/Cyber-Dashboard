@@ -1,5 +1,75 @@
 [
   {
+    "published_at": "2026-06-24T06:50:38+00:00",
+    "date": "24-06-2026 06:50 UTC",
+    "title": "Cisco Unified CM Flaw Exploited After PoC Reveals File-Write Path to Root",
+    "link": "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html",
+    "description": "Threat actors have begun to exploit a recently disclosed critical security flaw impacting Cisco Unified Communications Manager (Unified CM) and Unified Communications Manager Session Management Edition (Unified CM SME). The vulnerability, tracked as CVE-2026-20230 (CVSS score: 8.6), is a case of improper input validation for specific HTTP requests that could allow an unauthenticated, remote",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-06-23T18:20:49+00:00",
+    "date": "23-06-2026 18:20 UTC",
+    "title": "FortiBleed Targeted FortiGate Firewalls in 110 Million-Credential Harvesting Operation",
+    "link": "https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html",
+    "description": "A Russian-speaking initial access broker (IAB) driven by financial gain is assessed to be behind a large-scale credential-harvesting operation known as FortiBleed that has targeted over 430,000 FortiGate firewalls globally. The campaign, active since February 2026, involves collecting credential lists, searching for exposed services, brute-forcing accessible systems, and deploying bespoke",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-23T15:16:43+00:00",
+    "date": "23-06-2026 15:16 UTC",
+    "title": "Fake AI Agent Skill Passed Security Scans and Reportedly Reached 26,000 Agents",
+    "link": "https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html",
+    "description": "Security firm AIR built a fake AI agent skill, pushed it through a popular skill marketplace and an Instagram ad, and says it reached roughly 26,000 agents, including some on corporate accounts. Every skill security scanner the firm tested it against marked it safe. The payload was harmless by design: it collected the user's email address and did nothing else. The point was to show",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-23T15:16:40+00:00",
+    "date": "23-06-2026 15:16 UTC",
+    "title": "Trump Order Sets 2030 Deadline for Federal Post-Quantum Crypto Migration",
+    "link": "https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html",
+    "description": "President Trump signed an executive order on June 22 setting hard deadlines for federal agencies to move high-value assets and high-impact systems to post-quantum cryptography. Key establishment must move by December 31, 2030; digital signatures by December 31, 2031. EO 14409 leaves national security systems on a separate track. The deadlines matter because of a threat that does not",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-23T14:22:03+00:00",
+    "date": "23-06-2026 14:22 UTC",
+    "title": "GitHub Updates actions/checkout to Block Common Pwn Request Attack Patterns",
+    "link": "https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html",
+    "description": "GitHub is moving to strengthen software supply chain security by updating \"actions/checkout\" to block pwn request attacks that exploit the risky use of the \"pull_request_target workflow\" trigger to run malicious code with the workflow's full privileges. Effective June 18, 2026, the latest version of \"actions/checkout,\" the official GitHub action for checking out a repository into the",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-23T11:30:00+00:00",
+    "date": "23-06-2026 11:30 UTC",
+    "title": "Agentic AI: The Weapon That No Longer Needs a Warrior",
+    "link": "https://thehackernews.com/2026/06/agentic-ai-weapon-that-no-longer-needs.html",
+    "description": "Every weapon begins as an extension of the hand that holds it. The spear lengthened the reach of the arm. The bow sent the point flying without the throw. The rifle placed a man's death a quarter mile beyond his sight, and the aircraft carried that death across oceans. At each turn, the distance between the warrior and the wound grew wider, and yet one thing never moved: a human chose the target",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-23T08:54:32+00:00",
+    "date": "23-06-2026 08:54 UTC",
+    "title": "Malicious npm Packages Pose as PostCSS Tools to Deliver Windows RAT",
+    "link": "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html",
+    "description": "Cybersecurity researchers have discovered a set of malicious npm packages that are designed to deliver a Windows-based remote access trojan (RAT). The list of identified packages, is below - aes-decode-runner-pro (145 downloads) postcss-minify-selector (256 downloads) postcss-minify-selector-parser (615 downloads) All the packages were published over the past month by an npm user named",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-06-23T05:38:40+00:00",
     "date": "23-06-2026 05:38 UTC",
     "title": "WhatsApp VBScript Campaign Uses Fake Documents to Install ManageEngine RMM Tool",
@@ -30,21 +100,21 @@
     "severity": "LOW"
   },
   {
-    "published_at": "2026-06-22T16:13:28+00:00",
-    "date": "22-06-2026 16:13 UTC",
-    "title": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants",
-    "link": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
-    "description": "Cybersecurity researchers have disclosed details of four vulnerabilities in Dify, an open-source agentic workflow platform with more than 146,000 GitHub stars, that could allow attackers to stealthily read artificial intelligence (AI) conversions from other customers' applications without requiring authentication. The vulnerabilities have been collectively codenamed DifyTap by Zafran Security.",
+    "published_at": "2026-06-22T16:29:00+00:00",
+    "date": "22-06-2026 16:29 UTC",
+    "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
+    "link": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
+    "description": "A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the same proxy. The bug traces to a 1997 FTP-parsing change and is still live in Squid's default configuration. Researchers at Calif.io disclosed it in June and named it Squidbleed (",
     "source": "The Hacker News",
     "type": "Other",
     "severity": "LOW"
   },
   {
-    "published_at": "2026-06-22T14:29:46+00:00",
-    "date": "22-06-2026 14:29 UTC",
-    "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
-    "link": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
-    "description": "A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the same proxy. The bug traces to a 1997 FTP-parsing change and is still live in Squid's default configuration. Researchers at Calif.io disclosed it in June and named it Squidbleed (",
+    "published_at": "2026-06-22T16:13:28+00:00",
+    "date": "22-06-2026 16:13 UTC",
+    "title": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants",
+    "link": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
+    "description": "Cybersecurity researchers have disclosed details of four vulnerabilities in Dify, an open-source agentic workflow platform with more than 146,000 GitHub stars, that could allow attackers to stealthily read artificial intelligence (AI) conversions from other customers' applications without requiring authentication. The vulnerabilities have been collectively codenamed DifyTap by Zafran Security.",
     "source": "The Hacker News",
     "type": "Other",
     "severity": "LOW"
