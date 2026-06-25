@@ -1,5 +1,65 @@
 [
   {
+    "published_at": "2026-06-25T05:46:54+00:00",
+    "date": "25-06-2026 05:46 UTC",
+    "title": "Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access",
+    "link": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
+    "description": "An unknown threat actor exploited a recently disclosed high-severity security flaw impacting Cisco Catalyst SD-WAN as a zero-day at least two months before it was publicly disclosed, according to new findings from Google-owned Mandiant. The vulnerability, tracked as CVE-2026-20245 (CVSS score: 7.8), allows an authenticated, local attacker to execute arbitrary commands with elevated privileges",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-06-24T17:19:18+00:00",
+    "date": "24-06-2026 17:19 UTC",
+    "title": "CISA Warns Critical Lantronix EDS5000 Flaw Is Being Actively Exploited",
+    "link": "https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html",
+    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation of a critical security flaw impacting Lantronix EDS5000 Series devices, urging Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by June 26, 2026. The vulnerability in question is CVE-2025-67038 (CVSS score: 9.8), a code injection flaw that could result in the execution",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-06-24T15:59:50+00:00",
+    "date": "24-06-2026 15:59 UTC",
+    "title": "Amadey and StealC Malware Network Disrupted, 27M Stolen Credentials Recovered",
+    "link": "https://thehackernews.com/2026/06/amadey-and-stealc-malware-network.html",
+    "description": "A coordinated law enforcement operation, in partnership with private sector companies, including Bitdefender, Bitsight, ESET, and Microsoft, has resulted in the takedown of criminal infrastructure powering Amadey and StealC. \"The main common goal was to disrupt the 'assembly lines' cybercriminals use to launch ransomware, financial fraud, and attacks on critical infrastructure,\" Europol said in",
+    "source": "The Hacker News",
+    "type": "Ransomware",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-06-24T12:48:11+00:00",
+    "date": "24-06-2026 12:48 UTC",
+    "title": "Cordyceps CI/CD Flaws Expose 300+ GitHub Repositories to Supply-Chain Attacks",
+    "link": "https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html",
+    "description": "Cybersecurity researchers have flagged a new class of CI/CD workflow weakness that allows attackers to hijack workflows and compromise open-source supply chains. The \"critical exploitable pattern\" has been codenamed Cordyceps by Novee Security. The issue can allow full attacker control of repositories at dozens of the largest organizations worldwide, including Microsoft, Google, Apache, and",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-06-24T11:30:00+00:00",
+    "date": "24-06-2026 11:30 UTC",
+    "title": "Dawn of the Apex Agentic Adversary",
+    "link": "https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html",
+    "description": "We are standing at the end of an era we never thought to mourn: the era of human-speed threats. For years, cybersecurity moved to a rhythm organizations could follow. A researcher found a bug, a CVE was cataloged, a vendor navigated a patch cycle, and weeks or even months later, a fix was deployed. In this era, dwell time was measured in days, sometimes weeks. We are now approaching an",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-24T08:55:12+00:00",
+    "date": "24-06-2026 08:55 UTC",
+    "title": "DoJ Seizes Huione Cloud Account Tied to Cyber Scam Money Laundering",
+    "link": "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
+    "description": "The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a cloud computing account put to use by subsidiaries of Cambodia-based corporate conglomerate HuiOne Group, as the Treasury unveiled fresh sanctions against nine individuals and 26 entities linked to Prince Group. \"These subsidiaries are alleged to have assisted individuals and organizations in transferring proceeds of",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-06-24T06:50:38+00:00",
     "date": "24-06-2026 06:50 UTC",
     "title": "Cisco Unified CM Flaw Exploited After PoC Reveals File-Write Path to Root",
