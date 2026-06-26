@@ -1,5 +1,65 @@
 [
   {
+    "published_at": "2026-06-26T07:15:46+00:00",
+    "date": "26-06-2026 07:15 UTC",
+    "title": "Google Details Turla's New STOCKSTAY Backdoor Used in Ukraine Espionage Attacks",
+    "link": "https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html",
+    "description": "The Russian state-sponsored threat actor known as Turla has been attributed to a previously undocumented .NET backdoor called STOCKSTAY that has been deployed against government and military organizations in Ukraine, and entities that have an interest in Italian foreign policy. Describing the Windows backdoor as continually developed by the hacking group, Google Threat Intelligence Group (",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-25T14:12:52+00:00",
+    "date": "25-06-2026 14:12 UTC",
+    "title": "Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability",
+    "link": "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html",
+    "description": "An analysis of a popular Google Chrome ad block extension for YouTube has uncovered the ability to execute arbitrary JavaScript code. According to Island, the extension, named Adblock for YouTube (ID: cmedhionkhpnakcndndgjdbohmhepckk), has more than 10 million installs and carries a Featured badge on the Chrome Web Store. The extension description states that it allows users to prevent web",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-25T12:24:43+00:00",
+    "date": "25-06-2026 12:24 UTC",
+    "title": "ThreatsDay Bulletin: Smart TV Proxyware, 24-Year curl Bug, AI Crime Forums + 13 More Stories",
+    "link": "https://thehackernews.com/2026/06/threatsday-bulletin-smart-tv-proxyware.html",
+    "description": "It’s dumb out there again. This week has the usual smell of prod on fire and nobody wanting to admit who left the door open — old creds still working, trusted apps doing sketchy crap, browser tricks jumping the fence, and “normal” workflows turning into phishing pipes because apparently email was not enough hell already. The worst part is how cheap some of it feels. Not elite. Not cinematic.",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-25T11:17:31+00:00",
+    "date": "25-06-2026 11:17 UTC",
+    "title": "Surviving the Mythos Era: Richard Bejtlich on the Case for NDR",
+    "link": "https://thehackernews.com/2026/06/surviving-mythos-era-richard-bejtlich.html",
+    "description": "Despite the abundance of telemetry at analysts’ disposal, many security operations teams struggle to answer a few basic questions during incident investigation: What happened? What evidence do we have? How do we know we’re seeing it all, in context? Answering these questions requires teams to go beyond alerts, the most common basis for initial triage. But investigations (and their outcomes)",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-06-25T09:23:03+00:00",
+    "date": "25-06-2026 09:23 UTC",
+    "title": "New Gaslight macOS Malware Uses Prompt Injection to Disrupt AI-Assisted Analysis",
+    "link": "https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html",
+    "description": "A previously undocumented Rust-based macOS implant and information stealer has been found to embed a prompt injection payload designed to trick a malware analyst's artificial intelligence (AI) tools and trick it into aborting or refusing an analysis of the artifact. The malware has been codenamed Gaslight owing to this deceptive behavior. It's been assessed with high confidence that the tool is",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-06-25T08:54:37+00:00",
+    "date": "25-06-2026 08:54 UTC",
+    "title": "New Mistic Backdoor Linked to KongTuke in ClickFix and ModeloRAT Campaigns",
+    "link": "https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html",
+    "description": "A new, stealthy backdoor named Mistic has been deployed as part of suspected financially motivated attacks aimed at multiple organizations spanning insurance, education, IT, and professional services sectors since April 2026. According to Symantec and Carbon Black's Threat Hunter Team, the backdoor, also tracked as MLTBackdoor, is said to be linked to an initial access broker (IAB) named",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-06-25T05:46:54+00:00",
     "date": "25-06-2026 05:46 UTC",
     "title": "Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access",
