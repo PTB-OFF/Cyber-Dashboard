@@ -1,5 +1,105 @@
 [
   {
+    "published_at": "2026-07-08T06:16:44+00:00",
+    "date": "08-07-2026 06:16 UTC",
+    "title": "15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros",
+    "link": "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html",
+    "description": "Researchers at Nebula Security have disclosed GhostLock (CVE-2026-43499), a 15-year-old Linux kernel flaw that lets any logged-in user take full root control of a machine that has not been patched. The vulnerable code has shipped by default in essentially every mainstream distribution since 2011. The flaw needs no special permission, no unusual settings, and no network",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-08T05:33:12+00:00",
+    "date": "08-07-2026 05:33 UTC",
+    "title": "CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV",
+    "link": "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html",
+    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-48282 (CVSS score: 10.0) - A path traversal vulnerability in Adobe ColdFusion that could lead to arbitrary code execution in the context of the",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-07-07T17:10:15+00:00",
+    "date": "07-07-2026 17:10 UTC",
+    "title": "RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service",
+    "link": "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html",
+    "description": "A new Android malware operation called RedWing is being rented out on Telegram as a ready-made bank-fraud service. It lets even low-skill criminals take over a victim's phone, steal their banking logins, and capture the one-time codes that protect their accounts. Zimperium's zLabs, which found the operation, says it looks like a new variant of Oblivion, a $300-a-month rent-a-malware tool",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-07T16:37:33+00:00",
+    "date": "07-07-2026 16:37 UTC",
+    "title": "Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots",
+    "link": "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html",
+    "description": "A critical flaw in Google's Dialogflow CX could have let an attacker with edit rights on one Code Block-enabled agent compromise other Code Block-enabled agents in the same Google Cloud project. From there, they could read live conversations, steal the data users shared, and make the bots send attacker-written messages, including requests to re-enter a password. Security firm Varonis found it",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-07-07T15:14:14+00:00",
+    "date": "07-07-2026 15:14 UTC",
+    "title": "DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts",
+    "link": "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
+    "description": "A Microsoft 365 device code phishing campaign has been observed leveraging collaboration-themed lures to take control of victim accounts between the last week of June 2026 and into early July, per findings from ZeroBEC. \"The campaign did not depend on a fake Microsoft password page. It used a malicious collaboration-style lure to push users into the legitimate Microsoft device login experience,",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-07T14:04:50+00:00",
+    "date": "07-07-2026 14:04 UTC",
+    "title": "Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data",
+    "link": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
+    "description": "A public issue can trick GitHub Agentic Workflows into leaking the contents of an organization's private repositories, researchers at Noma Security have shown. The attacker needs only to open a normal-looking issue on a public repository, with no stolen credentials and no access to the organization. If that organization has given the agent read access across its repositories, private ones",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-07T13:27:20+00:00",
+    "date": "07-07-2026 13:27 UTC",
+    "title": "Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker",
+    "link": "https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html",
+    "description": "U.S. prosecutors linked an alleged Scattered Spider hacker to a break-in at a luxury jewelry retailer using a persistent Windows device ID, according to a newly unsealed federal complaint. Microsoft records tied that ID first to the account the attackers used to keep access during the May 2025 intrusion, then to online accounts prosecutors say belong to 19-year-old Peter Stokes. Stokes is",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-07T13:27:09+00:00",
+    "date": "07-07-2026 13:27 UTC",
+    "title": "Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants",
+    "link": "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html",
+    "description": "Cybersecurity researchers have disclosed details of a now-patched critical session isolation vulnerability in Writer, an enterprise generative artificial intelligence (AI) platform, that could result in cross-tenant compromise. The one-click vulnerability has been codenamed WriteOut by the Sand Security Research team. \"An outsider could go from having no access to taking over any Writer AI",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-07-07T11:30:00+00:00",
+    "date": "07-07-2026 11:30 UTC",
+    "title": "What Changes When Your Software Supply Chain Includes AI Writing Your Code?",
+    "link": "https://thehackernews.com/2026/07/what-changes-when-your-software-supply.html",
+    "description": "Software supply chain security was hard enough. Then AI joined the build pipeline. For five years, \"software supply chain security\" meant one question: what's in your code? Which open-source packages, which versions, which transitive dependencies three layers deep that nobody chose on purpose? SolarWinds, Log4Shell, and XZ Utils all taught the same lesson: the risk lives less in the code a",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-07T09:10:51+00:00",
+    "date": "07-07-2026 09:10 UTC",
+    "title": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
+    "link": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
+    "description": "A suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian universities as part of a new campaign. The activity involves the exploitation of now-patched, critical security flaws in the open-source email solution, such as CVE-2024-42009 (CVSS score: 9.3), to siphon credentials,",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
     "published_at": "2026-07-07T06:40:47+00:00",
     "date": "07-07-2026 06:40 UTC",
     "title": "CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware",
