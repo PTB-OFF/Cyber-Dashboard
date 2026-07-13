@@ -1,5 +1,15 @@
 [
   {
+    "published_at": "2026-07-13T05:36:02+00:00",
+    "date": "13-07-2026 05:36 UTC",
+    "title": "iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days",
+    "link": "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html",
+    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation in the wild. The vulnerabilities, both rated 10.0 on the CVSS scoring system, are below - CVE-2026-48939 - A vulnerability in the",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
     "published_at": "2026-07-11T17:59:26+00:00",
     "date": "11-07-2026 17:59 UTC",
     "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
@@ -274,7 +284,7 @@
     "date": "09-07-2026 04:01 UTC",
     "title": "Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes",
     "link": "https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html",
-    "description": "Cybersecurity researchers have disclosed details of a new threat actor dubbed Lurking Lizard that has been operating an end-to-end malicious residential proxy business using an infrastructure comprising more than 230 lookalike domains. The activity dates back to at least August 2022, according to DNS threat intelligence firm Infoblox. Once such campaign, observed earlier this year, involved the",
+    "description": "Cybersecurity researchers have disclosed details of a new threat actor dubbed Lurking Lizard that has been operating an end-to-end malicious residential proxy business using an infrastructure comprising more than 230 lookalike domains. The activity dates back to at least August 2022, according to DNS threat intelligence firm Infoblox. One such campaign, observed earlier this year, involved the",
     "source": "The Hacker News",
     "type": "Other",
     "severity": "LOW"
