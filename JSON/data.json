@@ -1,5 +1,115 @@
 [
   {
+    "published_at": "2026-07-17T21:20:10+00:00",
+    "date": "17-07-2026 21:20 UTC",
+    "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
+    "link": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
+    "description": "Updated July 18, 2026: the two flaws now carry CVE IDs, the full mechanism has been published, a persistent-object-cache condition has surfaced, and a working proof-of-concept is public. The story below reflects all of it. An anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable. Every 6.9 and 7.0 site was in range until",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-17T20:20:53+00:00",
+    "date": "17-07-2026 20:20 UTC",
+    "title": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests",
+    "link": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html",
+    "description": "Eleven bytes will make an unpatched OpenSSL server set aside up to 131 KB of memory for a message that never arrives. On the glibc systems Okta tested, that memory is gone until the process restarts. OpenSSL shipped the HollowByte fix in June with no CVE, no advisory, and no changelog entry pointing at it. Okta's Red Team, which reported the denial-of-service bug and named it, published the",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-17T18:54:51+00:00",
+    "date": "17-07-2026 18:54 UTC",
+    "title": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
+    "link": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
+    "description": "Cybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack. The malicious package campaign, codenamed ViteVenom by Checkmarx, marks an expansion of ChainVeil, which was observed using an \"unprecedented\" four-tier blockchain-based command-and-control (C2) infrastructure spanning Tron,",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-17T17:12:23+00:00",
+    "date": "17-07-2026 17:12 UTC",
+    "title": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens",
+    "link": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
+    "description": "A Go botnet called NadMesh turned up in early July hunting exposed AI services, and the operator's own dashboard claims 3,811 unique AWS keys. A Shodan harvester keeps the scan queue stocked with ComfyUI, Ollama, n8n, Open WebUI, Langflow, and Gradio: the image generators, local model runners, and workflow builders that teams stand up fast and firewall late. The intel feed behind that counter",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-17T16:39:16+00:00",
+    "date": "17-07-2026 16:39 UTC",
+    "title": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
+    "link": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
+    "description": "Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine. Expel, which shared technical details of the event, described the threat actor as a sub-group of GoldenEyeDog (aka APT-Q-27, Dragon Breath, and Miuuti Group), a Chinese cybercrime group known for its targeting of the gambling and gaming sectors using",
+    "source": "The Hacker News",
+    "type": "Data Breach",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-17T13:48:56+00:00",
+    "date": "17-07-2026 13:48 UTC",
+    "title": "Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images",
+    "link": "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html",
+    "description": "North Korean threat actors linked to the Contagious Interview campaign have been observed employing steganography in SVG image files to conceal malicious payloads as part of a campaign using fake job postings and coding challenges. \"Any user who ran the project ended up with a four-stage payload aligned with OTTERCOOKIE: a browser credential and crypto wallet stealer, a file stealer, a",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-17T11:44:41+00:00",
+    "date": "17-07-2026 11:44 UTC",
+    "title": "E.U. Orders Google to Open Android Mic, Camera and Screen to Rival AI Assistants",
+    "link": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html",
+    "description": "The European Commission on Thursday ordered Google to give rival AI assistants the same reach into Android that Gemini already has: the camera, the microphone, whatever is on screen, a wake word that fires with the display off, and the ability to drive other apps in the background by imitating taps and typing. Google has to ship it in the next major release, Android 18, and by 1 August 2027 at",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-17T11:30:00+00:00",
+    "date": "17-07-2026 11:30 UTC",
+    "title": "The Race to Field Military Autonomy Is On, Can Trusted Information Infrastructure Keep Pace?",
+    "link": "https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html",
+    "description": "Military forces are under increasing pressure to field autonomous capabilities faster than ever before. Across the U.S., UK, and NATO, new investment, evolving defense strategies, and accelerated acquisition pathways are transforming how capability is delivered, rewarding programs that can move from concept to operational deployment at commercial speed. Now the focus shifts to the trusted",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-17T10:53:31+00:00",
+    "date": "17-07-2026 10:53 UTC",
+    "title": "Armenia Detains Russian Tourist on U.S. Warrant for REvil Hacker, Lawyers Say Wrong Man",
+    "link": "https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html",
+    "description": "Armenia has held a Russian tourist named Aleksandr Ermakov in a detention center since June 28, on a U.S. extradition request for a REvil ransomware suspect named Aleksandr Ermakov. His wife, Maria Yurova, told REN TV that border officers pulled him out of the departure hall at Yerevan's Zvartnots airport, held up a phone with a photo of him off his VKontakte page, and walked him into a side",
+    "source": "The Hacker News",
+    "type": "Ransomware",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-17T08:56:39+00:00",
+    "date": "17-07-2026 08:56 UTC",
+    "title": "ACR Stealer Uses ClickFix Lures to Steal Browser Tokens and Microsoft 365 Files",
+    "link": "https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html",
+    "description": "ACR Stealer, an infostealer in circulation since 2024, is walking out of enterprise networks with saved browser passwords, live session tokens, PDFs, Microsoft 365 documents, and files from synced OneDrive and SharePoint folders. It gets in because someone pasted a command into a Run box and pressed Enter. Microsoft laid out two of the delivery chains on Thursday. Its Defender Experts team, the",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-17T08:46:45+00:00",
+    "date": "17-07-2026 08:46 UTC",
+    "title": "New GoSerpent Malware Targets Southeast Asian Governments and Diplomats for Espionage",
+    "link": "https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html",
+    "description": "Cybersecurity researchers have discovered a previously undocumented malware called GoSerpent that has been put to use in cyber attacks targeting entities in Southeast Asia since late 2025 with a focus on long-term access and intelligence gathering. Russian cybersecurity company Kaspersky, which uncovered the activity in February 2026, said it was aimed at government and diplomatic entities in",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-07-17T06:42:23+00:00",
     "date": "17-07-2026 06:42 UTC",
     "title": "CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV",
