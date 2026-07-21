@@ -1,5 +1,85 @@
 [
   {
+    "published_at": "2026-07-20T18:23:03+00:00",
+    "date": "20-07-2026 18:23 UTC",
+    "title": "FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware",
+    "link": "https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html",
+    "description": "Cybersecurity researchers have discovered nearly 7,600 malicious GitHub repositories, out of which more than 800 pose as artificial intelligence (AI) skills or Model Context Protocol (MCP) servers to deliver a malware family known as SmartLoader as part of an ongoing campaign codenamed FakeGit. \"FakeGit uses copied projects, lookalike developer profiles, convincing READMEs, and malicious ZIP",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-20T17:29:50+00:00",
+    "date": "20-07-2026 17:29 UTC",
+    "title": "Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign",
+    "link": "https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html",
+    "description": "A malware operator left its delivery server wide open, and Rapid7 pulled down the whole toolkit: 1,048 files spanning lure templates, filename-spoofing tests, execution experiments, droppers, builder notes, and two campaign chains. One was already live against Windows users in Mexico, delivering an infostealer through a fake government ID-lookup site over WebDAV. What makes it more than a",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-20T14:33:43+00:00",
+    "date": "20-07-2026 14:33 UTC",
+    "title": "HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050",
+    "link": "https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html",
+    "description": "A newly discovered espionage implant has been using a hijacked Microsoft 365 calendar as its command channel, planting operator instructions and smuggling out stolen files as attachments on calendar events dated to the year 2050. Group-IB, which named the malware HollowGraph, says the approach moves tasking and stolen data through legitimate Microsoft Graph API traffic, so the activity looks",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-20T13:32:26+00:00",
+    "date": "20-07-2026 13:32 UTC",
+    "title": "⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More",
+    "link": "https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html",
+    "description": "A single request should not be able to do this much. But this week, small inputs led to code execution, memory loss, stolen keys, and disabled security tools. The paths were often simple: exposed systems, weak checks, old drivers, fake prompts, and public code used for malware delivery. Some bugs were new. Others were already being used before defenders had time to patch. Here is the full",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-20T12:13:39+00:00",
+    "date": "20-07-2026 12:13 UTC",
+    "title": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
+    "link": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html",
+    "description": "At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport routes, weapons shipments bound for Kyiv, and the locations of Ukrainian troops. That is the finding of a cybersecurity advisory published July 10 by the AIVD and MIVD, the Netherlands' civilian and military intelligence",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-20T11:30:00+00:00",
+    "date": "20-07-2026 11:30 UTC",
+    "title": "Mythos Didn't Break Your Security Program. Your Exposure Window Could.",
+    "link": "https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html",
+    "description": "The industry spent the initial months after Anthropic's April 7 Mythos reveal focused on volume. How many new CVEs would Mythos add to an already overloaded pipeline? How quickly would the flood of AI-driven discovery overwhelm triage capabilities? How long would it take adversaries to weaponize Mythos findings at scale? Those questions were and remain valid. Yet they all stop short of",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-20T09:10:56+00:00",
+    "date": "20-07-2026 09:10 UTC",
+    "title": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
+    "link": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
+    "description": "Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend Micro's Zero Day Initiative (ZDI) detailed it on July 15. A fix shipped on June 25 in 7-Zip 26.02. The overflow lets an attacker \"execute code in the context of the current process,\" per the",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-07-20T09:07:11+00:00",
+    "date": "20-07-2026 09:07 UTC",
+    "title": "Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs",
+    "link": "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html",
+    "description": "A solo Russian-speaking threat actor known as \"bandcampro\" outsourced a chunk of their operations to Google's open-source Gemini CLI artificial intelligence (AI) and commandeered a live botnet. The findings come from an analysis of 200 Gemini CLI session logs between March 19 and April 21, 2026, which found the threat actor using AI, among other things, to crack passwords, set up a residential",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-07-20T05:27:26+00:00",
     "date": "20-07-2026 05:27 UTC",
     "title": "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent",
