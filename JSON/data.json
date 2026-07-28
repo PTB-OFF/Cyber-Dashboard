@@ -1,5 +1,115 @@
 [
   {
+    "published_at": "2026-07-28T06:07:22+00:00",
+    "date": "28-07-2026 06:07 UTC",
+    "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Hit 95.95% at Half the Cost",
+    "link": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html",
+    "description": "Microsoft has launched its first cybersecurity-specific model inside MDASH, its multi-model vulnerability identification and remediation harness. The company says MDASH, using MAI-Cyber-1-Flash and GPT-5.4, scored 95.95% on CyberGym. It also claims the configuration costs 50% less than its current best MDASH combination of GPT-5.4, GPT-5.4 mini, and GPT-5.3 Codex. Access is limited to approved",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-07-28T04:43:53+00:00",
+    "date": "28-07-2026 04:43 UTC",
+    "title": "Attackers Exploit Arista VeloCloud Orchestrator Command Injection Flaw",
+    "link": "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html",
+    "description": "A maximum-severity security flaw impacting on-premises versions of Arista VeloCloud Orchestrator (VCO) has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-16812 (CVSS score: 10.0), is a case of operating system command injection that could pave the way for arbitrary code execution. \"VeloCloud Orchestrator (VCO) on-prem has a security issue where this issue",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-07-27T18:10:05+00:00",
+    "date": "27-07-2026 18:10 UTC",
+    "title": "NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework",
+    "link": "https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html",
+    "description": "NVIDIA and 36 other organizations have formed the Open Secure AI Alliance to develop and share open technologies, techniques, and tools for securing software and artificial intelligence (AI) agents. The 37-member group spans cloud, security, enterprise software, and AI companies, including Microsoft, Cisco, Cloudflare, CrowdStrike, Hugging Face, IBM, Palo Alto Networks, Red Hat, and the Linux",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-27T17:16:28+00:00",
+    "date": "27-07-2026 17:16 UTC",
+    "title": "Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption",
+    "link": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
+    "description": "Dysphoria, an Internet of Things (IoT) botnet line tracked by CNCERT and XLab, has adopted blockchain-based name services and infected-device relays after a March law-enforcement operation against JackSkid infrastructure. The researchers say the design makes the botnet harder to disrupt. CNCERT, China's national computer emergency response team, and XLab, the threat-intelligence lab of Chinese",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-27T14:40:00+00:00",
+    "date": "27-07-2026 14:40 UTC",
+    "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
+    "link": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
+    "description": "Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user. SSD Secure Disclosure lists vBulletin 6.2.1 and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-27T14:10:54+00:00",
+    "date": "27-07-2026 14:10 UTC",
+    "title": "⚡ Weekly Recap: Rogue AI Agents, Check Point Exploit, Slopsquatting, ClickFix Lures and More",
+    "link": "https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html",
+    "description": "Monday starts with the usual promise that everything is under control. Then the logs wake up. This week, trusted tools crossed lines, old flaws found new work, exposed systems stayed exposed, and attackers kept hiding inside normal-looking services. Nothing looked strange at first. That helped. That is the mood. Here is the full recap. ⚡ Threat of the Week OpenAI Says Its AI Agent Went Rogue",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-27T13:05:15+00:00",
+    "date": "27-07-2026 13:05 UTC",
+    "title": "n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process",
+    "link": "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html",
+    "description": "n8n has patched a high-severity expression-sandbox escape that could let an authenticated workflow editor execute operating-system commands on the server running the automation platform. Security Joes found the flaw while probing n8n's February fix for CVE-2026-27577 for another bypass. The affected ranges are <2.31.5 and >=2.32.0,<2.32.1. n8n fixed the flaw in versions 2.31.5 and",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-27T12:37:49+00:00",
+    "date": "27-07-2026 12:37 UTC",
+    "title": "Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update",
+    "link": "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html",
+    "description": "Cybersecurity researchers have flagged a Microsoft Teams-themed phishing campaign that employs \"secure document\" lures to deliver legitimate remote monitoring and management (RMM) tools. \"The victim was directed through compromised web infrastructure to a counterfeit Microsoft Store page claiming that Microsoft Teams had to be updated before the shared document could be opened,\" ZeroBEC said in",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-27T10:51:45+00:00",
+    "date": "27-07-2026 10:51 UTC",
+    "title": "Cruciferra Crypter Uses BYOVD and Process Ghosting to Hide Windows Malware",
+    "link": "https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html",
+    "description": "The China-linked cybercrime group behind the use of income tax-related phishing lures targeting Indian taxpayers, tax professionals, and corporate finance teams has been observed using a sophisticated crypter service called Cruciferra. According to a new analysis by Proofpoint, Cruciferra has been utilized by various unrelated cybercriminal threat clusters to deliver a wide array of remote",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-27T08:48:47+00:00",
+    "date": "27-07-2026 08:48 UTC",
+    "title": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
+    "link": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html",
+    "description": "Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East. The intrusions have resulted in the deployment of previously unreported malware families dubbed TELESHIM, MIXEDKEY, and BINDCLOAK, according to Zscaler ThreatLabz. The cybersecurity firm said it detected the campaign earlier this month.",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-07-27T08:01:23+00:00",
+    "date": "27-07-2026 08:01 UTC",
+    "title": "GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption",
+    "link": "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html",
+    "description": "GitHub has announced a new cooldown mechanism in Dependabot, allowing the tool to wait at least three days after a release is published before opening a pull request. \"The cooldown configuration option in the dependabot.yml still controls the behavior, though, so you can choose a different cooldown parameter that fits your project,\" the Microsoft-owned subsidiary said. According to GitHub, the",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-07-25T18:48:44+00:00",
     "date": "25-07-2026 18:48 UTC",
     "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
