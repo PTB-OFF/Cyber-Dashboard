@@ -1,5 +1,25 @@
 [
   {
+    "published_at": "2026-08-03T06:41:46+00:00",
+    "date": "03-08-2026 06:41 UTC",
+    "title": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
+    "link": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
+    "description": "N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers. Its first fix was incomplete. CVE-2026-18577 affects N-central builds prior to 2026.3.1.7. N-able shipped build 2026.3.1.7 on August 2 as the first unaffected version. N-central is the remote monitoring and management platform",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-08-03T06:40:31+00:00",
+    "date": "03-08-2026 06:40 UTC",
+    "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
+    "link": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
+    "description": "Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, opening the artificial intelligence (AI) supply chain to security risk. \"These vulnerabilities are bypassing trust_remote_code, the safeguard designed to stop unreviewed code from running in the",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-08-01T17:17:22+00:00",
     "date": "01-08-2026 17:17 UTC",
     "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
