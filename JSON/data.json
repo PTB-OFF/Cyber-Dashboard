@@ -1,5 +1,15 @@
 [
   {
+    "published_at": "2026-08-22T14:32:41+00:00",
+    "date": "22-08-2026 14:32 UTC",
+    "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
+    "link": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
+    "description": "The U.S. Department of Justice (DoJ) announced on Friday that ByteDance-owned TikTok will pay $400 million to settle a 2024 lawsuit accusing the company of violating child privacy laws in the country. As part of the settlement, the social media platform will pay $300 million immediately, and an additional $100 million \"upon entry of an order vacating a prior consent decree entered against",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-08-21T18:53:00+00:00",
     "date": "21-08-2026 18:53 UTC",
     "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
