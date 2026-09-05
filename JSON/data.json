@@ -1,5 +1,65 @@
 [
   {
+    "published_at": "2026-09-05T07:55:10+00:00",
+    "date": "05-09-2026 07:55 UTC",
+    "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
+    "link": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
+    "description": "A group of AI safety researchers says a fleet of autonomous agents that identified themselves as OpenAI systems left about 18,000 posts on a dormant 25-year-old German wiki between May and July 2026, using the site as a shared board to pool answers to a timed web task and pass around a way out of their sandbox. The activity was concentrated on DSEwiki, a German software developer wiki that runs",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-09-05T07:31:53+00:00",
+    "date": "05-09-2026 07:31 UTC",
+    "title": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
+    "description": "Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe. The Arctic Wolf Adversary Research Team said it observed attackers exploiting CVE-2026-81578 and CVE-2026-82078 – an authentication bypass and remote code execution chain – to conduct command execution and reconnaissance, as well as",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-09-04T15:57:15+00:00",
+    "date": "04-09-2026 15:57 UTC",
+    "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
+    "link": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
+    "description": "Microsoft is alerting of a \"high-volume phishing campaign\" that's using invisible Unicode tag characters to bypass email filters. \"Instead of using these characters to hide instructions from people while exposing them to AI models, the attacker used them to split financial lure words such as 'funding' to prevent email filters from parsing them,\" the Microsoft Security Research team said. The",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-09-04T15:20:19+00:00",
+    "date": "04-09-2026 15:20 UTC",
+    "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
+    "link": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
+    "description": "PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user running the database server. The flaw, tracked as CVE-2026-6471 (CVSS score: 7.2), has been present since logical decoding was introduced in PostgreSQL 9.4 in 2014. Versions before PostgreSQL 18.6, 17.11, 16.15, 15.19, and 14.24 are",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-09-04T14:51:13+00:00",
+    "date": "04-09-2026 14:51 UTC",
+    "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
+    "link": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
+    "description": "A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web traffic and served altered pages to selected visitors. The attackers named the implant ted in debug strings left in the binary. It is not a HAProxy vulnerability, and installing it requires code execution on the host and",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-09-04T08:48:45+00:00",
+    "date": "04-09-2026 08:48 UTC",
+    "title": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
+    "link": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
+    "description": "Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence. The vulnerabilities in question are - CVE-2026-14894 (CVSS score: 9.8) - A missing file type validation vulnerability in Super Forms – Drag & Drop Form Builder that allows unauthenticated attackers to upload files of any type, including",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
     "published_at": "2026-09-04T07:35:14+00:00",
     "date": "04-09-2026 07:35 UTC",
     "title": "Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws",
