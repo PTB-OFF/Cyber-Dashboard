@@ -1,5 +1,75 @@
 [
   {
+    "published_at": "2026-09-08T07:00:43+00:00",
+    "date": "08-09-2026 07:00 UTC",
+    "title": "Grindr to Pay £26 Million to Settle U.K. Claims Over HIV Status Data Sharing",
+    "link": "https://thehackernews.com/2026/09/grindr-to-pay-26-million-to-settle-uk.html",
+    "description": "Online dating app Grindr has opted to pay £26 million ($35.1 million) to settle a lawsuit in the U.K. over allegations that it shared users' personal information, including their HIV status, with third-parties. Grindr, which is the largest LGBTQ+ dating app, was sued in April 2024, accusing it of violating U.K. privacy laws by sharing sensitive data for commercial purposes such as advertising.",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-09-07T18:12:09+00:00",
+    "date": "07-09-2026 18:12 UTC",
+    "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
+    "link": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
+    "description": "Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser. \"Requiring prior administrative or code execution access, its installer injects the extension directly into Chrome/Edge profiles, bypassing Web Store checks and user prompts by forging Chromium's own Secure Preferences",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-09-07T15:51:56+00:00",
+    "date": "07-09-2026 15:51 UTC",
+    "title": "Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks",
+    "link": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
+    "description": "Threat hunters have disclosed details of a widespread data theft and extortion threat cluster that's targeting Microsoft 365 and other software-as-a-service (SaaS) offerings through information technology (IT) help desk vishing, adversary-in-the-middle (AitM) token theft, and residential-proxy sign-ins. The activity, which mainly singles out directors, vice presidents, and other executive staff",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-09-07T14:36:07+00:00",
+    "date": "07-09-2026 14:36 UTC",
+    "title": "⚡ Weekly Recap: Chrome 0-Day, Router Hijacks, Coder Supply Chain Attack and More",
+    "link": "https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html",
+    "description": "Turning off email images should at least stop the pictures. This week, attackers had a workaround: a scannable QR code built out of text. It still appears, even with images blocked. A small detail, but an annoying one if that was a precaution you were counting on. Elsewhere, a trusted software source delivered code that stole credentials, and a protocol designed for secure network management",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-09-07T11:45:00+00:00",
+    "date": "07-09-2026 11:45 UTC",
+    "title": "Your Cloud Security Checklist Doesn't Work the Way You Think It Does",
+    "link": "https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html",
+    "description": "If managing security across multiple cloud providers wasn't hard enough, each one fails in a different way. For the 2026 Cloud Security Index, Intruder analyzed misconfiguration data from 3,000 organizations across AWS, Azure, and Google Cloud and found that risk profiles across providers have almost nothing in common. Here’s what the data looks like. How risk differs across cloud providers",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-09-07T11:36:39+00:00",
+    "date": "07-09-2026 11:36 UTC",
+    "title": "Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts",
+    "link": "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html",
+    "description": "Cybersecurity researchers have disclosed details of worm-like activity that abuses ConnectWise ScreenConnect to distribute a malicious Visual Basic Script (VBScript) payload to newly connected systems. According to Huntress, three unrelated incidents have been found to use diverse initial access methods, namely a Quick Assist tech-support scam, a phishing-delivered MSI installer, and a fake",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-09-07T11:20:14+00:00",
+    "date": "07-09-2026 11:20 UTC",
+    "title": "Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE — Public Exploit Released",
+    "link": "https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html",
+    "description": "A TantoSec proof-of-concept turns an AES-CBC \"padding oracle\" in Telerik UI for ASP.NET AJAX into unauthenticated remote code execution — but only against applications in a specific non-default configuration, and Progress patched the chain in July. There are no confirmed reports of exploitation in the wild. Security firm TantoSec has published a working exploit chain targeting vulnerabilities",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-09-07T08:31:12+00:00",
     "date": "07-09-2026 08:31 UTC",
     "title": "N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw",
