@@ -1,10 +1,100 @@
 [
   {
+    "published_at": "2026-09-10T07:12:55+00:00",
+    "date": "10-09-2026 07:12 UTC",
+    "title": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
+    "link": "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html",
+    "description": "Nearly one in ten of the internet-facing LiteLLM servers that Wiz Research scanned in February accepted sk-1234, the example admin key in LiteLLM's own setup guide. LiteLLM is an open-source AI gateway, the software a company puts between its applications and the model providers it pays for. That key is the gateway's administrator credential. Anyone who holds it can read every",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-09-10T07:04:01+00:00",
+    "date": "10-09-2026 07:04 UTC",
+    "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
+    "link": "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html",
+    "description": "Anthropic on Wednesday disclosed a fourth incident in which its artificial intelligence (AI) model broke into real third-party systems, marking the latest in a growing list of cases that have raised concerns about the security risks posed by autonomous AI agents. The AI company said the incident dates back to January 2026 and involved an early version of Claude Opus 4.6 that breached \"",
+    "source": "The Hacker News",
+    "type": "Data Breach",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-09-09T18:26:05+00:00",
+    "date": "09-09-2026 18:26 UTC",
+    "title": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
+    "link": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
+    "description": "The U.S. Department of Justice (DoJ) on Wednesday announced coordinated actions aimed at an illicit online marketplace called Xinbi Guarantee that offered scam services, including seizing Telegram channels used to run the service, confiscating two cryptocurrency wallets, and deploying the Scam Center Strike Force to Madagascar to help disrupt 13 scam compounds run by Chinese organized crime",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-09-09T16:34:05+00:00",
+    "date": "09-09-2026 16:34 UTC",
+    "title": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
+    "link": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
+    "description": "Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft Windows and Google Chrome. The first in-the-wild use of BlueMoon has been attributed to the China-aligned state-sponsored group tracked as APT31 (aka Bronze Vinewood, Judgement Panda, JungleBamboo,",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-09-09T14:23:55+00:00",
+    "date": "09-09-2026 14:23 UTC",
+    "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
+    "link": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
+    "description": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illicit access to tools from model providers like Google, Anthropic, and others. Information stealers like Lumma Stealer or Vidar are equipped to harvest a wide range of data from compromised systems. This can include credential, session tokens, and API",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-09-09T11:57:36+00:00",
+    "date": "09-09-2026 11:57 UTC",
+    "title": "Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE",
+    "link": "https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html",
+    "description": "A major vulnerability is disclosed. The alert lands immediately. Then comes the harder question: Are we actually exposed? For many security teams, answering that means jumping between vulnerability scanners, endpoint tools, cloud inventories, SBOMs, repositories, and application data to build enough context to act. As AI accelerates vulnerability discovery and research, that delay matters more",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-09-09T11:17:07+00:00",
+    "date": "09-09-2026 11:17 UTC",
+    "title": "DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval",
+    "link": "https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html",
+    "description": "A flaw in DeepSeek Harness, DeepSeek's open-source tool for running AI coding agents on a developer's machine, let a sandboxed agent turn off its own sandbox with a single command. The tool runs an agent's commands inside an operating-system sandbox, so that an agent working on untrusted files cannot write outside its workspace. The agent could remove that limit by calling the tool's own web",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-09-09T10:43:04+00:00",
+    "date": "09-09-2026 10:43 UTC",
+    "title": "Alby Hub Critical Flaw Could Let Attackers Take Over Internet-Exposed Bitcoin Wallets",
+    "link": "https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html",
+    "description": "Bitcoin wallet company Alby has warned of a critical flaw in Alby Hub that could have let an attacker take over a wallet and send its funds, but only where the owner had made the Hub reachable from the internet. Alby Hub is a self-hosted Lightning wallet, meaning the owner runs it on their own computer or server, and it holds their bitcoin. The flaw affects versions v1.7.0 through",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-09-09T09:32:26+00:00",
+    "date": "09-09-2026 09:32 UTC",
+    "title": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
+    "link": "https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html",
+    "description": "U.S. cybersecurity and intelligence agencies have accused China-based artificial intelligence (AI) companies of conducting \"systematic extraction\" of proprietary functionalities and capabilities of American frontier models through distillation attacks. The activity has been described as occurring at an industrial-scale and one that forms the \"core\" of their AI development strategy, according to",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-09-09T09:11:03+00:00",
     "date": "09-09-2026 09:11 UTC",
     "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
     "link": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
-    "description": "Google on Thursday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability, assigned the CVE identifier CVE-2026-87491 (CVSS score: N/A), has been described as an out-of-bounds bug in V8, Chrome's JavaScript and WebAssembly engine. \"Out-of-bounds write in V8 in Google Chrome prior to",
+    "description": "Google on Tuesday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability, assigned the CVE identifier CVE-2026-87491 (CVSS score: N/A), has been described as an out-of-bounds bug in V8, Chrome's JavaScript and WebAssembly engine. \"Out-of-bounds write in V8 in Google Chrome prior to",
     "source": "The Hacker News",
     "type": "CVE",
     "severity": "HIGH"
