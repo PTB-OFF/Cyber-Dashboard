@@ -1,5 +1,25 @@
 [
   {
+    "published_at": "2026-09-14T07:24:39+00:00",
+    "date": "14-09-2026 07:24 UTC",
+    "title": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
+    "link": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html",
+    "description": "A malicious cross-store Twitch browser extension has leaked OAuth tokens associated with nearly 31,000 users to proxy servers operated by a Russian commercial bot service. The extension, named \"Twitch Enhanced Viewer | JeetBot,\" lists HISHIMIRO/jeetbot.cc as its developer and has the following identifiers on the Google Chrome Web Store and Mozilla Firefox Add-Ons store - Chrome -",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-09-13T10:11:48+00:00",
+    "date": "13-09-2026 10:11 UTC",
+    "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
+    "link": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
+    "description": "Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social engineering to breach cloud environments. The first campaign, per the tech giant, involved sending over a million scam emails between August 3 and 5, 2026, by masquerading as chief executive officers",
+    "source": "The Hacker News",
+    "type": "Data Breach",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-09-12T15:54:45+00:00",
     "date": "12-09-2026 15:54 UTC",
     "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
