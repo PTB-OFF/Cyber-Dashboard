@@ -1,5 +1,95 @@
 [
   {
+    "published_at": "2026-09-16T15:50:59+00:00",
+    "date": "16-09-2026 15:50 UTC",
+    "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
+    "description": "A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation. The vulnerability in question is CVE-2026-89026 (CVSS v3.1 score: 9.8/CVSS v4.0 score: 9.3), which can allow an unauthenticated remote attacker to execute arbitrary operating system (OS) commands by taking advantage of a hard-coded",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-09-16T15:27:49+00:00",
+    "date": "16-09-2026 15:27 UTC",
+    "title": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
+    "link": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
+    "description": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky. The cybersecurity vendor said it has identified attacks mounted by NightEagle (aka APT-Q-95), a threat actor known to be active since at least 2023, that involve new techniques for persistence and lateral movement.",
+    "source": "The Hacker News",
+    "type": "Ransomware",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-09-16T14:36:44+00:00",
+    "date": "16-09-2026 14:36 UTC",
+    "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
+    "link": "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
+    "description": "Security researchers at Forever Security have shown that one ordinary browser extension could take control of the AI assistants built into five Chromium-based products: Gemini Live in Chrome, Perplexity Comet, Microsoft Edge, Opera Neon and the Claude in Chrome extension. Once the extension was installed, it could access each product's built-in AI with a single click. On Comet, Edge,",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-09-16T13:37:07+00:00",
+    "date": "16-09-2026 13:37 UTC",
+    "title": "Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories",
+    "link": "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html",
+    "description": "Mandiant says an attacker hijacked an active AI coding-assistant session at an unnamed software-as-a-service provider and later spread Shai-Hulud across about 100 internal code repositories. Before the repository spread, the assistant recommended software that the attacker had poisoned, and the recommendation was accepted. The worm stole repository secrets and source code for the",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-09-16T13:14:05+00:00",
+    "date": "16-09-2026 13:14 UTC",
+    "title": "Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix",
+    "link": "https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html",
+    "description": "Parallels Desktop for Mac has a flaw that lets an ordinary local account run code as root, the highest level of access on a Mac, software company JFrog said this week. The attack needs code already running on the machine as a normal user, so it does not work over the network. JFrog says the fix is in Parallels Desktop 27, a version that Intel Macs cannot install. Yuval Moravchick, who leads",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-09-16T11:58:00+00:00",
+    "date": "16-09-2026 11:58 UTC",
+    "title": "N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security",
+    "link": "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html",
+    "description": "N0va is targeting organizations across North America and Europe with phishing campaigns that impersonate trusted services and abuse legitimate authentication flows. Successful attacks can give threat actors access to valid accounts without relying on obvious malware activity. From there, a single compromised identity can open the door to sensitive data, business systems, and additional cloud",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-09-16T11:15:58+00:00",
+    "date": "16-09-2026 11:15 UTC",
+    "title": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
+    "link": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
+    "description": "Google has disclosed that a high-severity security flaw in its Pixel Cellular Modem has come under exploitation in the wild. The vulnerability, tracked as CVE-2026-58704 (CVSS score: 8.0), is a privilege escalation flaw. \"In Cellular Modem, there is a possible permission bypass due to a logic error in the code,\" according to a description of the bug in the NIST National Vulnerability Database",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-09-16T11:15:48+00:00",
+    "date": "16-09-2026 11:15 UTC",
+    "title": "Threat Intelligence Alone Won't Close the Exploitation Gap",
+    "link": "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html",
+    "description": "A leaked credential shows up in a criminal marketplace, or a vulnerability gets a disclosure advisory, and either one can be weaponized against a real target before most security teams have triaged the alert. Attackers are combining that kind of intelligence with AI-assisted exploitation to accelerate the path from exposure to breach faster than most security programs are built to react.",
+    "source": "The Hacker News",
+    "type": "Data Breach",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-09-16T11:08:54+00:00",
+    "date": "16-09-2026 11:08 UTC",
+    "title": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
+    "link": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
+    "description": "Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild. The vulnerability, tracked as CVE-2026-87886 (CVSS score: 7.8), is described as a case of local privilege escalation due to insecure file permissions. It affects the following versions - Acronis Backup plugin for cPanel & WHM (Linux",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "MEDIUM"
+  },
+  {
     "published_at": "2026-09-16T05:48:28+00:00",
     "date": "16-09-2026 05:48 UTC",
     "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
