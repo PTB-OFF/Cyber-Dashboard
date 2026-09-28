@@ -1,10 +1,30 @@
 [
   {
+    "published_at": "2026-09-28T09:08:21+00:00",
+    "date": "28-09-2026 09:08 UTC",
+    "title": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
+    "link": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
+    "description": "The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals. Microsoft, which is tracking the activity under the name Storm-3168, has called it an evolution of the threat actor's tradecraft. The attack took place in early June 2026 over a period of about 18 hours. \"The destructive operations",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-09-28T07:21:49+00:00",
+    "date": "28-09-2026 07:21 UTC",
+    "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
+    "link": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
+    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerabilities are listed below - CVE-2026-88771 (CVSS score: 9.5) - An improper input validation vulnerability that could allow an unauthenticated attacker to",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
     "published_at": "2026-09-27T07:47:57+00:00",
     "date": "27-09-2026 07:47 UTC",
     "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
     "link": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
-    "description": "Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr said on September 26. Citrix has not confirmed the flaws or published a fix. Some administrators say they have taken appliances offline rather than wait for one to be available. NetScaler ADC and",
+    "description": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six other flaws. One of the two affects every deployment on an affected version, including those in the default configuration. The bulletin came a day after security firm watchTowr",
     "source": "The Hacker News",
     "type": "Other",
     "severity": "HIGH"
