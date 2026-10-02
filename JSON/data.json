@@ -1,5 +1,65 @@
 [
   {
+    "published_at": "2026-10-02T08:01:30+00:00",
+    "date": "02-10-2026 08:01 UTC",
+    "title": "Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools",
+    "link": "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html",
+    "description": "Google has announced a new security measure that limits access to Android's accessibility services to verified applications classified as Accessibility Tools when Advanced Protection is enabled. With malicious Android applications abusing the API serving as the main conduit for malware and financial fraud, the tech giant said the move would block a major attack pathway. Advanced Protection is a",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-02T05:49:50+00:00",
+    "date": "02-10-2026 05:49 UTC",
+    "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
+    "link": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
+    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability, tracked as CVE-2026-104286 (CVSS score: 9.8), allows unauthenticated attackers to write arbitrary files on the underlying system. \"An improper",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-10-01T16:55:57+00:00",
+    "date": "01-10-2026 16:55 UTC",
+    "title": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
+    "link": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
+    "description": "Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threatening to publish it on its leak site unless they paid. The 16-year-old was one of 3 people arrested on September 30, when police also took control of that site. Investigators identified him as KillSec's suspected",
+    "source": "The Hacker News",
+    "type": "Ransomware",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-01T16:45:38+00:00",
+    "date": "01-10-2026 16:45 UTC",
+    "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
+    "link": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
+    "description": "This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-10-01T14:37:35+00:00",
+    "date": "01-10-2026 14:37 UTC",
+    "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
+    "link": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
+    "description": "Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to infect the site again. The backdoor has been codenamed SC after the \"SC_\" markers present in the injected content. Sucuri has described the malware as a \"self-healing mesh\" that's",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-01T11:45:00+00:00",
+    "date": "01-10-2026 11:45 UTC",
+    "title": "How Financial Services Companies Can Modernize Their Software Supply Chain",
+    "link": "https://thehackernews.com/2026/10/how-financial-services-companies-can.html",
+    "description": "Every security leader at a bank, insurer, or asset manager has had a version of this conversation: Security wants to eliminate a class of vulnerabilities. Engineering explains what it would take to upgrade the platform where they live. Somebody prices out the regression testing. Somebody else raises the change-freeze calendar. The finding gets an exception, a compensating control, and a date",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-10-01T10:42:36+00:00",
     "date": "01-10-2026 10:42 UTC",
     "title": "OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates",
