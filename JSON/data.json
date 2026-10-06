@@ -1,5 +1,95 @@
 [
   {
+    "published_at": "2026-10-06T09:21:47+00:00",
+    "date": "06-10-2026 09:21 UTC",
+    "title": "Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports",
+    "link": "https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html",
+    "description": "Google has stopped accepting product vulnerability reports through its bug bounty program for its open-source software. The change, in effect since October 1, means researchers can no longer submit security flaws in the code of projects such as Go, Angular, and Protocol Buffers there for a reward. Reports about supply chain compromises are still accepted, and reports filed before October 1 are",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-10-06T06:58:56+00:00",
+    "date": "06-10-2026 06:58 UTC",
+    "title": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
+    "link": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
+    "description": "A critical flaw in 8 Atlassian Data Center products, which customers host themselves, allows an attacker with no login access to read specific files in each product's web application root directory. The attacker must already know a file's exact name and path and cannot list what the directory holds. Atlassian disclosed the flaw, CVE-2026-21589, on October 5, rated it 9.3 out of 10, and",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-10-06T06:56:57+00:00",
+    "date": "06-10-2026 06:56 UTC",
+    "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
+    "link": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
+    "description": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees. That's according to a report from Reuters, citing two sources familiar with the matter. \"To date, our review has determined that the incident occurred as the result of a security failure ​",
+    "source": "The Hacker News",
+    "type": "Data Breach",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-06T06:00:30+00:00",
+    "date": "06-10-2026 06:00 UTC",
+    "title": "Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account",
+    "link": "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html",
+    "description": "Unauthorized parties have gained access to the names, addresses, and personal identification numbers of about 8.8 million people, living and dead, in Denmark's national population register, the country's digitalization ministry said on October 5. They used a private Danish company's lawful right to look up records in the Central Person Register (CPR). The ministry has told people never to",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-06T05:22:55+00:00",
+    "date": "06-10-2026 05:22 UTC",
+    "title": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
+    "link": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
+    "description": "A new type of ClickFix attack is using compromised websites to trick users into executing a malicious payload cached in a web browser's cache. \"Instead of downloading and executing remote payloads like the typical attack pattern, in this attack, the websites pre-fetch a script payload into the browser cache disguised as a PNG file,\" the Microsoft Threat Intelligence team said in a post on X.",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-05T16:21:52+00:00",
+    "date": "05-10-2026 16:21 UTC",
+    "title": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
+    "link": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
+    "description": "Microsoft has released out-of-band security updates to address a high-severity flaw in Microsoft Exchange Server that could allow an attacker to escalate privileges under certain conditions. The vulnerability, tracked as CVE-2026-96940, is rated 8.8 on the CVSS scoring system. \"Weak authorization in Microsoft Exchange Server allows an authenticated attacker to elevate privileges over a",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-10-05T14:20:43+00:00",
+    "date": "05-10-2026 14:20 UTC",
+    "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
+    "link": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
+    "description": "A blank field. A public repo. One reply to an email. A box left exposed. None of this sounds dramatic, which is partly the problem. This week’s threats keep finding leverage in small things that were easy to overlook. There are actively exploited bugs in the mix, cleaner intrusion paths, smarter automation, and a long patch list waiting behind them. Some attacks are getting more capable. Others",
+    "source": "The Hacker News",
+    "type": "Ransomware",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-10-05T11:55:00+00:00",
+    "date": "05-10-2026 11:55 UTC",
+    "title": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
+    "link": "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
+    "description": "Every modern enterprise depends on credentials. This is how humans, systems, and now AI, all connect to data, services, and each other securely. GitGuardian helps secure that credential layer through three connected capabilities: Detect, Remediate, and Prevent. The journey starts with detection, because organizations first need to understand what credentials exist, where they live, and what they",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-05T11:46:25+00:00",
+    "date": "05-10-2026 11:46 UTC",
+    "title": "Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2",
+    "link": "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html",
+    "description": "Threat actors have been observed attempting to exploit a now-patched critical security flaw impacting the Realtek Jungle software development kit (SDK) to deploy a botnet malware called Cling. \"Cling is notable not because it introduces a new propagation technique, but because it repurposes ordinary STUN behavior into a practical command-and-control channel,\" Nozomi Networks said in a report",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
     "published_at": "2026-10-05T10:38:50+00:00",
     "date": "05-10-2026 10:38 UTC",
     "title": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
@@ -24,7 +114,7 @@
     "date": "05-10-2026 06:40 UTC",
     "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
     "link": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
-    "description": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and Citrix NetScaler Gateway that has been exploited as part of targeted zero-day attacks. The vulnerability, tracked as CVE-2026-88779, carries a CVSS score of 8.7 out of 10.0. \"CVE-2026-88779 is a memory overflow vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway that can lead to",
+    "description": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and NetScaler Gateway that has been exploited as part of targeted zero-day attacks. The vulnerability, tracked as CVE-2026-88779, carries a CVSS score of 8.7 out of 10.0. \"CVE-2026-88779 is a memory overflow vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway that can lead to",
     "source": "The Hacker News",
     "type": "CVE",
     "severity": "HIGH"
