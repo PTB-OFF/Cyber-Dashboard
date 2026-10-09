@@ -1,5 +1,105 @@
 [
   {
+    "published_at": "2026-10-09T11:30:00+00:00",
+    "date": "09-10-2026 11:30 UTC",
+    "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
+    "link": "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html",
+    "description": "As enterprises race to deploy autonomous AI agents to accelerate business, a new report reveals they are tethered to security architectures built for a different era. The \"Horizons of Identity Security\" report from SailPoint highlights a critical “velocity paradox,” in which organizations invest in AI-speed business operations while continuing to rely on human-speed security controls, creating a",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-10-09T09:03:24+00:00",
+    "date": "09-10-2026 09:03 UTC",
+    "title": "GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys",
+    "link": "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html",
+    "description": "A bug in GoBalance, a tool many dark-web sites use to stay reachable during attacks, lets anyone work out the secret key that controls a site's .onion address using only public information, and then take that address over. Searchlight Cyber, which disclosed the flaw on October 8, says an attacker who recovers the key can redirect the site's visitors to a copy of the site they control.",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-09T08:26:17+00:00",
+    "date": "09-10-2026 08:26 UTC",
+    "title": "Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own",
+    "link": "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html",
+    "description": "Three research teams broke into Google's Pixel 10 on October 8 at Pwn2Own Ireland, a hacking contest in Cork whose rules require every target to be fully patched. The contest pays researchers to show working exploits and passes the flaws to the vendors. One of the three Pixel exploits earned Ikotas Labs $300,000, the contest's top prize, and made the team the overall winner. Trend Micro's Zero",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-09T08:11:33+00:00",
+    "date": "09-10-2026 08:11 UTC",
+    "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
+    "link": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
+    "description": "Citrix has released patches for yet another critical security flaw impacting NetScaler ADC and NetScaler Gateway that could result in remote code execution or denial-of-service (DoS) under certain conditions. \"CVE-2026-107406 is a memory overflow vulnerability that may lead to remote code execution or denial-of-service under specific configuration conditions,\" Citrix said. The vulnerability",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-10-09T06:39:29+00:00",
+    "date": "09-10-2026 06:39 UTC",
+    "title": "FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions",
+    "link": "https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html",
+    "description": "The U.S. Federal Bureau of Investigation (FBI) and Department of Justice (DoJ) have announced the disruption of malicious tools used by a China-linked advanced persistent threat group known as Flax Typhoon. To that end, the agencies seized several domains and blocked access to platforms that were used to scan, and in some cases infiltrate, U.S. critical infrastructure. The list of seized",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-10-08T18:32:21+00:00",
+    "date": "08-10-2026 18:32 UTC",
+    "title": "FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails",
+    "link": "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html",
+    "description": "Hackers tied to a Chinese cybersecurity company stole email from government organizations, law enforcement agencies, healthcare systems, and religious institutions in Southeast Asia, the FBI and agencies in 6 other countries said on October 8. The company, Integrity Technology Group, has been sanctioned by the U.S. and the UK. The hackers scanned websites for flaws using a tool containing more",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-08T17:58:02+00:00",
+    "date": "08-10-2026 17:58 UTC",
+    "title": "ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories",
+    "link": "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html",
+    "description": "The crooks have trust problems of their own. One ransomware affiliate decided to keep the profits for himself. Elsewhere, an attacker left a server exposed, complete with tools and traces of an intrusion. Apparently, keeping things secure is a problem on both sides of the fence. The rest of the week isn't much more reassuring. Malicious code turned up in developer packages and extensions that",
+    "source": "The Hacker News",
+    "type": "Ransomware",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-08T15:45:56+00:00",
+    "date": "08-10-2026 15:45 UTC",
+    "title": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks",
+    "link": "https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html",
+    "description": "Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said. The Tokyo-based center, which takes incident reports, based its October 8, 2026 alert on those reports and other information. The alert names no attacker and no affected organization. JPCERT/",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-10-08T15:26:56+00:00",
+    "date": "08-10-2026 15:26 UTC",
+    "title": "UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML",
+    "link": "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html",
+    "description": "The Russia-aligned threat actor known as UAC-0099 has been attributed to a previously undocumented .NET infostealer and remote access trojan (RAT) codenamed ASHVEIN. According to TrendAI, the malware has been put to use in attacks targeting Ukrainian government personnel. The cybersecurity company is tracking the cluster under the name Earth Sirrush (previously SHADOW-EARTH-065). ASHVEIN,",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-08T14:12:34+00:00",
+    "date": "08-10-2026 14:12 UTC",
+    "title": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
+    "link": "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html",
+    "description": "Cybersecurity researchers have disclosed details of a targeted campaign aimed at South Korean financial organizations that used an artificial intelligence (AI) pen testing tool named ARTEX to carry out the attacks. The activity, per CrowdStrike Intelligence, was active from late September to early October 2026, and resulted in data exfiltration from various South Korea-based financial firms,",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-10-08T10:30:00+00:00",
     "date": "08-10-2026 10:30 UTC",
     "title": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia",
