@@ -1,5 +1,25 @@
 [
   {
+    "published_at": "2026-10-19T06:29:44+00:00",
+    "date": "19-10-2026 06:29 UTC",
+    "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
+    "link": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
+    "description": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser disclosed on October 16. He showed the attack working against home gateways supplied by three Belgian internet providers, in one case reading the Wi-Fi password off the device",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-19T06:07:08+00:00",
+    "date": "19-10-2026 06:07 UTC",
+    "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+    "link": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+    "description": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without",
+    "source": "The Hacker News",
+    "type": "Data Breach",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-10-18T08:23:02+00:00",
     "date": "18-10-2026 08:23 UTC",
     "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
