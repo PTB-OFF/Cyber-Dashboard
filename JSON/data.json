@@ -1,5 +1,175 @@
 [
   {
+    "published_at": "2026-10-21T09:05:17+00:00",
+    "date": "21-10-2026 09:05 UTC",
+    "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
+    "link": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+    "description": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory. PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described.",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-10-21T09:01:12+00:00",
+    "date": "21-10-2026 09:01 UTC",
+    "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
+    "link": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
+    "description": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites. TeamUpdraft is the developer behind UpdraftPlus, a popular WordPress backup plugin with over four million active installations. The vendor also offers UpdraftCentral, a remote",
+    "source": "The Hacker News",
+    "type": "Data Breach",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-21T08:04:17+00:00",
+    "date": "21-10-2026 08:04 UTC",
+    "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
+    "link": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
+    "description": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of Homeland Security order. They may also no longer buy information technology products or services from the Chinese AI developer or its affiliates Homeland Security Secretary",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-21T07:44:22+00:00",
+    "date": "21-10-2026 07:44 UTC",
+    "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
+    "link": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
+    "description": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from. The state-owned bank, India's largest, said in a stock-exchange filing dated October 21 that it \"has experienced an incident involving the loss of certain data.\" The count is",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-21T07:26:49+00:00",
+    "date": "21-10-2026 07:26 UTC",
+    "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
+    "link": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
+    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell. The vulnerabilities are listed below - CVE-2026-96652 (CVSS score: 5.3) - Plex Media Server Server-Side Request Forgery (SSRF)",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-21T06:05:15+00:00",
+    "date": "21-10-2026 06:05 UTC",
+    "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
+    "link": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
+    "description": "A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization. According to a report published by Russian cybersecurity firm Solar, the activity has been attributed to a threat cluster dubbed Partisan Zmiy, which is also known as the Cyber Partisans. Known to be active since at least 2020, the group has a track record of striking industrial",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-20T17:09:53+00:00",
+    "date": "20-10-2026 17:09 UTC",
+    "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
+    "link": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
+    "description": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised, Mozilla and Google's Chrome Root Program confirms on October 20. An intermediate CA signs the certificates that websites present, so anyone holding one of these keys could issue a certificate for any website that a browser would accept. A researcher reported the",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-20T15:38:52+00:00",
+    "date": "20-10-2026 15:38 UTC",
+    "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+    "link": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+    "description": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-106173 (CVSS score: 9.4), is a critical path traversal flaw that could allow an unauthenticated attacker to execute unauthorized code or commands via specially",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-10-20T15:32:27+00:00",
+    "date": "20-10-2026 15:32 UTC",
+    "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+    "link": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+    "description": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting PAN-OS and Prisma Access by ransomware actors. The activity relates to CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw that could be exploited by bad actors to set up unauthorized VPN connections. It was patched by Palo Alto Networks in May 2026 and was",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-20T14:07:17+00:00",
+    "date": "20-10-2026 14:07 UTC",
+    "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
+    "link": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
+    "description": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet. The agents tried more than 1,200 sites and reached websites belonging to more than 100 companies, including farm-equipment maker Deere, appliance company",
+    "source": "The Hacker News",
+    "type": "Data Breach",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-20T12:59:44+00:00",
+    "date": "20-10-2026 12:59 UTC",
+    "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
+    "link": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
+    "description": "The iPhone of Vladan Đokić, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infected with NSO Group's Pegasus spyware in 2026, the Citizen Lab said on October 19. The finding came six days before Serbia's October 25 snap parliamentary election. The infection used a zero-click exploit, meaning Đokić did not have to tap a link or",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-20T11:41:06+00:00",
+    "date": "20-10-2026 11:41 UTC",
+    "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
+    "link": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
+    "description": "WhatsApp's help pages carried hidden instructions for its support chatbot that told it not to recommend a data protection authority or regulator to users who could no longer delete their accounts, even though WhatsApp's own privacy policy for Europe tells users they can complain to one. The text sat in the pages' code, never shown on screen, until it was removed by October 18. Whether the",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-20T11:33:04+00:00",
+    "date": "20-10-2026 11:33 UTC",
+    "title": "What Security Teams Can Do To Tame Wild Code",
+    "link": "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html",
+    "description": "A sales manager builds an AI-assisted workflow to route leads. It connects to customer records, summarizes inbound requests, and posts updates to a shared channel. The workflow saves time, reduces manual work, and soon becomes part of the team’s daily routine. Across the same organization, employees are building useful apps, agents, and automations faster than existing processes can support them",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-20T11:32:59+00:00",
+    "date": "20-10-2026 11:32 UTC",
+    "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
+    "link": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
+    "description": "Go 1.27.3 and Go 1.26.10, released on October 20, make Go's certificate verifier reject any certificate chain that passes through one of eight intermediate certificate authority keys. Programs built on the new release will refuse connections to sites and services whose certificates were issued under those keys. The Go team says the keys belong to one certificate authority it has not",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-20T11:06:25+00:00",
+    "date": "20-10-2026 11:06 UTC",
+    "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
+    "link": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
+    "description": "The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the North Atlantic Treaty Organization (NATO). The Symantec Threat Hunter Team, which is tracking the activity cluster under the moniker Swallowtail, involved the use of a backdoor called HOOKEDGE and a previously",
+    "source": "The Hacker News",
+    "type": "Data Breach",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-20T10:56:08+00:00",
+    "date": "20-10-2026 10:56 UTC",
+    "title": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
+    "link": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
+    "description": "ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application credentials, as it continues to respond to a security incident that led to unauthorized access to application identities associated with Cloud Backup. The company said it has completed the following actions since it began",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-20T08:21:29+00:00",
+    "date": "20-10-2026 08:21 UTC",
+    "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
+    "link": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
+    "description": "An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool on Monday, October 19. The account had been hijacked, and the new files were a build designed to steal secrets stored on the disk of any machine that runs it, the cloud provider says. They were live on GitHub for up to 94 minutes, from 12:47 to 14:21 UTC,",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-10-20T07:11:45+00:00",
     "date": "20-10-2026 07:11 UTC",
     "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
