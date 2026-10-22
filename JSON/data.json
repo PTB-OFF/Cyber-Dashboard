@@ -1,10 +1,160 @@
 [
   {
+    "published_at": "2026-10-22T08:28:48+00:00",
+    "date": "22-10-2026 08:28 UTC",
+    "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+    "link": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+    "description": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor. On October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.0 to the Docker Hub registry and the Python Package Index (PyPI) repository. The incident took place around 4:00 a.m.",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-22T07:47:22+00:00",
+    "date": "22-10-2026 07:47 UTC",
+    "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
+    "link": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+    "description": "Node.js released security updates on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow remote code execution, meaning an attacker could run code of their choosing on the affected system. Each supported line has one fixed version:",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-22T06:38:31+00:00",
+    "date": "22-10-2026 06:38 UTC",
+    "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
+    "link": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
+    "description": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO disclosed, releasing working proof-of-concept code. By sending a small batch of compressed HTTP headers that expands in memory to a much larger set, the attacker can force the server to use thousands of times more memory than it received, enough to run a default server",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-22T06:34:10+00:00",
+    "date": "22-10-2026 06:34 UTC",
+    "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
+    "link": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+    "description": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches. \"The exploit attempt originated from an IP address associated with a commercial anonymization network,\" CJ Moses,",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-22T04:21:26+00:00",
+    "date": "22-10-2026 04:21 UTC",
+    "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
+    "link": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+    "description": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application. During the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was made closed-source in the wake of its abuse in cyber attacks targeting South Korean financial institutions, to speed",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-21T18:57:34+00:00",
+    "date": "21-10-2026 18:57 UTC",
+    "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
+    "link": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+    "description": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014. The fix matters even for administrators who patched nine days earlier: the October 12 update covered only versions 19.2 and later, and the new fixed versions sit one patch above it, so an",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-10-21T18:01:57+00:00",
+    "date": "21-10-2026 18:01 UTC",
+    "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+    "link": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+    "description": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind. The compromise affects LiteLLM 1.107.0, distributed through PyPI wheels and Docker images. The Python package has since been quarantined on Python Package Index (PyPI), and the",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-21T16:33:47+00:00",
+    "date": "21-10-2026 16:33 UTC",
+    "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
+    "link": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
+    "description": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks. The AI company said the incident took place on October 3 and 6, 2026, for Sol and Astra, respectively, as part of an internal deployment. \"A GPT-6.1 Sol agent repairing an evaluation",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-21T14:00:00+00:00",
+    "date": "21-10-2026 14:00 UTC",
+    "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
+    "link": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+    "description": "PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a web server. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, and the PHP team says only updating fully protects a server. The flaws, together called PHP2Shell, sit in the PHP runtime, not in any application, so a site is exposed even when its own",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-10-21T13:15:09+00:00",
+    "date": "21-10-2026 13:15 UTC",
+    "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
+    "link": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
+    "description": "Google on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Protection is enabled. ClickFix is a popular social engineering technique in which bad actors trick users into copying and pasting malicious code directly into their computer's operating system, thereby bypassing conventional security controls. As part of",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-10-21T12:05:00+00:00",
+    "date": "21-10-2026 12:05 UTC",
+    "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
+    "link": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
+    "description": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025. \"The most distinctive technical marker for Bronze Sandcastle is its consistent use of Sandboxie DLL sideloading,\" Sophos security researcher Gabor Szappanos said in a post published",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-21T11:53:34+00:00",
+    "date": "21-10-2026 11:53 UTC",
+    "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
+    "link": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
+    "description": "Generative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretexts, and reused templates now arrive fluent, personalized, and unique to each recipient, and the behavioral signals email filters have relied on for years are fading as a result. Proofpoint shared several examples of the shift at its Protect 2026 conference.",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-21T10:36:53+00:00",
+    "date": "21-10-2026 10:36 UTC",
+    "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
+    "link": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
+    "description": "You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now says. PHP will release the fix at 14:00 UTC on October 21 for two flaws it rates 9.2 out of 10, and has given no workaround of its own. Until you can install it, what lowers your",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-10-21T10:32:40+00:00",
+    "date": "21-10-2026 10:32 UTC",
+    "title": "The Harness Is the Hard Part of Agentic Pentesting",
+    "link": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html",
+    "description": "An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the model. The harness is where the engineering in AI pentesting sits. The Hugging Face intrusion OpenAI disclosed in July",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-21T10:30:27+00:00",
+    "date": "21-10-2026 10:30 UTC",
+    "title": "Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH Connections",
+    "link": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html",
+    "description": "Attackers took control of more than 300 Tor exit relays in early October and used them to redirect SSH connections to servers that stole login passwords, a researcher found. Exit relays are the last hop in a Tor circuit, where traffic leaves the network for its destination. Only a password login to an SSH server made through Tor between October 1 and 5, after accepting the interception",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-10-21T09:05:17+00:00",
     "date": "21-10-2026 09:05 UTC",
     "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
     "link": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
-    "description": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory. PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described.",
+    "description": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory. PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described. ⚡",
     "source": "The Hacker News",
     "type": "Other",
     "severity": "HIGH"
