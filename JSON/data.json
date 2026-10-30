@@ -1,5 +1,125 @@
 [
   {
+    "published_at": "2026-10-30T08:55:47+00:00",
+    "date": "30-10-2026 08:55 UTC",
+    "title": "Official Claude Code VS Code Extension Compromised to Install Persistent SSH Backdoor",
+    "link": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+    "description": "Cybersecurity researchers have disclosed that the official Anthropic Claude Code extension was compromised on the Open VSX registry to install a persistent SSH backdoor on infected hosts. The issue has since been traced to the compromise of the Cursor Marketplace, prompting the AI coding platform Cursor to briefly take down the service to remove the malware. \"We identified a security incident",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-30T07:45:30+00:00",
+    "date": "30-10-2026 07:45 UTC",
+    "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+    "link": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+    "description": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13. \"This module enables you to sell goods and services to customers through an included shopping cart",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-10-30T07:27:05+00:00",
+    "date": "30-10-2026 07:27 UTC",
+    "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+    "link": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-97229 (CVSS score: 10.0) - An integer overflow or wraparound vulnerability in GitLab Community Edition and Enterprise",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-10-30T04:14:59+00:00",
+    "date": "30-10-2026 04:14 UTC",
+    "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
+    "link": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+    "description": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets. The world's biggest cryptocurrency exchange said nearly $3 billion of those assets have been frozen on-chain so far. Tether and Circle said they have frozen more than 1.567 billion USDT and 800 million USDC related to the incident, respectively. The",
+    "source": "The Hacker News",
+    "type": "Data Breach",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-29T19:11:58+00:00",
+    "date": "29-10-2026 19:11 UTC",
+    "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
+    "link": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
+    "description": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't. There's a strange mix of clever tricks and careless mistakes. Hackers are borrowing trust from familiar apps, websites, and AI tools. Some are using AI to speed things up. Others are leaving their",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-10-29T15:57:05+00:00",
+    "date": "29-10-2026 15:57 UTC",
+    "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+    "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+    "description": "A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said on October 27 that its AI model wrote an exploit that uses the flaw to let a remote attacker with no credentials run commands as root on Linux servers with a",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-29T15:20:29+00:00",
+    "date": "29-10-2026 15:20 UTC",
+    "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
+    "link": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+    "description": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba. The activity involves creating fake GitHub projects that claim to be desktop applications like GPT-5.6 Sol, GPT-6 Astra, and Claude Opus, only to deliver a malware family called",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-29T13:42:40+00:00",
+    "date": "29-10-2026 13:42 UTC",
+    "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
+    "link": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+    "description": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. \"It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-10-29T11:39:41+00:00",
+    "date": "29-10-2026 11:39 UTC",
+    "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
+    "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+    "description": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditional security processes were built to handle. The challenge is no longer just finding another vulnerability or",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-10-29T11:39:18+00:00",
+    "date": "29-10-2026 11:39 UTC",
+    "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
+    "link": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
+    "description": "A flaw in Telegram for Android could be chained with two other bugs to take full control of a victim's phone through a voice call, once the victim answered, according to security startup NebuSec. The attacker needed only an ordinary Telegram account. Telegram fixed the flaw in version 12.10.4 of the app, released in late September, and NebuSec disclosed it on October 29. Combined with an",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-10-29T11:33:41+00:00",
+    "date": "29-10-2026 11:33 UTC",
+    "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
+    "link": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
+    "description": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can perform on their own. As these capabilities mature, security operations centers (SOCs) will see major changes in how work is organized, how",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-10-29T11:33:15+00:00",
+    "date": "29-10-2026 11:33 UTC",
+    "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
+    "link": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
+    "description": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it. Independent researcher Ben Zimmermann found them by scanning 7.25 million public Gitee repositories and reported the results on October 28. Most were keys for cloud and AI services, led by",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-10-29T10:44:46+00:00",
     "date": "29-10-2026 10:44 UTC",
     "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
@@ -5175,16 +5295,6 @@
     "title": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
     "link": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
     "description": "Cybersecurity researchers have disclosed details of a vulnerability in Amazon Kiro, an artificial intelligence (AI)-powered, agentic integrated development environment (IDE), that could facilitate data exfiltration via prompt injection and Kiro Powers. The security flaw, which does not have a CVE identifier, works against Kiro IDE 0.7.45 on Windows, according to Mindgard. The latest version of",
-    "source": "The Hacker News",
-    "type": "Other",
-    "severity": "MEDIUM"
-  },
-  {
-    "published_at": "2026-08-27T11:56:30+00:00",
-    "date": "27-08-2026 11:56 UTC",
-    "title": "Learn How to Build Security Operations Ready for AI-Powered Attacks",
-    "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
-    "description": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditional security processes were built to handle. The challenge is no longer just finding another vulnerability or",
     "source": "The Hacker News",
     "type": "Other",
     "severity": "MEDIUM"
