@@ -1,5 +1,165 @@
 [
   {
+    "published_at": "2026-11-04T12:07:04+00:00",
+    "date": "04-11-2026 12:07 UTC",
+    "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+    "link": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+    "description": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in an advisory and fixed it in versions 8.1.4.1 and 8.0.5.2. The flaw is in Active Storage, the part of Rails that handles file uploads. Some apps store",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-11-04T11:46:27+00:00",
+    "date": "04-11-2026 11:46 UTC",
+    "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
+    "link": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+    "description": "Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0. Dom0 is the VM that, by default, has full permissions and manages the others. Patches are out, and there is no known mitigation, the Xen Project said in an advisory on November 3. All Xen versions from 4.6 onward are vulnerable,",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-04T11:34:20+00:00",
+    "date": "04-11-2026 11:34 UTC",
+    "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
+    "link": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
+    "description": "Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway the enterprise owns. Most agents never touch one. One recent case shows what that gap looks like in practice. An employee asked an AI assistant to trigger a mass-email automation. The automation",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-04T11:24:31+00:00",
+    "date": "04-11-2026 11:24 UTC",
+    "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+    "link": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+    "description": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP). The campaign, observed starting July 1, 2026, is assessed to have targeted organizations and",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-04T08:17:11+00:00",
+    "date": "04-11-2026 08:17 UTC",
+    "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
+    "link": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
+    "description": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure. Also known as Fluffy Wolf, the threat actor has a history of targeting Russian and international companies since 2016. The Ministry of Internal Affairs of the Russian Federation (MVD) said members of the group are \"suspected of embezzling funds from the",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-04T07:46:15+00:00",
+    "date": "04-11-2026 07:46 UTC",
+    "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+    "link": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+    "description": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which phone makers and carriers send on their own schedules. As of November 4, Google's bulletin did not report",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-11-04T05:43:11+00:00",
+    "date": "04-11-2026 05:43 UTC",
+    "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+    "link": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The high-severity vulnerability, tracked as CVE-2026-119977 (CVSS score: 8.1), is a case of Time-of-check Time-of-use (TOCTOU) race condition that could be exploited to achieve arbitrary code",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-11-03T18:46:38+00:00",
+    "date": "03-11-2026 18:46 UTC",
+    "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
+    "link": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+    "description": "Customers of the mSecure password manager are being urged to act now to protect the confidential information they store in it, possibly by changing passwords, resetting two-factor authentication (2FA), and removing passkeys. The warning came in an email sent on November 3 in the name of developer mSeven Software. It says the company recently learned of suspicious activity linked to the app but",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-11-03T18:16:19+00:00",
+    "date": "03-11-2026 18:16 UTC",
+    "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+    "link": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+    "description": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The incident is assessed to be part of a large-scale, artificial intelligence (AI)-powered attack campaign that came to light last week. \"An external attacker gained unauthorized access to part of",
+    "source": "The Hacker News",
+    "type": "Data Breach",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-03T16:55:58+00:00",
+    "date": "03-11-2026 16:55 UTC",
+    "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
+    "link": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+    "description": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and recruitment-themed social engineering attack targeting two of its engineers. \"It was not a single isolated breach or a simple phishing incident,\"",
+    "source": "The Hacker News",
+    "type": "Data Breach",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-03T15:59:19+00:00",
+    "date": "03-11-2026 15:59 UTC",
+    "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+    "link": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+    "description": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device. The vulnerabilities, a pre-authentication authorization bypass vulnerability and a command injection vulnerability, have been assigned the CVE identifiers CVE-2026-116606 (CVSS score: 9.3)",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-11-03T15:41:53+00:00",
+    "date": "03-11-2026 15:41 UTC",
+    "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+    "link": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+    "description": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services. The tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an attacker obtains an API key through phishing, source code leaks, misconfigured environments, or exposed client-side code",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-03T15:16:32+00:00",
+    "date": "03-11-2026 15:16 UTC",
+    "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
+    "link": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+    "description": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers. The script installed a backdoor and collected password hashes and other sensitive files from servers that ran it, cPGuard maker OPSSHIELD said in an advisory. The attacker has since taken some of that data. cPGuard 5.88.25 and later versions",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-03T11:23:53+00:00",
+    "date": "03-11-2026 11:23 UTC",
+    "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
+    "link": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+    "description": "Fixed kernels for a use-after-free vulnerability in the Linux kernel's IPv4 TCP code are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases remain in its opt-in testing channel with no date for a regular update. The flaw, tracked as CVE-2026-98432, can be reached by a remote, unauthenticated attacker and can",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "MEDIUM"
+  },
+  {
+    "published_at": "2026-11-03T11:18:20+00:00",
+    "date": "03-11-2026 11:18 UTC",
+    "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
+    "link": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
+    "description": "Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed. You’re spending too much time and effort on exposures attackers may never exploit, while higher-risk exposures sit, waiting in the queue. Gartner®’s report on exposure prioritization states that fewer than 10% of vulnerabilities are exploited, yet most are treated as urgent. The report also argues",
+    "source": "The Hacker News",
+    "type": "Data Breach",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-03T11:00:45+00:00",
+    "date": "03-11-2026 11:00 UTC",
+    "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
+    "link": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
+    "description": "A Russia-aligned threat actor known as Gorbag has been observed using simple information stealer malware in attacks targeting Ukrainian organizations. \"Active since at least February 2025, the group has focused exclusively on Ukrainian targets, with a clear preference for law enforcement and justice entities, local administrations near the front line, and the defense sector,\" ESET researcher",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-11-03T08:31:48+00:00",
     "date": "03-11-2026 08:31 UTC",
     "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
