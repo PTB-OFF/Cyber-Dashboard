@@ -1,5 +1,75 @@
 [
   {
+    "published_at": "2026-11-09T11:27:53+00:00",
+    "date": "09-11-2026 11:27 UTC",
+    "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
+    "link": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
+    "description": "The login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access any customer's account and, for an owner with a connected car, unlock the doors and start the engine. Both apps signed customers in through ForgeRock, an identity platform now part of Ping Identity, and on those servers the researchers reached an",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-09T10:56:25+00:00",
+    "date": "09-11-2026 10:56 UTC",
+    "title": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety",
+    "link": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
+    "description": "Some people who set up a Keplr crypto wallet with their Google or Apple account have had money stolen by an attacker. Keplr uses a company called Web3Auth to run that Google and Apple sign-in. The attacker used a security flaw at that company to reach the wallets, both companies said late last week. Web3Auth then used the attacker's own route to empty other at-risk wallets before the attacker",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-09T10:01:21+00:00",
+    "date": "09-11-2026 10:01 UTC",
+    "title": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
+    "link": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
+    "description": "Everyone running LNbits, a free, open-source Bitcoin Lightning wallet system, should shut down their servers now because of a wave of attacks, the project said yesterday. It has several security fixes to release and asked operators to be careful until they are out. One operator said new accounts used an exploit to withdraw 2,285,545 satoshis, about 0.023 bitcoin, from his server before he could",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-09T09:01:50+00:00",
+    "date": "09-11-2026 09:01 UTC",
+    "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
+    "link": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
+    "description": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week. The agents also found a Taipei fire department platform exposing patient data from 2018, including ECG readings and ambulance video footage, without a login. The researchers are highly confident that the attacker is a single person",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-09T07:05:48+00:00",
+    "date": "09-11-2026 07:05 UTC",
+    "title": "Former OpenAI Engineer Pleads Not Guilty to Planting Covert Device in Executive Meeting Room",
+    "link": "https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
+    "description": "The OpenAI engineer who was arrested and charged last month for planting a covert audio recording device in the company's office has pleaded not guilty. According to reports from Bloomberg and CNBC, Saudi national Abdulrahman Alfozan made an appearance in San Francisco federal court on Friday, where he entered the plea. His next hearing is scheduled for November 17, 2026. If proven guilty, the",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-09T06:15:10+00:00",
+    "date": "09-11-2026 06:15 UTC",
+    "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
+    "link": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
+    "description": "U.S. government agencies have warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally with an aim to cause service disruptions, fire hazards, and loss of inventory. \"The actors may exploit vulnerabilities or weaknesses in unpatched or internet-accessible controllers to remotely alter settings and force units into continuous heating",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-09T06:05:24+00:00",
+    "date": "09-11-2026 06:05 UTC",
+    "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+    "link": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports that it said may have been exploited in real-world attacks. The vulnerability, tracked as CVE-2026-19868 (CVSS score: 7.1 / 7.5), has been described as an authentication reinforcement",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "MEDIUM"
+  },
+  {
     "published_at": "2026-11-07T06:44:17+00:00",
     "date": "07-11-2026 06:44 UTC",
     "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
