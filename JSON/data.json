@@ -1,10 +1,140 @@
 [
   {
+    "published_at": "2026-11-11T12:01:59+00:00",
+    "date": "11-11-2026 12:01 UTC",
+    "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+    "link": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+    "description": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all three by default. This helped us think through how such agents should be defended. When a browser agent acts inside a user’s authenticated",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-11T12:00:53+00:00",
+    "date": "11-11-2026 12:00 UTC",
+    "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
+    "link": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
+    "description": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys. Each intermediate CA has its own private key, which the company uses to sign the certificates it issues. The 8 intermediate CAs compromised in October had a different problem: a single line in the script",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-11T08:17:53+00:00",
+    "date": "11-11-2026 08:17 UTC",
+    "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+    "link": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+    "description": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws. These cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools, 59 in SQL Server, 53 in Developer Tools, and 27 in SharePoint Server. The patches also include 165 non-Microsoft-issued CVE identifiers.",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-11T07:49:04+00:00",
+    "date": "11-11-2026 07:49 UTC",
+    "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+    "link": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+    "description": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not refund them. The company builds and runs apps for its customers and stores their secrets, such as API keys and database",
+    "source": "The Hacker News",
+    "type": "Data Breach",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-11T07:21:05+00:00",
+    "date": "11-11-2026 07:21 UTC",
+    "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
+    "link": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
+    "description": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown. When a chosen trigger appears, the model outputs an attacker's command, which an agent using that model would run with the agent's own permissions. The attacker must be able to change the model's weights. The team tested the method on",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-11T06:04:02+00:00",
+    "date": "11-11-2026 06:04 UTC",
+    "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+    "link": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Details of the vulnerabilities are below - CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-11-10T19:23:10+00:00",
+    "date": "10-11-2026 19:23 UTC",
+    "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+    "link": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+    "description": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the 2.50 through 2.55 series in 2.50.2, 2.51.3, 2.52.1, 2.53.1, 2.54.1 and 2.55.1. The flaw, tracked as CVE-2026-111760, is an integer truncation in how Git handles its index. An",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-10T19:19:39+00:00",
+    "date": "10-11-2026 19:19 UTC",
+    "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+    "link": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+    "description": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed on that server that day, including requests sent in confidential mode, the company said earlier this week. That mode processes requests inside a trusted execution environment (TEE",
+    "source": "The Hacker News",
+    "type": "Data Breach",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-10T18:12:21+00:00",
+    "date": "10-11-2026 18:12 UTC",
+    "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+    "description": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild. The authentication bypass flaw, which does not yet have a CVE identifier, is tracked as VSA-2026-062. \"REST cookie parsing turns authenticationToken=j:%7B%7D into {},\" Vates VMS said in an alert. \"REST authentication passes that object to the",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-11-10T17:43:23+00:00",
+    "date": "10-11-2026 17:43 UTC",
+    "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+    "link": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+    "description": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical infrastructure across Latin America, Asia, and Europe over the past year. Check Point Research is tracking the clusters under the names SilentDelivery,",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-11-10T16:00:55+00:00",
+    "date": "10-11-2026 16:00 UTC",
+    "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+    "link": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+    "description": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in early October 2026, involves the exploitation of a chain comprising CVE-2026-105133 and CVE-2026-105134 to bypass authentication and execute arbitrary commands on affected systems. Patches for the two",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-10T15:58:44+00:00",
+    "date": "10-11-2026 15:58 UTC",
+    "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
+    "link": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+    "description": "The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that shares its lineage with AsyncRAT and DCRat. \"The campaign uses Portuguese and Spanish lures that resemble court notifications, fiscalía notices, tutela proceedings, and",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-10T15:33:59+00:00",
+    "date": "10-11-2026 15:33 UTC",
+    "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
+    "link": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+    "description": "Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month uncovered further malicious activity, affecting account and billing information, alongside secrets, datasets, and incomplete models for a \"limited set of accounts.\" In a notice published on October 10, 2026, the company said it detected unauthorized use of internal Fireworks",
+    "source": "The Hacker News",
+    "type": "Data Breach",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-11-10T12:15:31+00:00",
     "date": "10-11-2026 12:15 UTC",
     "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
     "link": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
-    "description": "An iOS sandbox escape published on GitHub lets an app read other apps' files on iPhones running iOS 26 and 27. That puts seed phrases, private keys, and login credentials at risk of exposure to malicious apps, Binance warned today. Apple's updates for iOS 26 and 27, released yesterday, do not list a fix. A researcher who goes by forcequit released the escape, called worse_query, on Sunday, a",
+    "description": "An iOS sandbox escape published on GitHub lets an app read other apps' files on iPhones running iOS 26 and 27. That puts seed phrases, private keys, and login credentials at risk of exposure to malicious apps, Binance warned today. Apple's updates for iOS 26 and 27, released yesterday, do not list a fix. A researcher who goes by forcequit, in collaboration with 0xjohnny,",
     "source": "The Hacker News",
     "type": "Other",
     "severity": "LOW"
@@ -74,7 +204,7 @@
     "date": "10-11-2026 06:52 UTC",
     "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
     "link": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-    "description": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug in the XML component. Use-after-free bugs typically occur when a program attempts to access a memory location after",
+    "description": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: 8.8), has been described as a use-after-free bug in the XML component. \"Use-after-free in XML in Google Chrome prior to 157.0.8103.50 allowed a remote attacker",
     "source": "The Hacker News",
     "type": "CVE",
     "severity": "HIGH"
