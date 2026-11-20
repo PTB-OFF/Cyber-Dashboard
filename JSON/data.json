@@ -1,5 +1,125 @@
 [
   {
+    "published_at": "2026-11-20T12:20:00+00:00",
+    "date": "20-11-2026 12:20 UTC",
+    "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
+    "link": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+    "description": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affects only hosts with AMD processors and nested virtualization enabled. Fixed kernels shipped",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-20T12:00:00+00:00",
+    "date": "20-11-2026 12:00 UTC",
+    "title": "The Path to AI Autonomy in the SOC",
+    "link": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html",
+    "description": "Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable today letting AI agents act autonomously on low-risk security actions. In 12 months from now, 60% expect to be comfortable at that level. Overall, AI SOC was the highest ranking initiative for 2027. The pressure",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-20T10:38:22+00:00",
+    "date": "20-11-2026 10:38 UTC",
+    "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
+    "link": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
+    "description": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks. \"Attackers now use automation and AI to find and exploit unsupported edge devices faster than ever,\" SonicWall said. \"We expect internet-facing Gen 6 firewalls to be actively",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-11-20T10:32:50+00:00",
+    "date": "20-11-2026 10:32 UTC",
+    "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
+    "description": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerability that could allow an unauthenticated, remote attacker with network access to a Cisco Expressway",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-11-20T09:38:15+00:00",
+    "date": "20-11-2026 09:38 UTC",
+    "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+    "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+    "description": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-11-20T07:11:39+00:00",
+    "date": "20-11-2026 07:11 UTC",
+    "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
+    "link": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
+    "description": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS. \"ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legion Loader through separate chains while retaining ClickFix and signed binary sideloading techniques,\" Blackpoint",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-20T05:30:01+00:00",
+    "date": "20-11-2026 05:30 UTC",
+    "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+    "link": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+    "description": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine. The method was posted yesterday by a researcher who uses the handles MSNightmare and Nightmare Eclipse, and the endpoint-security firm ThreatLocker",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-11-19T18:47:58+00:00",
+    "date": "19-11-2026 18:47 UTC",
+    "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+    "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+    "description": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread malware, and get people to hand over access. There's another shift worth watching. AI is making some attacks easier",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-19T16:59:56+00:00",
+    "date": "19-11-2026 16:59 UTC",
+    "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
+    "link": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+    "description": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the server. Today's PHP releases fix the flaw, called phpAfterShell. The flaw is tracked as CVE-2026-126714 and rated",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-19T15:18:07+00:00",
+    "date": "19-11-2026 15:18 UTC",
+    "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+    "link": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+    "description": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The release of the patch follows an advance notice in which the project maintainers alerted users to multiple critical vulnerabilities affecting all supported PHP versions under specific",
+    "source": "The Hacker News",
+    "type": "CVE",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-11-19T15:11:06+00:00",
+    "date": "19-11-2026 15:11 UTC",
+    "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
+    "link": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+    "description": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today. Fixed versions are out for all supported branches, and the company lists no workaround. vCenter is the central console for managing an organization's ESX hosts and virtual machines. The",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
+    "published_at": "2026-11-19T14:33:06+00:00",
+    "date": "19-11-2026 14:33 UTC",
+    "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+    "link": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+    "description": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site. That can lead to a site takeover or remote code execution, and the project rates the vulnerable configurations as uncommon. Fixed releases for all supported branches shipped yesterday. The Drupal Security Team disclosed",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "HIGH"
+  },
+  {
     "published_at": "2026-11-19T11:52:23+00:00",
     "date": "19-11-2026 11:52 UTC",
     "title": "Everything Is a Web Application, Including Your Firewall",
@@ -22,12 +142,12 @@
   {
     "published_at": "2026-11-19T08:42:11+00:00",
     "date": "19-11-2026 08:42 UTC",
-    "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
+    "title": "Ruby Ships Fixes for 7 Flaws, Including Critical Ruby2Shell, Said to Hit Default Rails Apps Pre-Auth",
     "link": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
     "description": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can run code on the machine. \"We are aware of PoCs that prove some of them can be used to trigger remote code execution,\" the maintainers said. The project released fixed versions",
     "source": "The Hacker News",
     "type": "Other",
-    "severity": "LOW"
+    "severity": "HIGH"
   },
   {
     "published_at": "2026-11-19T08:14:00+00:00",
