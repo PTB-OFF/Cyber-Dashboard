@@ -1,5 +1,25 @@
 [
   {
+    "published_at": "2026-11-28T08:08:11+00:00",
+    "date": "28-11-2026 08:08 UTC",
+    "title": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
+    "link": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html",
+    "description": "Cross-platform password manager pCloud Pass has confirmed it was targeted by a cyber attack after users reported seeing unknown devices being connected to their accounts. \"A cyber attack targeting pCloud Pass occurred, which was promptly contained by the pCloud team,\" the Swiss company said in response to a number of posts on Reddit. \"Unfortunately, a small number of pCloud Pass user email",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
+    "published_at": "2026-11-27T16:36:11+00:00",
+    "date": "27-11-2026 16:36 UTC",
+    "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+    "link": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+    "description": "A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizations with an aim to gather intelligence on South China Sea defense and military agreements. The previously undocumented incursion set, detailed by SOCRadar, has been codenamed WeaveLotus. The activity is assessed to have comprised five intrusions in Thailand",
+    "source": "The Hacker News",
+    "type": "Other",
+    "severity": "LOW"
+  },
+  {
     "published_at": "2026-11-27T11:49:34+00:00",
     "date": "27-11-2026 11:49 UTC",
     "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
